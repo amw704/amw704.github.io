@@ -14,7 +14,7 @@
 	$(document).ready(function() {
    
     $('#reportinfo').DataTable({
-        "ajax": 'report_info.JSON',
+        "ajax": 'report_info.json',
          "columnDefs": [
              { "searchable": false, "targets": 0 } ],
          "pageLength": 10
@@ -40,9 +40,9 @@
 </head>
 <body style="width:90%;margin:auto;margin-top:2em">
 <div class="container">
-<h1>Search ISAW Digital Publications</h1>
+<h1>Original Data Tables: Lincolnshire Archaeobotany</h1>
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" href="#fts">Full Text</a></li>
+<li class="active"><a data-toggle="tab" href="#reportinfo">Reports</a></li>
 <li><a data-toggle="tab" href="#figs">Figure Captions</a></li>
 <li><a data-toggle="tab" href="#lod">LOD Links</a></li>
 <!-- <li><a data-toggle="tab" href="#lodinf">LOD Links w/Inferences</a></li> -->
@@ -78,7 +78,7 @@
     </table>
 </div>
 
-  <div id="lod" class="tab-pane">
+  <div id="reports" class="tab-pane">
   <br/>
   <p>Search for internet resources to which ISAW publications make links.Try 'carthage' for links to that site. Or 'pleiades' for links to the Pleiades Gazetteer. 'urn:cts:greek' will bring up references to Greek literature for which stable URIs provided by the Perseus project are available.</p>
 
