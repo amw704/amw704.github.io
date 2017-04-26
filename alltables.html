@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" >
+	<title>Original Data Tables: Lincolnshire Archaeobotany</title>
+	
+	
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/bs-3.3.5/jq-2.1.4,dt-1.10.8/datatables.min.css"/>
+ 
+		<script type="text/javascript" src="https://cdn.datatables.net/r/bs-3.3.5/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script>
+
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+   
+    $('#reportinfo').DataTable({
+        "ajax": 'report_info.JSON',
+         "columnDefs": [
+             { "searchable": false, "targets": 0 } ],
+         "pageLength": 10
+    });
+    
+        $('#isawpubsfts').DataTable({
+        "ajax": 'isawpubsfts.json',
+         "columnDefs": [
+             { "searchable": false, "targets": 0 } ],
+         "pageLength": 10
+    });
+
+        $('#isawpubsfigs').DataTable({
+        "ajax": 'isawpubsfigs.json',
+         "columnDefs": [
+             { "searchable": false, "targets": 0 } ],
+         "pageLength": 10
+    });
+
+
+} );
+</script>
+</head>
+<body style="width:90%;margin:auto;margin-top:2em">
+<div class="container">
+<h1>Search ISAW Digital Publications</h1>
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" href="#fts">Full Text</a></li>
+<li><a data-toggle="tab" href="#figs">Figure Captions</a></li>
+<li><a data-toggle="tab" href="#lod">LOD Links</a></li>
+<!-- <li><a data-toggle="tab" href="#lodinf">LOD Links w/Inferences</a></li> -->
+
+<li><a data-toggle="tab" href="#about">About</a></li>
+</ul>
+
+ <div class="tab-content">
+  <div id="fts" class="tab-pane fade in active">
+  <br/>
+  <p>Search within paragraphs and elements of ISAW publications. The content in this index is being expanded. Currently such items as authors and LOC subjects are not included, but they'll come. Try 'ivory', 'grain' or 'homer'.</p>
+<table id="isawpubsfts" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>ISAW Publication or Chapter</th>
+                <th>Paragraph or Other Element of the Text</th>
+            </tr>
+        </thead>
+    </table>
+  </div>
+
+<div id="figs" class="tab-pane">
+  <br/>
+  <p>Search figure captions. This aspect of the ISAW digital publications is very much under construction. The list of figures included in this index will grow, and it is a goal to have images themselves display in the table. Try searching for 'homer' or 'tetradrachm'. Some figures will have empty captions, an issue that is being addressed.</p>
+
+<table id="isawpubsfigs" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>ISAW Publication or Chapter</th>
+                <th>Figure Caption</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+  <div id="lod" class="tab-pane">
+  <br/>
+  <p>Search for internet resources to which ISAW publications make links.Try 'carthage' for links to that site. Or 'pleiades' for links to the Pleiades Gazetteer. 'urn:cts:greek' will bring up references to Greek literature for which stable URIs provided by the Perseus project are available.</p>
+
+<table id="reportinfo" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>ISAW Publication or Chapter</th>
+                <th>Displayed Text</th>
+                <th>URL</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+
+</body>
+</html>
