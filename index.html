@@ -13,48 +13,8851 @@
 	<script type="text/javascript">
 	$(document).ready(function() {
    
-    $('#reportinfo').DataTable({
-        "ajax": 'report_info.json',
-         "columnDefs": [
-             { "searchable": false, "targets": 0 } ],
-         "pageLength": 10
-    });    
+    $('#reportinfo').DataTable();
+	$('#excavinfo').DataTable();
+	$('#biblio').DataTable();
+	$('#occupation').DataTable();
+	$('#samples').DataTable();
+	$('#finds').DataTable();
+	$('#planttype').DataTable();
 
 
-} );
+</script>
+
 </script>
 </head>
+
 <body style="width:90%;margin:auto;margin-top:2em">
 <div class="container">
 <h1>Original Data Tables: Lincolnshire Archaeobotany</h1>
 <ul class="nav nav-tabs">
 <li class="active"><a data-toggle="tab" href="#reportinfo">Reports</a></li>
-<li><a data-toggle="tab" href="#figs">Figure Captions</a></li>
-<li><a data-toggle="tab" href="#lod">LOD Links</a></li>
-<!-- <li><a data-toggle="tab" href="#lodinf">LOD Links w/Inferences</a></li> -->
-
-<li><a data-toggle="tab" href="#about">About</a></li>
+<li><a data-toggle="tab" href="#excavinfo">Excavation Info</a></li>
+<li><a data-toggle="tab" href="#biblio">Bibliographic Info</a></li>
+<li><a data-toggle="tab" href="#occupation">Occupation Data</a></li>
+<li><a data-toggle="tab" href="#samples">Sampling Log</a></li>
+<li><a data-toggle="tab" href="#finds">Archaeobotanical Finds</a></li>
+<li><a data-toggle="tab" href="#planttype">Plant Type</a></li>
 </ul>
 
  <div class="tab-content">
   <div id="reportinfo" class="tab-pane fade in active">
   <br/>
-  <p>Search within paragraphs and elements of ISAW publications. The content in this index is being expanded. Currently such items as authors and LOC subjects are not included, but they'll come. Try 'ivory', 'grain' or 'homer'.</p>
+ 
 <table id="reportinfo" class="table table-striped table-bordered" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-                <th>Report Type</th>
-                <th>Report Number</th>
-		<th>HER Number</th>
-		<th>HER Citation</th>
-		<th>Crew</th>
-		<th>Lat</th>
-		<th>Lon</th>
-		<th>Year</th>
-            </tr>
-        </thead>
-    </table>
+	<thead><tr>
+<th>report_type</th>
+<th>report_no</th>
+<th style="color:gold">her_no</th>
+<th style="color:gold">her_cit</th>
+<th>crew</th>
+<th>lat</th>
+<th>lon</th>
+<th>year</th>
+</tr></thead>
+<tbody><tr>
+<td>GreyLit</td>
+<td align="right">13873</td>
+<td>MLI60564</td>
+<td align="right">1</td>
+<td>Pre-Construct Archaeology</td>
+<td align="right">53.044102</td>
+<td align="right">-0.383199</td>
+<td align="right">1994</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">15258</td>
+<td>MLI61729</td>
+<td align="right">1</td>
+<td>John Samuels Archaeological Consultants</td>
+<td align="right">53.043021</td>
+<td align="right">-0.38309</td>
+<td align="right">1999</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">16147</td>
+<td>MLI36511</td>
+<td align="right">1</td>
+<td>Pre-Construct Archaeology</td>
+<td align="right">52.911879</td>
+<td align="right">-0.639753</td>
+<td align="right">2004</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">16922</td>
+<td>MLI37096</td>
+<td align="right">1</td>
+<td>Lindsey Archaeological Services</td>
+<td align="right">52.882261</td>
+<td align="right">-0.688087</td>
+<td align="right">2008</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">18467</td>
+<td>MLI65747</td>
+<td align="right">1</td>
+<td>Allen Archaeological Associates</td>
+<td align="right">53.224436</td>
+<td align="right">-0.471416</td>
+<td align="right">2011</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14016</td>
+<td>MLI43229</td>
+<td align="right">2</td>
+<td>Lindsey Archaeological Services</td>
+<td align="right">53.263882</td>
+<td align="right">-0.262564</td>
+<td align="right">1995</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14291</td>
+<td>MLI54134</td>
+<td align="right">1</td>
+<td>John Samuels Archaeological Consultants</td>
+<td align="right">53.4535207</td>
+<td align="right">-0.51964</td>
+<td align="right">1997</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">16442</td>
+<td>MLI46666</td>
+<td align="right">1</td>
+<td>Birmingham University Field Archaeology Unit</td>
+<td align="right">53.169213</td>
+<td align="right">-0.112526</td>
+<td align="right">2001</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14275</td>
+<td>MLI69487</td>
+<td align="right">1</td>
+<td>Archaeological Project Services</td>
+<td align="right">52.988028</td>
+<td align="right">-0.42522</td>
+<td align="right">1996</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">15048</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td>Lindsey Archaeological Services</td>
+<td align="right">53.003536</td>
+<td align="right">-0.601405</td>
+<td align="right">1999</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14551</td>
+<td>MLI62599</td>
+<td align="right">1</td>
+<td>Archaeological Project Services</td>
+<td align="right">52.976506</td>
+<td align="right">-0.507704</td>
+<td align="right">1998</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14403</td>
+<td>MLI54241</td>
+<td align="right">1</td>
+<td>AOC Archaeology Ltd</td>
+<td align="right">53.360603</td>
+<td align="right">-0.578471</td>
+<td align="right">1997</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14579</td>
+<td>MLI54796</td>
+<td align="right">1</td>
+<td>AOC Archaeology Ltd</td>
+<td align="right">53.406713</td>
+<td align="right">-0.497279</td>
+<td align="right">1998</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14381</td>
+<td>MLI43500</td>
+<td align="right">10</td>
+<td>Pre-Construct Archaeology</td>
+<td align="right">53.35893</td>
+<td align="right">0.101311</td>
+<td align="right">1997</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14603</td>
+<td>MLI54787</td>
+<td align="right">1</td>
+<td>Pre-Construct Archaeology</td>
+<td align="right">53.304835</td>
+<td align="right">-0.488762</td>
+<td align="right">1998</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14445</td>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td>Lindsey Archaeological Services</td>
+<td align="right">53.132126</td>
+<td align="right">-0.092446</td>
+<td align="right">1997</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14644</td>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td>Archaeological Project Services</td>
+<td align="right">53.431274</td>
+<td align="right">0.014255</td>
+<td align="right">1998</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14211</td>
+<td>MLI33412</td>
+<td align="right">5</td>
+<td>John Samuels Archaeological Consultants</td>
+<td align="right">52.702858</td>
+<td align="right">-0.333381</td>
+<td align="right">1996</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">18509</td>
+<td>MLI65711</td>
+<td align="right">1</td>
+<td>Archaeological Project Services</td>
+<td align="right">53.11555</td>
+<td align="right">-0.68025</td>
+<td align="right">2009</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14509</td>
+<td>MLI54278</td>
+<td align="right">1</td>
+<td>Pre-Construct Archaeology</td>
+<td align="right">53.273646</td>
+<td align="right">-0.74407</td>
+<td align="right">1998</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14154</td>
+<td>MLI13427</td>
+<td align="right">1</td>
+<td>Pre-Construct Archaeology</td>
+<td align="right">52.974797</td>
+<td align="right">0.047772</td>
+<td align="right">1996</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14702</td>
+<td>MLI61906</td>
+<td align="right">6</td>
+<td>Pre-Construct Archaeology</td>
+<td align="right">53.153412</td>
+<td align="right">-0.618224</td>
+<td align="right">1999</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14689</td>
+<td>MLI13579</td>
+<td align="right">22</td>
+<td>Pre-Construct Archaeology</td>
+<td align="right">52.948758</td>
+<td align="right">-0.163339</td>
+<td align="right">1999</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">16940</td>
+<td>MLI25066</td>
+<td align="right">1</td>
+<td>Archaeological Project Services</td>
+<td align="right">52.809268</td>
+<td align="right">-0.088062</td>
+<td align="right">2008</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">16940</td>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td>Archaeological Project Services</td>
+<td align="right">52.809475</td>
+<td align="right">-0.08317</td>
+<td align="right">2008</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">16940</td>
+<td>MLI25069</td>
+<td align="right">1</td>
+<td>Archaeological Project Services</td>
+<td align="right">52.808386</td>
+<td align="right">-0.078535</td>
+<td align="right">2008</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">16940</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td>Archaeological Project Services</td>
+<td align="right">52.804754</td>
+<td align="right">-0.0819006</td>
+<td align="right">2008</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14007</td>
+<td>MLI60578</td>
+<td align="right">1</td>
+<td>Archaeological Project Services</td>
+<td align="right">53.130322</td>
+<td align="right">-0.642879</td>
+<td align="right">1995</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">16991</td>
+<td>MLI56354</td>
+<td align="right">1</td>
+<td>Pre-Construct Archaeology</td>
+<td align="right">53.470254</td>
+<td align="right">-0.433189</td>
+<td align="right">2009</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14163</td>
+<td>MLI34972</td>
+<td align="right">1</td>
+<td>Pre-Construct Archaeology</td>
+<td align="right">52.977386</td>
+<td align="right">-0.722144</td>
+<td align="right">1996</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14013</td>
+<td>MLI60581</td>
+<td align="right">11</td>
+<td>Pre-Construct Archaeology</td>
+<td align="right">53.109258</td>
+<td align="right">-0.527015</td>
+<td align="right">1995</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14338</td>
+<td>MLI60697</td>
+<td align="right">2</td>
+<td>Archaeological Project Services</td>
+<td align="right">52.999173</td>
+<td align="right">-0.398141</td>
+<td align="right">1997</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14321</td>
+<td>MLI13482</td>
+<td align="right">1</td>
+<td>Archaeological Project Services</td>
+<td align="right">52.957805</td>
+<td align="right">-0.166975</td>
+<td align="right">1996</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">15016</td>
+<td>MLI13579</td>
+<td align="right">12</td>
+<td>Archaeological Project Services</td>
+<td align="right">52.946712</td>
+<td align="right">-0.15896</td>
+<td align="right">2000</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">13959</td>
+<td>MLI34849</td>
+<td align="right">1</td>
+<td>Pre-Construct Archaeology</td>
+<td align="right">52.6709903</td>
+<td align="right">-0.2906639</td>
+<td align="right">1995</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14833</td>
+<td>MLI61152</td>
+<td align="right">1</td>
+<td>Pre-Construct Archaeology</td>
+<td align="right">53.106116</td>
+<td align="right">-0.520102</td>
+<td align="right">1999</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14194</td>
+<td>MLI13829</td>
+<td align="right">17</td>
+<td>Pre-Construct Archaeology</td>
+<td align="right">53.032371</td>
+<td align="right">0.097478</td>
+<td align="right">1996</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">15276</td>
+<td>MLI13829</td>
+<td align="right">21</td>
+<td>Pre-Construct Archaeology</td>
+<td align="right">53.029715</td>
+<td align="right">0.095113</td>
+<td align="right">2001</td>
+</tr>
+<tr>
+<td>GreyLit</td>
+<td align="right">14056</td>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td>Lindsey Archaeological Services</td>
+<td align="right">53.029274</td>
+<td align="right">0.099714</td>
+<td align="right">1995</td>
+</tr>
+</tbody></table>
+
+</div>
+
+<div id="excavinfo" class="tab-pane">
+  <br/>
+
+<table id="excavinfo" class="table table-striped table-bordered" cellspacing="0" width="100%">
+<thead><tr><th style="color:gold">her_no</th>
+<th style="color:gold">her_cit</th>
+<th>parish</th>
+<th>named</th>
+<th>excavation_type</th>
+<th>widest_trench</th>
+</tr></thead>
+<tbody><tr>
+<td>MLI60564</td>
+<td align="right">1</td>
+<td>Ruskington</td>
+<td>29 Station Road</td>
+<td>footprint</td>
+<td align="right">0.75</td>
+</tr>
+<tr>
+<td>MLI61729</td>
+<td align="right">1</td>
+<td>Ruskington</td>
+<td>34 Station Road</td>
+<td>trial trench</td>
+<td align="right">3.1</td>
+</tr>
+<tr>
+<td>MLI36511</td>
+<td align="right">1</td>
+<td>Grantham</td>
+<td>51/52 George St</td>
+<td>test pits</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td>MLI37096</td>
+<td align="right">1</td>
+<td>Harlaxton</td>
+<td>9 Pond St</td>
+<td>footprint</td>
+<td align="right">0.5</td>
+</tr>
+<tr>
+<td>MLI65747</td>
+<td align="right">1</td>
+<td>Washingborough</td>
+<td>81 Main Road</td>
+<td>trial trench</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td>MLI43229</td>
+<td align="right">2</td>
+<td>Huttoft</td>
+<td>Alford Road</td>
+<td>trial trench</td>
+<td align="right">1.5</td>
+</tr>
+<tr>
+<td>MLI54134</td>
+<td align="right">1</td>
+<td>Waddingham</td>
+<td>1-5 the Green</td>
+<td>trial trench</td>
+<td align="right">1.5</td>
+</tr>
+<tr>
+<td>MLI46666</td>
+<td align="right">1</td>
+<td>Halton Holegate</td>
+<td>High Farm</td>
+<td>area</td>
+<td align="right">50</td>
+</tr>
+<tr>
+<td>MLI69487</td>
+<td align="right">1</td>
+<td>Sleaford</td>
+<td>Quarrington</td>
+<td>area</td>
+<td align="right">100</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td>Normanton</td>
+<td>Normanton Phase II Replacement Scheme</td>
+<td>area</td>
+<td align="right">100</td>
+</tr>
+<tr>
+<td>MLI62599</td>
+<td align="right">1</td>
+<td>Wilsford</td>
+<td>Hanbeck Farm</td>
+<td>trial trench</td>
+<td align="right">1.5</td>
+</tr>
+<tr>
+<td>MLI54241</td>
+<td align="right">1</td>
+<td>Fillingham</td>
+<td>Church Farm</td>
+<td>trial trench</td>
+<td align="right">1.6</td>
+</tr>
+<tr>
+<td>MLI54796</td>
+<td align="right">1</td>
+<td>Glentham</td>
+<td>Barff Lane</td>
+<td>trial trench</td>
+<td align="right">1.65</td>
+</tr>
+<tr>
+<td>MLI43500</td>
+<td align="right">10</td>
+<td>Manby</td>
+<td>Church Lane</td>
+<td>trial trench</td>
+<td align="right">1.6</td>
+</tr>
+<tr>
+<td>MLI54787</td>
+<td align="right">1</td>
+<td>Welton</td>
+<td>Norbeck Lane</td>
+<td>trial trench</td>
+<td align="right">1.5</td>
+</tr>
+<tr>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td>Mareham le Fen</td>
+<td>Watery Lane</td>
+<td>trial trench</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td>Covenham St. Bartholomew</td>
+<td>Haith&#39;s Farm</td>
+<td>area</td>
+<td align="right">20</td>
+</tr>
+<tr>
+<td>MLI33412</td>
+<td align="right">5</td>
+<td>Langtoft</td>
+<td>Langtoft Hall</td>
+<td>area</td>
+<td align="right">20</td>
+</tr>
+<tr>
+<td>MLI65711</td>
+<td align="right">1</td>
+<td>Stapleford</td>
+<td>Norton Bottoms Quarry</td>
+<td>area</td>
+<td align="right">20</td>
+</tr>
+<tr>
+<td>MLI54278</td>
+<td align="right">1</td>
+<td>Kettlethorpe</td>
+<td>Home Farm Laugherton</td>
+<td>trial trench</td>
+<td align="right">1.6</td>
+</tr>
+<tr>
+<td>MLI13427</td>
+<td align="right">1</td>
+<td>Freiston</td>
+<td>Butterwick Road</td>
+<td>trial trench</td>
+<td align="right">1.5</td>
+</tr>
+<tr>
+<td>MLI61906</td>
+<td align="right">6</td>
+<td>Aubourn</td>
+<td>Church Lane</td>
+<td>trial trench</td>
+<td align="right">1.5</td>
+</tr>
+<tr>
+<td>MLI13579</td>
+<td align="right">22</td>
+<td>Swineshead</td>
+<td>High Street</td>
+<td>trial trench</td>
+<td align="right">5</td>
+</tr>
+<tr>
+<td>MLI25066</td>
+<td align="right">1</td>
+<td>Weston</td>
+<td>Weston Bypass</td>
+<td>area</td>
+<td align="right">6</td>
+</tr>
+<tr>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td>Weston</td>
+<td>Weston Bypass</td>
+<td>area</td>
+<td align="right">5</td>
+</tr>
+<tr>
+<td>MLI25069</td>
+<td align="right">1</td>
+<td>Weston</td>
+<td>Weston Bypass</td>
+<td>area</td>
+<td align="right">4</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td>Weston</td>
+<td>Weston Bypass</td>
+<td>area</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td>MLI60578</td>
+<td align="right">1</td>
+<td>Bassingham</td>
+<td>Hall Field</td>
+<td>area</td>
+<td align="right">5</td>
+</tr>
+<tr>
+<td>MLI56354</td>
+<td align="right">1</td>
+<td>South Kelsey</td>
+<td>Church Farm</td>
+<td>trial trench</td>
+<td align="right">2.5</td>
+</tr>
+<tr>
+<td>MLI34972</td>
+<td align="right">1</td>
+<td>Foston</td>
+<td>Long Street</td>
+<td>footprint</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td>MLI60581</td>
+<td align="right">11</td>
+<td>Navenby</td>
+<td>Church Lane</td>
+<td>footprint</td>
+<td align="right">0.8</td>
+</tr>
+<tr>
+<td>MLI60697</td>
+<td align="right">2</td>
+<td>Sleaford</td>
+<td>St. Giles Avenue</td>
+<td>trial trench</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td>MLI13482</td>
+<td align="right">1</td>
+<td>Swineshead</td>
+<td>The Cottage, North End</td>
+<td>footprint</td>
+<td align="right">0.75</td>
+</tr>
+<tr>
+<td>MLI13579</td>
+<td align="right">12</td>
+<td>Swineshead</td>
+<td>Land off King John&#39;s Road</td>
+<td>trial trench</td>
+<td align="right">0.65</td>
+</tr>
+<tr>
+<td>MLI34849</td>
+<td align="right">1</td>
+<td>Deeping St. James</td>
+<td>Bridge st</td>
+<td>footprint</td>
+<td align="right">0.5</td>
+</tr>
+<tr>
+<td>MLI61152</td>
+<td align="right">1</td>
+<td>Navenby</td>
+<td>Chapel Ln</td>
+<td>footprint</td>
+<td align="right">0.75</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">17</td>
+<td>Old Leake</td>
+<td>Church Road</td>
+<td>trial trench</td>
+<td align="right">1.5</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">21</td>
+<td>Old Leake</td>
+<td>Land off School Lane</td>
+<td>trial trench</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td>Old Leake</td>
+<td>The Giles School</td>
+<td>footprint</td>
+<td align="right">1</td>
+</tr>
+</tbody></table>
+
   </div>
+
+  <div id="biblio" class="tab-pane">
+  <br/>
+  
+<table id="biblio" class="table table-striped table-bordered" cellspacing="0" width="100%">
+<thead><tr>
+<th style="color:gold">her_no</th>
+<th style="color:gold">her_cit</th>
+<th>citation</th>
+<th>archaeobotanist</th>
+</tr></thead>
+<tbody><tr>
+<td>MLI60564</td>
+<td align="right">1</td>
+<td>Palmer-Brown, Colin. 1994. Archaeological Watching Brief Report. 29 Station Road, Ruskington</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI61729</td>
+<td align="right">1</td>
+<td>John Samuels Archaeological Consultants. 1999. Archaeological Field Evaluation: 34 Station Road, Ruskington </td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI36511</td>
+<td align="right">1</td>
+<td>Brett, Alex. 2004. 51/52 George Street, Grantham, Lincolnshire. Archaeological Watching Brief Report</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI37096</td>
+<td align="right">1</td>
+<td>Trott, Kevin. 2008. 9 Pond Street, Harlaxton, Lincolnshire Archaeological Watching Brief</td>
+<td>Alexandra Schmidl &amp; Alex Beacock</td>
+</tr>
+<tr>
+<td>MLI65747</td>
+<td align="right">1</td>
+<td>Allen Archaeology Limited. 2011. Archaeological Evaluation Report: Trial Trenching on Land Off 81 Main Road, Washingborough, Lincolnshire.</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI43229</td>
+<td align="right">2</td>
+<td>Lindsey Archaeological Services. 1995. Alford Road Huttoft</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI54134</td>
+<td align="right">1</td>
+<td>John Samuels Archaeological Consultants. 1997. An Archaeological Evaluation of Land for a Proposed Development at Land to the Rear of 1-5 The Green, Waddingham.</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI46666</td>
+<td align="right">1</td>
+<td>Eleanor Ramsey. 2001. An Archaeological Excavation at High Farm, Halton Holegate, Lincolnshire: A Post-Excavation Assessment and Research Design</td>
+<td>Marina Ciaraldi</td>
+</tr>
+<tr>
+<td>MLI69487</td>
+<td align="right">1</td>
+<td>Fiona Walker and Tom Lane. 1996. An Early and Middle Saxon Settlement at Quarrington, Lincolnshire.</td>
+<td>James Rackham</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td>Lindsey Archaeological Services. 1999. Normanton Phase II Replacement Scheme, Lincolnshire. Archaeological Assessment Report.</td>
+<td>James Rackham</td>
+</tr>
+<tr>
+<td>MLI62599</td>
+<td align="right">1</td>
+<td>Ian Miller. 1998. Archaeological Evaluation of Land at Hanbeck Farm, Wilsford Lincolnshire. A.P.S. Report No. 54/98.</td>
+<td>Paul Cope-Faulkner</td>
+</tr>
+<tr>
+<td>MLI54241</td>
+<td align="right">1</td>
+<td>A.O.C. (Archaeology) Ltd. 1997. An Archaeological Evaluation at Church Farm Fillingham Lincolnshire.</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI54796</td>
+<td align="right">1</td>
+<td>Karl Hulka. 1998. An Archaeological Evaluation on the Site of Glentham Residential Development Barff Lane, Glentham, Lincolnshire.</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI43500</td>
+<td align="right">10</td>
+<td>Simon Johnson. 1997. Archaeological Field Evaluation Report (Part 2). Land north of Church Lane, Manby, Lincolnshire.</td>
+<td>DJ Rackham</td>
+</tr>
+<tr>
+<td>MLI54787</td>
+<td align="right">1</td>
+<td>James Albone. 1998. Archaeological Field Evaluation Report Land Off Norbeck Lane, Welton, Lincolnshire. </td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td>Lindsey Archaeological Services. 1997. Land off Watery Lane, Mareham le Fen Archaeological Evaluation. Report No. 270.</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td>Jenny Young. 1998. Archaeological Excavation at Haith&#39;s Farm, Birkett Lane, Covenham St. Bartholomew, Linoclnshire.</td>
+<td>Paul Cope-Faulkner</td>
+</tr>
+<tr>
+<td>MLI33412</td>
+<td align="right">5</td>
+<td>John Samuels Archaeological Consultants. 1995. An Archaeological Excavation at Langtoft Hall, Langtoft, Lincolnshire.</td>
+<td>R.C. Alvey</td>
+</tr>
+<tr>
+<td>MLI65711</td>
+<td align="right">1</td>
+<td>Andrew Failes. 2009. Archaeological Excavation at Norton Bottoms Quarry Extension, Norton Road, Stapleford, Lincolnshire. </td>
+<td>Val Fryer</td>
+</tr>
+<tr>
+<td>MLI54278</td>
+<td align="right">1</td>
+<td>James Albone. 1998. Archaeological Field Evaluation Land at Home Farm, Laugherton, Lincolnshire</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI13427</td>
+<td align="right">1</td>
+<td>C. Palmer-Brown. 1996. Archaeological Field Evaluation Report: Land off Butterwick Road, Freiston. </td>
+<td>DJ Rackham</td>
+</tr>
+<tr>
+<td>MLI61906</td>
+<td align="right">6</td>
+<td>James Albone 1999. Archaeological Field Evaluation Report: Land Between Royal Oak Lane and Chapel Lane, Aubourn, Lincolnshire.</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI13579</td>
+<td align="right">22</td>
+<td>James Albone 1999. Archaeological Field Evaluation Report: Land West of High Street, Swineshead, Lincolnshire.</td>
+<td>James Rackham</td>
+</tr>
+<tr>
+<td>MLI25066</td>
+<td align="right">1</td>
+<td>Michael Wood. 2008. Archaeological Investigation Along the Weston Bypass, Weston, Lincolnshire. A.P.S. Report No. 145/06.</td>
+<td>Gemma Martin &amp; James Rackham</td>
+</tr>
+<tr>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td>Michael Wood. 2008. Archaeological Investigation Along the Weston Bypass, Weston, Lincolnshire. A.P.S. Report No. 145/06.</td>
+<td>Gemma Martin &amp; James Rackham</td>
+</tr>
+<tr>
+<td>MLI25069</td>
+<td align="right">1</td>
+<td>Michael Wood. 2008. Archaeological Investigation Along the Weston Bypass, Weston, Lincolnshire. A.P.S. Report No. 145/06.</td>
+<td>Gemma Martin &amp; James Rackham</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td>Michael Wood. 2008. Archaeological Investigation Along the Weston Bypass, Weston, Lincolnshire. A.P.S. Report No. 145/06.</td>
+<td>Gemma Martin &amp; James Rackham</td>
+</tr>
+<tr>
+<td>MLI60578</td>
+<td align="right">1</td>
+<td>Archaeological Project Services. 1995. Archaeological Investigations at Hall Field, Water Lane, Bassingham, Lincolnshire.</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI56354</td>
+<td align="right">1</td>
+<td>Linda Hamilton. 2009. An Archaeological Scheme of Monitoring Works: Church Farm, Waddingham Road, Sth Kelsey Lincolnshire.</td>
+<td>Helen Ranner</td>
+</tr>
+<tr>
+<td>MLI34972</td>
+<td align="right">1</td>
+<td>SC Johnson. 1996. Archaeological Watching Brief Report, Long Street, Foston.</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI60581</td>
+<td align="right">11</td>
+<td>Colin Palmer-Brown. 1995. Land North of Church Lane, Navenby.</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI60697</td>
+<td align="right">2</td>
+<td>Gary Trimble. 1997. Archaeological Investigation of a Pipeline Along St. Giles&#39; Avenue, Sleaford, Lincolnshire.</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI13482</td>
+<td align="right">1</td>
+<td>Chris Moulis. 1996. Archaeological Watching Brief at the Cottage, North End, Swineshead, Lincolnshire.</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI13579</td>
+<td align="right">12</td>
+<td>Joanna Hambly. 2000. Archaeological Watching Brief on Land off King John&#39;s Road Swineshead Boston District Lincolnshire.</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI34849</td>
+<td align="right">1</td>
+<td>Simon Johnson. 1995. Bridge Street, Deeping St. James. An Archaeological Watching Brief Report For Anglian Water Services Ltd.</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI61152</td>
+<td align="right">1</td>
+<td>Colin Palmer-Brown. 1999. Chapel Lane, Navenby: Archaeological Watching Brief Report.</td>
+<td> </td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">17</td>
+<td>Colin Palmer-Brown. 1996. Church Road, Old Leake. Archaeological Evaluation Report.</td>
+<td>James Rackham</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">21</td>
+<td>Chris Clay. 2001. Archaeological Evaluation Report: Land off School Lane, Old Leake, Lincolnshire.</td>
+<td>DJ Rackham</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td>Lindsey Archaeological Services. 1995. Old Leake: The Giles School. Archaeological Monitoring of Building Works.</td>
+<td>John Giorgi</td>
+</tr>
+</tbody></table>
+</div>
+
+<div id="occupation" class="tab-pane">
+  <br/>
+  
+<table id="occupation" class="table table-striped table-bordered" cellspacing="0" width="100%">
+
+<thead><tr><th style="color:gold">her_no</th>
+<th style="color:gold">her_cit</th>
+<th style="color:gold">context</th>
+<th>phase</th>
+<th>certainty</th>
+</tr></thead>
+<tbody><tr>
+<td>MLI60564</td>
+<td align="right">1</td>
+<td align="right">6</td>
+<td>bronze</td>
+<td>burial</td>
+</tr>
+<tr>
+<td>MLI60564</td>
+<td align="right">1</td>
+<td align="right">11</td>
+<td>mid saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI60564</td>
+<td align="right">1</td>
+<td align="right">7</td>
+<td>late saxon</td>
+<td>structural</td>
+</tr>
+<tr>
+<td>MLI61729</td>
+<td align="right">1</td>
+<td align="right">103</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI61729</td>
+<td align="right">1</td>
+<td align="right">105</td>
+<td>mid saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI36511</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI36511</td>
+<td align="right">1</td>
+<td align="right">4</td>
+<td>post-medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI37096</td>
+<td align="right">1</td>
+<td align="right">103</td>
+<td>post-medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI37096</td>
+<td align="right">1</td>
+<td align="right">108</td>
+<td>late saxon</td>
+<td>intrusive</td>
+</tr>
+<tr>
+<td>MLI37096</td>
+<td align="right">1</td>
+<td align="right">111</td>
+<td>roman</td>
+<td>residual</td>
+</tr>
+<tr>
+<td>MLI65747</td>
+<td align="right">1</td>
+<td align="right">111</td>
+<td>mid/late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI43229</td>
+<td align="right">2</td>
+<td align="right">35</td>
+<td>early saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI43229</td>
+<td align="right">2</td>
+<td align="right">29</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI43229</td>
+<td align="right">2</td>
+<td align="right">46</td>
+<td>post-medieval</td>
+<td>layer</td>
+</tr>
+<tr>
+<td>MLI43229</td>
+<td align="right">2</td>
+<td align="right">37</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI54134</td>
+<td align="right">1</td>
+<td align="right">205</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI46666</td>
+<td align="right">1</td>
+<td align="right">428</td>
+<td>early/middle saxon</td>
+<td>structural</td>
+</tr>
+<tr>
+<td>MLI46666</td>
+<td align="right">1</td>
+<td align="right">410</td>
+<td>early/middle saxon</td>
+<td>structural</td>
+</tr>
+<tr>
+<td>MLI46666</td>
+<td align="right">1</td>
+<td align="right">431</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI46666</td>
+<td align="right">1</td>
+<td align="right">407</td>
+<td>post-medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI69487</td>
+<td align="right">1</td>
+<td align="right">546</td>
+<td>early saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI69487</td>
+<td align="right">1</td>
+<td align="right">794</td>
+<td>mid saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI69487</td>
+<td align="right">1</td>
+<td align="right">822</td>
+<td>early saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">117</td>
+<td>early saxon</td>
+<td>burial</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">144</td>
+<td>early saxon</td>
+<td>burial</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">185</td>
+<td>early saxon</td>
+<td>burial</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">172</td>
+<td>early saxon</td>
+<td>burial</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">177</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">303</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">288</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">201</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">229</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">262</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">360</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">374</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">427</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">434</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">365</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">419</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">290</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">354</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">264</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">310</td>
+<td>unknown</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI62599</td>
+<td align="right">1</td>
+<td align="right">2</td>
+<td>post-medieval</td>
+<td>layer</td>
+</tr>
+<tr>
+<td>MLI62599</td>
+<td align="right">1</td>
+<td align="right">13</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI62599</td>
+<td align="right">1</td>
+<td align="right">18</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI62599</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI54241</td>
+<td align="right">1</td>
+<td align="right">48</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI54241</td>
+<td align="right">1</td>
+<td align="right">45</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI54241</td>
+<td align="right">1</td>
+<td align="right">26</td>
+<td>post-medieval</td>
+<td>structural</td>
+</tr>
+<tr>
+<td>MLI54796</td>
+<td align="right">1</td>
+<td align="right">4003</td>
+<td>early saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI54796</td>
+<td align="right">1</td>
+<td align="right">7003</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI54796</td>
+<td align="right">1</td>
+<td align="right">2004</td>
+<td>post-medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI43500</td>
+<td align="right">10</td>
+<td align="right">110</td>
+<td>iron</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI43500</td>
+<td align="right">10</td>
+<td align="right">316</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI43500</td>
+<td align="right">10</td>
+<td align="right">312</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI43500</td>
+<td align="right">10</td>
+<td align="right">319</td>
+<td>post-medieval</td>
+<td>layer</td>
+</tr>
+<tr>
+<td>MLI54787</td>
+<td align="right">1</td>
+<td align="right">304</td>
+<td>late saxon</td>
+<td>structural</td>
+</tr>
+<tr>
+<td>MLI54787</td>
+<td align="right">1</td>
+<td align="right">207</td>
+<td>medieval</td>
+<td>structural</td>
+</tr>
+<tr>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td align="right">411</td>
+<td>early/middle saxon</td>
+<td>residual</td>
+</tr>
+<tr>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td align="right">1015</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td align="right">324</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td align="right">719</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td align="right">720</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td align="right">809</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td align="right">911</td>
+<td>unknown</td>
+<td>natural</td>
+</tr>
+<tr>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td align="right">1018</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td align="right">143</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td align="right">141</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td align="right">97</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td align="right">112</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td align="right">137</td>
+<td>post-medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td align="right">138</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td align="right">101</td>
+<td>neolithic</td>
+<td>residual</td>
+</tr>
+<tr>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td align="right">103</td>
+<td>bronze</td>
+<td>residual</td>
+</tr>
+<tr>
+<td>MLI33412</td>
+<td align="right">5</td>
+<td align="right">3038</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI33412</td>
+<td align="right">5</td>
+<td align="right">3028</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI33412</td>
+<td align="right">5</td>
+<td align="right">3078</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI33412</td>
+<td align="right">5</td>
+<td align="right">3120</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI33412</td>
+<td align="right">5</td>
+<td align="right">4005</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI33412</td>
+<td align="right">5</td>
+<td align="right">4051</td>
+<td>post-medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI65711</td>
+<td align="right">1</td>
+<td align="right">1304</td>
+<td>roman</td>
+<td>residual</td>
+</tr>
+<tr>
+<td>MLI65711</td>
+<td align="right">1</td>
+<td align="right">1307</td>
+<td>early/middle saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI65711</td>
+<td align="right">1</td>
+<td align="right">1306</td>
+<td>early/middle saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI54278</td>
+<td align="right">1</td>
+<td align="right">203</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI54278</td>
+<td align="right">1</td>
+<td align="right">205</td>
+<td>medieval</td>
+<td>structural</td>
+</tr>
+<tr>
+<td>MLI54278</td>
+<td align="right">1</td>
+<td align="right">212</td>
+<td>post-medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13427</td>
+<td align="right">1</td>
+<td align="right">110</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13427</td>
+<td align="right">1</td>
+<td align="right">104</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI61906</td>
+<td align="right">6</td>
+<td align="right">510</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI61906</td>
+<td align="right">6</td>
+<td align="right">304</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13579</td>
+<td align="right">22</td>
+<td align="right">511</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13579</td>
+<td align="right">22</td>
+<td align="right">714</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13579</td>
+<td align="right">22</td>
+<td align="right">725</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13579</td>
+<td align="right">22</td>
+<td align="right">810</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13579</td>
+<td align="right">22</td>
+<td align="right">233</td>
+<td>post-medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25066</td>
+<td align="right">1</td>
+<td align="right">2511</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25066</td>
+<td align="right">1</td>
+<td align="right">2507</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25066</td>
+<td align="right">1</td>
+<td align="right">1308</td>
+<td>unknown</td>
+<td>natural</td>
+</tr>
+<tr>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">1507</td>
+<td>unknown</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">1511</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">1503</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">1501</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">1505</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">3017</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">3048</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">3060</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">3063</td>
+<td>mid saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">3075</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">3077</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25069</td>
+<td align="right">1</td>
+<td align="right">3501</td>
+<td>unknown</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25069</td>
+<td align="right">1</td>
+<td align="right">3506</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">108</td>
+<td>post-medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">207</td>
+<td>unknown</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">303</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">302</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">307</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">315</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">2018</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">2096</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">2115</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">2120</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">2129</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">2139</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">2151</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">2157</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">2160</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">2204</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI60578</td>
+<td align="right">1</td>
+<td align="right">2018</td>
+<td>roman</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI60578</td>
+<td align="right">1</td>
+<td align="right">2008</td>
+<td>early saxon</td>
+<td>residual</td>
+</tr>
+<tr>
+<td>MLI60578</td>
+<td align="right">1</td>
+<td align="right">6</td>
+<td>late saxon</td>
+<td>residual</td>
+</tr>
+<tr>
+<td>MLI60578</td>
+<td align="right">1</td>
+<td align="right">2092</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI60578</td>
+<td align="right">1</td>
+<td align="right">2195</td>
+<td>post-medieval</td>
+<td>structural</td>
+</tr>
+<tr>
+<td>MLI56354</td>
+<td align="right">1</td>
+<td align="right">115</td>
+<td>mid saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI56354</td>
+<td align="right">1</td>
+<td align="right">111</td>
+<td>unknown</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI34972</td>
+<td align="right">1</td>
+<td align="right">111</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI34972</td>
+<td align="right">1</td>
+<td align="right">109</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI34972</td>
+<td align="right">1</td>
+<td align="right">105</td>
+<td>post-medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI60581</td>
+<td align="right">11</td>
+<td align="right">1</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI60581</td>
+<td align="right">11</td>
+<td align="right">11</td>
+<td>unknown</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI60697</td>
+<td align="right">2</td>
+<td align="right">237</td>
+<td>iron</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI60697</td>
+<td align="right">2</td>
+<td align="right">235</td>
+<td>roman</td>
+<td>structural</td>
+</tr>
+<tr>
+<td>MLI60697</td>
+<td align="right">2</td>
+<td align="right">195</td>
+<td>late saxon</td>
+<td>structural</td>
+</tr>
+<tr>
+<td>MLI60697</td>
+<td align="right">2</td>
+<td align="right">152</td>
+<td>medieval</td>
+<td>burial</td>
+</tr>
+<tr>
+<td>MLI13482</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13579</td>
+<td align="right">12</td>
+<td align="right">38</td>
+<td>late saxon</td>
+<td>layer</td>
+</tr>
+<tr>
+<td>MLI13579</td>
+<td align="right">12</td>
+<td align="right">81</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13579</td>
+<td align="right">12</td>
+<td align="right">28</td>
+<td>post-medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI34849</td>
+<td align="right">1</td>
+<td align="right">4</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI61152</td>
+<td align="right">1</td>
+<td align="right">103</td>
+<td>roman</td>
+<td>burial</td>
+</tr>
+<tr>
+<td>MLI61152</td>
+<td align="right">1</td>
+<td align="right">158</td>
+<td>mid saxon</td>
+<td>burial</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">17</td>
+<td align="right">131</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">17</td>
+<td align="right">122</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">17</td>
+<td align="right">220</td>
+<td>post-medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">17</td>
+<td align="right">1</td>
+<td>unknown</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">21</td>
+<td align="right">506</td>
+<td>unknown</td>
+<td>natural</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">21</td>
+<td align="right">308</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">21</td>
+<td align="right">207</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">21</td>
+<td align="right">522</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">21</td>
+<td align="right">102</td>
+<td>post-medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">6</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">7</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">26</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">27</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">11</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">12</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">10</td>
+<td>medieval</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">69</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+<tr>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">35</td>
+<td>late saxon</td>
+<td>refuse</td>
+</tr>
+</tbody></table>
+</div>
+
+<div id="samples" class="tab-pane">
+  <br/>
+  
+<table id="samples" class="table table-striped table-bordered" cellspacing="0" width="100%">
+<thead><tr><th style="color:gold">sample_id</th>
+<th>her_no</th>
+<th>her_cit</th>
+<th>sample</th>
+<th>context</th>
+<th>feature_type</th>
+<th>volume</th>
+</tr></thead>
+<tbody><tr>
+<td>S001</td>
+<td>MLI37096</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">111</td>
+<td>ditch</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S002</td>
+<td>MLI46666</td>
+<td align="right">1</td>
+<td align="right">4014</td>
+<td align="right">410</td>
+<td>SFB</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td>S003</td>
+<td>MLI46666</td>
+<td align="right">1</td>
+<td align="right">4033</td>
+<td align="right">428</td>
+<td>SFB</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td>S004</td>
+<td>MLI69487</td>
+<td align="right">1</td>
+<td align="right">16</td>
+<td align="right">546</td>
+<td>pit</td>
+<td align="right">7</td>
+</tr>
+<tr>
+<td>S005</td>
+<td>MLI69487</td>
+<td align="right">1</td>
+<td align="right">106</td>
+<td align="right">794</td>
+<td>structure/hollow</td>
+<td align="right">12</td>
+</tr>
+<tr>
+<td>S006</td>
+<td>MLI69487</td>
+<td align="right">1</td>
+<td align="right">110</td>
+<td align="right">822</td>
+<td>pit</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td>S007</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">3</td>
+<td align="right">117</td>
+<td>burial</td>
+<td align="right">5</td>
+</tr>
+<tr>
+<td>S008</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">4</td>
+<td align="right">144</td>
+<td>burial</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td>S009</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">6</td>
+<td align="right">185</td>
+<td>burial</td>
+<td align="right">30</td>
+</tr>
+<tr>
+<td>S010</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">7</td>
+<td align="right">172</td>
+<td>burial</td>
+<td align="right">30</td>
+</tr>
+<tr>
+<td>S011</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">8</td>
+<td align="right">177</td>
+<td>ditch</td>
+<td align="right">30</td>
+</tr>
+<tr>
+<td>S012</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">9</td>
+<td align="right">303</td>
+<td>ditch</td>
+<td align="right">29</td>
+</tr>
+<tr>
+<td>S013</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">10</td>
+<td align="right">288</td>
+<td>ditch</td>
+<td align="right">27</td>
+</tr>
+<tr>
+<td>S014</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">11</td>
+<td align="right">201</td>
+<td>ditch</td>
+<td align="right">20</td>
+</tr>
+<tr>
+<td>S015</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">12</td>
+<td align="right">229</td>
+<td>ditch</td>
+<td align="right">22</td>
+</tr>
+<tr>
+<td>S016</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">13</td>
+<td align="right">262</td>
+<td>ditch</td>
+<td align="right">23</td>
+</tr>
+<tr>
+<td>S017</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">14</td>
+<td align="right">360</td>
+<td>ditch</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td>S018</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">15</td>
+<td align="right">374</td>
+<td>ditch</td>
+<td align="right">8</td>
+</tr>
+<tr>
+<td>S019</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">16</td>
+<td align="right">427</td>
+<td>ditch</td>
+<td align="right">30</td>
+</tr>
+<tr>
+<td>S020</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">17</td>
+<td align="right">434</td>
+<td>ditch</td>
+<td align="right">20</td>
+</tr>
+<tr>
+<td>S021</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">18</td>
+<td align="right">365</td>
+<td>ditch</td>
+<td align="right">22</td>
+</tr>
+<tr>
+<td>S022</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">19</td>
+<td align="right">419</td>
+<td>ditch</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td>S023</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">20</td>
+<td align="right">290</td>
+<td>ditch</td>
+<td align="right">27</td>
+</tr>
+<tr>
+<td>S024</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">21</td>
+<td align="right">354</td>
+<td>ditch</td>
+<td align="right">22</td>
+</tr>
+<tr>
+<td>S025</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">22</td>
+<td align="right">264</td>
+<td>gully</td>
+<td align="right">28</td>
+</tr>
+<tr>
+<td>S026</td>
+<td>MLI35401</td>
+<td align="right">1</td>
+<td align="right">23</td>
+<td align="right">310</td>
+<td>gully</td>
+<td align="right">7</td>
+</tr>
+<tr>
+<td>S027</td>
+<td>MLI62599</td>
+<td align="right">1</td>
+<td align="right">3</td>
+<td align="right">18</td>
+<td>ditch</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S028</td>
+<td>MLI62599</td>
+<td align="right">1</td>
+<td align="right">4</td>
+<td align="right">18</td>
+<td>ditch</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S029</td>
+<td>MLI62599</td>
+<td align="right">1</td>
+<td align="right">6</td>
+<td align="right">20</td>
+<td>ditch</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S030</td>
+<td>MLI62599</td>
+<td align="right">1</td>
+<td align="right">7</td>
+<td align="right">20</td>
+<td>ditch</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S031</td>
+<td>MLI62599</td>
+<td align="right">1</td>
+<td align="right">8</td>
+<td align="right">20</td>
+<td>ditch</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S032</td>
+<td>MLI43500</td>
+<td align="right">10</td>
+<td align="right">1</td>
+<td align="right">110</td>
+<td>ditch</td>
+<td align="right">7</td>
+</tr>
+<tr>
+<td>S033</td>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td align="right">1</td>
+<td align="right">324</td>
+<td>pit</td>
+<td align="right">20</td>
+</tr>
+<tr>
+<td>S034</td>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td align="right">2</td>
+<td align="right">719</td>
+<td>pit</td>
+<td align="right">7</td>
+</tr>
+<tr>
+<td>S035</td>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td align="right">3</td>
+<td align="right">720</td>
+<td>pit</td>
+<td align="right">8</td>
+</tr>
+<tr>
+<td>S036</td>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td align="right">4</td>
+<td align="right">809</td>
+<td>pit</td>
+<td align="right">8</td>
+</tr>
+<tr>
+<td>S037</td>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td align="right">5</td>
+<td align="right">911</td>
+<td>pond fill</td>
+<td align="right">0.2</td>
+</tr>
+<tr>
+<td>S038</td>
+<td>MLI43632</td>
+<td align="right">2</td>
+<td align="right">6</td>
+<td align="right">1018</td>
+<td>pit</td>
+<td align="right">7.5</td>
+</tr>
+<tr>
+<td>S039</td>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td align="right">2</td>
+<td align="right">143</td>
+<td>ditch</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S040</td>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td align="right">3</td>
+<td align="right">141</td>
+<td>ditch</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S041</td>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td align="right">4</td>
+<td align="right">97</td>
+<td>pit</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S042</td>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td align="right">5</td>
+<td align="right">112</td>
+<td>gully</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S043</td>
+<td>MLI44015</td>
+<td align="right">7</td>
+<td align="right">6</td>
+<td align="right">137</td>
+<td>ditch</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S044</td>
+<td>MLI33412</td>
+<td align="right">5</td>
+<td align="right">1</td>
+<td align="right">3038</td>
+<td>pit</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S045</td>
+<td>MLI33412</td>
+<td align="right">5</td>
+<td align="right">2</td>
+<td align="right">3028</td>
+<td>pit</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S046</td>
+<td>MLI33412</td>
+<td align="right">5</td>
+<td align="right">3</td>
+<td align="right">3078</td>
+<td>ditch</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S047</td>
+<td>MLI33412</td>
+<td align="right">5</td>
+<td align="right">4</td>
+<td align="right">3120</td>
+<td>pit</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S048</td>
+<td>MLI65711</td>
+<td align="right">1</td>
+<td align="right">2</td>
+<td align="right">1306</td>
+<td>pit</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S049</td>
+<td>MLI65711</td>
+<td align="right">1</td>
+<td align="right">3</td>
+<td align="right">1307</td>
+<td>pit</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S050</td>
+<td>MLI13427</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">110</td>
+<td>fire pit</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S051</td>
+<td>MLI13579</td>
+<td align="right">22</td>
+<td align="right">1</td>
+<td align="right">511</td>
+<td>ditch</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S052</td>
+<td>MLI13579</td>
+<td align="right">22</td>
+<td align="right">2</td>
+<td align="right">714</td>
+<td>ditch</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S053</td>
+<td>MLI13579</td>
+<td align="right">22</td>
+<td align="right">3</td>
+<td align="right">725</td>
+<td>ditch</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S054</td>
+<td>MLI13579</td>
+<td align="right">22</td>
+<td align="right">4</td>
+<td align="right">810</td>
+<td>ditch</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S055</td>
+<td>MLI13579</td>
+<td align="right">22</td>
+<td align="right">5</td>
+<td align="right">233</td>
+<td>palaeochannel</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>S056</td>
+<td>MLI25066</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">2511</td>
+<td>ditch</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td>S057</td>
+<td>MLI25066</td>
+<td align="right">1</td>
+<td align="right">2</td>
+<td align="right">2507</td>
+<td>ditch</td>
+<td align="right">11</td>
+</tr>
+<tr>
+<td>S058</td>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">501</td>
+<td align="right">1503</td>
+<td>ditch</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td>S059</td>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">601</td>
+<td align="right">1501</td>
+<td>ditch</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td>S060</td>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">701</td>
+<td align="right">1511</td>
+<td>ditch</td>
+<td align="right">14</td>
+</tr>
+<tr>
+<td>S061</td>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">801</td>
+<td align="right">1505</td>
+<td>ditch</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td>S062</td>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">901</td>
+<td align="right">1507</td>
+<td>ditch</td>
+<td align="right">2.5</td>
+</tr>
+<tr>
+<td>S063</td>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">3017</td>
+<td>ditch</td>
+<td align="right">28</td>
+</tr>
+<tr>
+<td>S064</td>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">2</td>
+<td align="right">3048</td>
+<td>ditch</td>
+<td align="right">9</td>
+</tr>
+<tr>
+<td>S065</td>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">3</td>
+<td align="right">3060</td>
+<td>ditch</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td>S066</td>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">4</td>
+<td align="right">3063</td>
+<td>ditch</td>
+<td align="right">14</td>
+</tr>
+<tr>
+<td>S067</td>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">5</td>
+<td align="right">3075</td>
+<td>ditch</td>
+<td align="right">22</td>
+</tr>
+<tr>
+<td>S068</td>
+<td>MLI25067</td>
+<td align="right">1</td>
+<td align="right">6</td>
+<td align="right">3077</td>
+<td>ditch</td>
+<td align="right">9</td>
+</tr>
+<tr>
+<td>S069</td>
+<td>MLI25069</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">3501</td>
+<td>ditch</td>
+<td align="right">26</td>
+</tr>
+<tr>
+<td>S070</td>
+<td>MLI25069</td>
+<td align="right">1</td>
+<td align="right">2</td>
+<td align="right">3506</td>
+<td>ditch</td>
+<td align="right">19</td>
+</tr>
+<tr>
+<td>S071</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">101</td>
+<td align="right">108</td>
+<td>ditch</td>
+<td align="right">11.5</td>
+</tr>
+<tr>
+<td>S072</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">201</td>
+<td align="right">207</td>
+<td>ditch</td>
+<td align="right">11</td>
+</tr>
+<tr>
+<td>S073</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">301</td>
+<td align="right">303</td>
+<td>ditch</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td>S074</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">401</td>
+<td align="right">302</td>
+<td>palaeochannel</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td>S075</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">1001</td>
+<td align="right">307</td>
+<td>palaeochannel</td>
+<td align="right">30</td>
+</tr>
+<tr>
+<td>S076</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">1101</td>
+<td align="right">315</td>
+<td>palaeochannel</td>
+<td align="right">30</td>
+</tr>
+<tr>
+<td>S077</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">2018</td>
+<td>ditch</td>
+<td align="right">19</td>
+</tr>
+<tr>
+<td>S078</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">2</td>
+<td align="right">2096</td>
+<td>ditch</td>
+<td align="right">28</td>
+</tr>
+<tr>
+<td>S079</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">3</td>
+<td align="right">2115</td>
+<td>ditch</td>
+<td align="right">30</td>
+</tr>
+<tr>
+<td>S080</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">4</td>
+<td align="right">2120</td>
+<td>ditch</td>
+<td align="right">6</td>
+</tr>
+<tr>
+<td>S081</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">5</td>
+<td align="right">2129</td>
+<td>ditch</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td>S082</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">6</td>
+<td align="right">2139</td>
+<td>ditch</td>
+<td align="right">20</td>
+</tr>
+<tr>
+<td>S083</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">7</td>
+<td align="right">2139</td>
+<td>ditch</td>
+<td align="right">7</td>
+</tr>
+<tr>
+<td>S084</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">8</td>
+<td align="right">2151</td>
+<td>ditch</td>
+<td align="right">9</td>
+</tr>
+<tr>
+<td>S085</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">9</td>
+<td align="right">2157</td>
+<td>ditch</td>
+<td align="right">11</td>
+</tr>
+<tr>
+<td>S086</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">10</td>
+<td align="right">2160</td>
+<td>ditch</td>
+<td align="right">30</td>
+</tr>
+<tr>
+<td>S087</td>
+<td>MLI25065</td>
+<td align="right">1</td>
+<td align="right">11</td>
+<td align="right">2204</td>
+<td>ditch</td>
+<td align="right">22</td>
+</tr>
+<tr>
+<td>S088</td>
+<td>MLI56354</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">115</td>
+<td>ditch</td>
+<td align="right">12</td>
+</tr>
+<tr>
+<td>S089</td>
+<td>MLI13829</td>
+<td align="right">17</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td>ditch</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td>S090</td>
+<td>MLI13829</td>
+<td align="right">21</td>
+<td align="right">1</td>
+<td align="right">506</td>
+<td>palaeochannel</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td>S091</td>
+<td>MLI13829</td>
+<td align="right">21</td>
+<td align="right">2</td>
+<td align="right">308</td>
+<td>ditch</td>
+<td align="right">16</td>
+</tr>
+<tr>
+<td>S092</td>
+<td>MLI13829</td>
+<td align="right">21</td>
+<td align="right">3</td>
+<td align="right">207</td>
+<td>ditch</td>
+<td align="right">16</td>
+</tr>
+<tr>
+<td>S093</td>
+<td>MLI13829</td>
+<td align="right">21</td>
+<td align="right">4</td>
+<td align="right">522</td>
+<td>pit</td>
+<td align="right">14</td>
+</tr>
+<tr>
+<td>S094</td>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">1</td>
+<td align="right">6</td>
+<td>ditch</td>
+<td align="right">1.5</td>
+</tr>
+<tr>
+<td>S095</td>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">2</td>
+<td align="right">7</td>
+<td>ditch</td>
+<td align="right">1.2</td>
+</tr>
+<tr>
+<td>S096</td>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">3</td>
+<td align="right">26</td>
+<td>ditch</td>
+<td align="right">2.5</td>
+</tr>
+<tr>
+<td>S097</td>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">4</td>
+<td align="right">27</td>
+<td>ditch</td>
+<td align="right">0.35</td>
+</tr>
+<tr>
+<td>S098</td>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">5</td>
+<td align="right">11</td>
+<td>ditch</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td>S099</td>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">6</td>
+<td align="right">12</td>
+<td>ditch</td>
+<td align="right">0.8</td>
+</tr>
+<tr>
+<td>S100</td>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">7</td>
+<td align="right">10</td>
+<td>ditch</td>
+<td align="right">3</td>
+</tr>
+<tr>
+<td>S101</td>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">8</td>
+<td align="right">69</td>
+<td>ditch</td>
+<td align="right">7</td>
+</tr>
+<tr>
+<td>S102</td>
+<td>MLI13829</td>
+<td align="right">12</td>
+<td align="right">9</td>
+<td align="right">35</td>
+<td>ditch</td>
+<td align="right">11</td>
+</tr>
+</tbody></table>
+</div>
+
+<div id="finds" class="tab-pane">
+  <br/>
+  
+<table id="finds" class="table table-striped table-bordered" cellspacing="0" width="100%">
+<thead><tr><th style="color:gold">bot_finds_id</th>
+<th>sample_id</th>
+<th>Order</th>
+<th>Family</th>
+<th>genus</th>
+<th>species</th>
+<th>plant_part</th>
+<th>preservation</th>
+<th>count</th>
+<th>notes</th>
+</tr></thead>
+<tbody><tr>
+<td>B001</td>
+<td>S001</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B002</td>
+<td>S002</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>vulgare</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B003</td>
+<td>S003</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>vulgare</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B004</td>
+<td>S002</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathryus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B005</td>
+<td>S002</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td>dicoccum/spelta</td>
+<td>glume</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B006</td>
+<td>S004</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B007</td>
+<td>S005</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B008</td>
+<td>S006</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B009</td>
+<td>S007</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>w</td>
+<td align="right">11</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B010</td>
+<td>S008</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B011</td>
+<td>S008</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B012</td>
+<td>S009</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>tail</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B013</td>
+<td>S009</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B014</td>
+<td>S009</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B015</td>
+<td>S010</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>tail</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B016</td>
+<td>S010</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B017</td>
+<td>S010</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B018</td>
+<td>S011</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>tail</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B019</td>
+<td>S011</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B020</td>
+<td>S011</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B021</td>
+<td>S012</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B022</td>
+<td>S012</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>tail</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B023</td>
+<td>S013</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B024</td>
+<td>S013</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B025</td>
+<td>S013</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td>sativa</td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B026</td>
+<td>S013</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>tail</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B027</td>
+<td>S014</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>tail</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B028</td>
+<td>S015</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B029</td>
+<td>S015</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td>sativa</td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B030</td>
+<td>S015</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>tail</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B031</td>
+<td>S016</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B032</td>
+<td>S016</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B033</td>
+<td>S016</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td>sativa</td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B034</td>
+<td>S016</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>tail</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B035</td>
+<td>S017</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B036</td>
+<td>S017</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B037</td>
+<td>S017</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td>sativa</td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B038</td>
+<td>S017</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>tail</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B039</td>
+<td>S018</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B040</td>
+<td>S018</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>tail</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B041</td>
+<td>S019</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B042</td>
+<td>S019</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B043</td>
+<td>S019</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td>sativa</td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B044</td>
+<td>S019</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>tail</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B045</td>
+<td>S020</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>tail</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B046</td>
+<td>S020</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td>sativa</td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B047</td>
+<td>S023</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B048</td>
+<td>S023</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td>sativa</td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B049</td>
+<td>S023</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>tail</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B050</td>
+<td>S024</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B051</td>
+<td>S024</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td>sativa</td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B052</td>
+<td>S025</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B053</td>
+<td>S025</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td>sativa</td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B054</td>
+<td>S025</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>tail</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B055</td>
+<td>S026</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B056</td>
+<td>S027</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">11</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B057</td>
+<td>S028</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">11</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B058</td>
+<td>S028</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B059</td>
+<td>S029</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">11</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B060</td>
+<td>S030</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">11</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B061</td>
+<td>S032</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B062</td>
+<td>S033</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B063</td>
+<td>S033</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B064</td>
+<td>S033</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B065</td>
+<td>S034</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B066</td>
+<td>S034</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B067</td>
+<td>S034</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B068</td>
+<td>S035</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B069</td>
+<td>S036</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B070</td>
+<td>S036</td>
+<td>Dipscales</td>
+<td>Adoxaceae</td>
+<td>Sambucus</td>
+<td>nigra</td>
+<td>seed</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B071</td>
+<td>S036</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>album</td>
+<td>seed</td>
+<td>u</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B072</td>
+<td>S037</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Polygonum</td>
+<td> </td>
+<td>seed</td>
+<td>w</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B073</td>
+<td>S037</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Rumex</td>
+<td> </td>
+<td>seed</td>
+<td>w</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B074</td>
+<td>S038</td>
+<td>Rosales</td>
+<td>Ranunculaceae</td>
+<td>Thalictrum</td>
+<td> </td>
+<td>seed</td>
+<td>w</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B075</td>
+<td>S038</td>
+<td>Fagales</td>
+<td>Betulaceae/Corylaceae</td>
+<td>Corylus</td>
+<td>avellana</td>
+<td>shell</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B076</td>
+<td>S038</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Pisum</td>
+<td>sativa</td>
+<td>seed</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B077</td>
+<td>S038</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia</td>
+<td>faba</td>
+<td>seed</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B078</td>
+<td>S038</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B079</td>
+<td>S038</td>
+<td>Brassicales</td>
+<td>Brassicaceae</td>
+<td>Brassica</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B080</td>
+<td>S038</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B081</td>
+<td>S038</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B082</td>
+<td>S038</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B083</td>
+<td>S038</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>chaff</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B084</td>
+<td>S039</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B085</td>
+<td>S040</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B086</td>
+<td>S041</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B087</td>
+<td>S043</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B088</td>
+<td>S044</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1578</td>
+<td>germinated</td>
+</tr>
+<tr>
+<td>B089</td>
+<td>S044</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>hulled</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">415</td>
+<td>germinated</td>
+</tr>
+<tr>
+<td>B090</td>
+<td>S044</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">26</td>
+<td>germinated</td>
+</tr>
+<tr>
+<td>B091</td>
+<td>S044</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>glume</td>
+<td>c</td>
+<td align="right"></td>
+<td> </td>
+</tr>
+<tr>
+<td>B092</td>
+<td>S044</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>stem</td>
+<td>c</td>
+<td align="right"></td>
+<td> </td>
+</tr>
+<tr>
+<td>B093</td>
+<td>S044</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>rachis</td>
+<td>c</td>
+<td align="right"></td>
+<td> </td>
+</tr>
+<tr>
+<td>B094</td>
+<td>S044</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>plumules</td>
+<td>c</td>
+<td align="right"></td>
+<td> </td>
+</tr>
+<tr>
+<td>B095</td>
+<td>S044</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">12</td>
+<td> </td>
+</tr>
+<tr>
+<td>B096</td>
+<td>S044</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td>album</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">5</td>
+<td> </td>
+</tr>
+<tr>
+<td>B097</td>
+<td>S044</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Rumex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B098</td>
+<td>S044</td>
+<td>Caryophyllales</td>
+<td>Caryophyllaceae</td>
+<td>Agrostemma</td>
+<td>githago</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B099</td>
+<td>S045</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>hulled</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">8</td>
+<td> </td>
+</tr>
+<tr>
+<td>B100</td>
+<td>S045</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">25</td>
+<td> </td>
+</tr>
+<tr>
+<td>B101</td>
+<td>S045</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B102</td>
+<td>S045</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia</td>
+<td>faba</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B103</td>
+<td>S045</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia</td>
+<td>sativa</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">11</td>
+<td> </td>
+</tr>
+<tr>
+<td>B104</td>
+<td>S046</td>
+<td>Apiales</td>
+<td>Apiaceae</td>
+<td>Conium</td>
+<td>maculatum</td>
+<td>seed</td>
+<td>u</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B105</td>
+<td>S046</td>
+<td>Dipsacales</td>
+<td>Adoxaceae</td>
+<td>Sambucus</td>
+<td>nigra</td>
+<td>seed</td>
+<td>u</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B106</td>
+<td>S046</td>
+<td>Rosales</td>
+<td>Rosaceae</td>
+<td>Rubus</td>
+<td>fruticosus</td>
+<td>seed</td>
+<td>u</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B107</td>
+<td>S046</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B108</td>
+<td>S047</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">6</td>
+<td> </td>
+</tr>
+<tr>
+<td>B109</td>
+<td>S047</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">12</td>
+<td> </td>
+</tr>
+<tr>
+<td>B110</td>
+<td>S047</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">9</td>
+<td> </td>
+</tr>
+<tr>
+<td>B111</td>
+<td>S047</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>rachis</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B112</td>
+<td>S047</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>u</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B113</td>
+<td>S047</td>
+<td>Rosales</td>
+<td>Rosaceae</td>
+<td>Prunus</td>
+<td>domestica</td>
+<td>seed</td>
+<td>u</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B114</td>
+<td>S047</td>
+<td>Dipscales</td>
+<td>Adoxaceae</td>
+<td>Sambucus</td>
+<td>nigra</td>
+<td>seed</td>
+<td>u</td>
+<td align="right">877</td>
+<td> </td>
+</tr>
+<tr>
+<td>B115</td>
+<td>S047</td>
+<td>Apiales</td>
+<td>Apiaceae</td>
+<td>Conium</td>
+<td>maculatum</td>
+<td>seed</td>
+<td>u</td>
+<td align="right">9</td>
+<td> </td>
+</tr>
+<tr>
+<td>B116</td>
+<td>S047</td>
+<td>Rosales</td>
+<td>Urticaceae</td>
+<td>Urtica</td>
+<td> </td>
+<td>seed</td>
+<td>u</td>
+<td align="right">710</td>
+<td> </td>
+</tr>
+<tr>
+<td>B117</td>
+<td>S047</td>
+<td>Caryophyllales</td>
+<td>Caryophyllaceae</td>
+<td>Stellaria</td>
+<td>media</td>
+<td>seed</td>
+<td>u</td>
+<td align="right">130</td>
+<td> </td>
+</tr>
+<tr>
+<td>B118</td>
+<td>S047</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Rumex/Carex</td>
+<td> </td>
+<td>seed</td>
+<td>u</td>
+<td align="right">38</td>
+<td> </td>
+</tr>
+<tr>
+<td>B119</td>
+<td>S047</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Atriplex</td>
+<td>album</td>
+<td>seed</td>
+<td>u</td>
+<td align="right">64</td>
+<td> </td>
+</tr>
+<tr>
+<td>B120</td>
+<td>S047</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Polygonum</td>
+<td> </td>
+<td>seed</td>
+<td>u</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B121</td>
+<td>S047</td>
+<td>Lamiales</td>
+<td>Lamiaceae</td>
+<td>Lamium</td>
+<td> </td>
+<td>seed</td>
+<td>u</td>
+<td align="right">554</td>
+<td> </td>
+</tr>
+<tr>
+<td>B122</td>
+<td>S047</td>
+<td>Caryophyllales</td>
+<td>Caryophyllaceae</td>
+<td>Silene</td>
+<td> </td>
+<td>seed</td>
+<td>u</td>
+<td align="right">15</td>
+<td> </td>
+</tr>
+<tr>
+<td>B123</td>
+<td>S047</td>
+<td>Rosales</td>
+<td>Rosaceae</td>
+<td>Rosa</td>
+<td> </td>
+<td>seed</td>
+<td>u</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B124</td>
+<td>S047</td>
+<td>Asterales</td>
+<td>Asteraceae</td>
+<td>Lapsana</td>
+<td>communis</td>
+<td>seed</td>
+<td>u</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B125</td>
+<td>S047</td>
+<td>Asterales</td>
+<td>Asteraceae</td>
+<td>Cirsium</td>
+<td> </td>
+<td>seed</td>
+<td>u</td>
+<td align="right">10</td>
+<td> </td>
+</tr>
+<tr>
+<td>B126</td>
+<td>S047</td>
+<td> </td>
+<td>Gramineae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>u</td>
+<td align="right">35</td>
+<td> </td>
+</tr>
+<tr>
+<td>B127</td>
+<td>S048</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B128</td>
+<td>S048</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B129</td>
+<td>S049</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B130</td>
+<td>S050</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B131</td>
+<td>S051</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B132</td>
+<td>S051</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B133</td>
+<td>S052</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B134</td>
+<td>S052</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Pisum</td>
+<td>sativa</td>
+<td>seed</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B135</td>
+<td>S053</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Pisum</td>
+<td>sativa</td>
+<td>seed</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B136</td>
+<td>S053</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+</tr>
+<tr>
+<td>B137</td>
+<td>S056</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">8</td>
+<td> </td>
+</tr>
+<tr>
+<td>B138</td>
+<td>S056</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>hulled</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">52</td>
+<td> </td>
+</tr>
+<tr>
+<td>B139</td>
+<td>S056</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td> </td>
+</tr>
+<tr>
+<td>B140</td>
+<td>S056</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">7</td>
+<td> </td>
+</tr>
+<tr>
+<td>B141</td>
+<td>S056</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">18</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B142</td>
+<td>S056</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">94</td>
+<td> </td>
+</tr>
+<tr>
+<td>B143</td>
+<td>S056</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>rachis</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B144</td>
+<td>S056</td>
+<td>Rosales</td>
+<td>Ranunculaceae</td>
+<td>Ranunculus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B145</td>
+<td>S056</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">4</td>
+<td> </td>
+</tr>
+<tr>
+<td>B146</td>
+<td>S056</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">7</td>
+<td> </td>
+</tr>
+<tr>
+<td>B147</td>
+<td>S056</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathryus/Pisum</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">3.5</td>
+<td> </td>
+</tr>
+<tr>
+<td>B148</td>
+<td>S056</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathryus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B149</td>
+<td>S056</td>
+<td>Fabales</td>
+<td>Leguminousae</td>
+<td> </td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B150</td>
+<td>S056</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Polygonum</td>
+<td>convolvulus</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B151</td>
+<td>S056</td>
+<td>Asterales</td>
+<td>Asteraceae</td>
+<td>Anthemis</td>
+<td>cotula</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">4</td>
+<td> </td>
+</tr>
+<tr>
+<td>B152</td>
+<td>S056</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td>Eleocharis</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B153</td>
+<td>S056</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Carex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">8</td>
+<td> </td>
+</tr>
+<tr>
+<td>B154</td>
+<td>S056</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B155</td>
+<td>S056</td>
+<td> </td>
+<td>Indet</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">23</td>
+<td> </td>
+</tr>
+<tr>
+<td>B156</td>
+<td>S057</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>vulgare</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">8</td>
+<td> </td>
+</tr>
+<tr>
+<td>B157</td>
+<td>S057</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>hulled</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">129</td>
+<td> </td>
+</tr>
+<tr>
+<td>B158</td>
+<td>S057</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">11</td>
+<td> </td>
+</tr>
+<tr>
+<td>B159</td>
+<td>S057</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">14</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B160</td>
+<td>S057</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">8</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B161</td>
+<td>S057</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B162</td>
+<td>S057</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">127</td>
+<td> </td>
+</tr>
+<tr>
+<td>B163</td>
+<td>S057</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>rachis</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B164</td>
+<td>S057</td>
+<td>Rosales</td>
+<td>Ranunculaceae</td>
+<td>Ranunculus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B165</td>
+<td>S057</td>
+<td>Brassicales</td>
+<td>Brassicaceae</td>
+<td>Brassica</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B166</td>
+<td>S057</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Atriplex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">11</td>
+<td> </td>
+</tr>
+<tr>
+<td>B167</td>
+<td>S057</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">5</td>
+<td> </td>
+</tr>
+<tr>
+<td>B168</td>
+<td>S057</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">8</td>
+<td> </td>
+</tr>
+<tr>
+<td>B169</td>
+<td>S057</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathryus/Pisum</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">12</td>
+<td> </td>
+</tr>
+<tr>
+<td>B170</td>
+<td>S057</td>
+<td>Fabales</td>
+<td>Leguminousae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">22</td>
+<td> </td>
+</tr>
+<tr>
+<td>B171</td>
+<td>S057</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Rumex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B172</td>
+<td>S057</td>
+<td>Lamiales</td>
+<td>Lamiaceae</td>
+<td>Prunella</td>
+<td>vulgaris</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B173</td>
+<td>S057</td>
+<td>Asterales</td>
+<td>Asteraceae</td>
+<td>Anthemis</td>
+<td>cotula</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">16</td>
+<td> </td>
+</tr>
+<tr>
+<td>B174</td>
+<td>S057</td>
+<td> </td>
+<td>Gramineae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B175</td>
+<td>S057</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td>Scirpus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">24</td>
+<td> </td>
+</tr>
+<tr>
+<td>B176</td>
+<td>S057</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td>Scirpus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">51</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B177</td>
+<td>S057</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Carex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">10</td>
+<td> </td>
+</tr>
+<tr>
+<td>B178</td>
+<td>S057</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">13</td>
+<td> </td>
+</tr>
+<tr>
+<td>B179</td>
+<td>S057</td>
+<td> </td>
+<td>Indet</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">38</td>
+<td> </td>
+</tr>
+<tr>
+<td>B180</td>
+<td>S057</td>
+<td>Malpighiales</td>
+<td>Linaceae</td>
+<td>Linum</td>
+<td>usitatissimum</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B181</td>
+<td>S058</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td>aestivum</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">13</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B182</td>
+<td>S058</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">3</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B183</td>
+<td>S058</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">34</td>
+<td> </td>
+</tr>
+<tr>
+<td>B184</td>
+<td>S058</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">24</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B185</td>
+<td>S058</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B186</td>
+<td>S058</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">4</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B187</td>
+<td>S058</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">25</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B188</td>
+<td>S058</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">80</td>
+<td> </td>
+</tr>
+<tr>
+<td>B189</td>
+<td>S058</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">10</td>
+<td> </td>
+</tr>
+<tr>
+<td>B190</td>
+<td>S058</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">8</td>
+<td> </td>
+</tr>
+<tr>
+<td>B191</td>
+<td>S058</td>
+<td>Fabales</td>
+<td>Leguminousae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B192</td>
+<td>S058</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Rumex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B193</td>
+<td>S058</td>
+<td>Lamiales</td>
+<td>Plantaginaceae</td>
+<td>Plantago</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B194</td>
+<td>S058</td>
+<td>Gentianales</td>
+<td>Rubiaceae</td>
+<td>Galium</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B195</td>
+<td>S058</td>
+<td>Asterales</td>
+<td>Asteraceae</td>
+<td>Anthemis</td>
+<td>cotula</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B196</td>
+<td>S058</td>
+<td> </td>
+<td>Indet</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B197</td>
+<td>S059</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">16</td>
+<td> </td>
+</tr>
+<tr>
+<td>B198</td>
+<td>S059</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">5</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B199</td>
+<td>S059</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">6</td>
+<td> </td>
+</tr>
+<tr>
+<td>B200</td>
+<td>S059</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">52</td>
+<td> </td>
+</tr>
+<tr>
+<td>B201</td>
+<td>S059</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B202</td>
+<td>S059</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B203</td>
+<td>S059</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathyrus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B204</td>
+<td>S059</td>
+<td>Asterales</td>
+<td>Asteraceae</td>
+<td>Anthemis</td>
+<td>cotula</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B205</td>
+<td>S059</td>
+<td> </td>
+<td>Gramineae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B206</td>
+<td>S060</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td>spelta</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B207</td>
+<td>S060</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>hulled</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">17</td>
+<td> </td>
+</tr>
+<tr>
+<td>B208</td>
+<td>S060</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">6</td>
+<td> </td>
+</tr>
+<tr>
+<td>B209</td>
+<td>S060</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">8</td>
+<td> </td>
+</tr>
+<tr>
+<td>B210</td>
+<td>S060</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">27</td>
+<td> </td>
+</tr>
+<tr>
+<td>B211</td>
+<td>S060</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td>album</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">5</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B212</td>
+<td>S060</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathyrus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B213</td>
+<td>S060</td>
+<td>Fabales</td>
+<td>Leguminousae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">8</td>
+<td> </td>
+</tr>
+<tr>
+<td>B214</td>
+<td>S060</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Polygonum</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B215</td>
+<td>S060</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Rumex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B216</td>
+<td>S060</td>
+<td>Gentianales</td>
+<td>Rubiaceae</td>
+<td>Galium</td>
+<td>aparine</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B217</td>
+<td>S060</td>
+<td>Asterales</td>
+<td>Compositae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B218</td>
+<td>S061</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td>aestivum</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B219</td>
+<td>S061</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B220</td>
+<td>S061</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>vulgare</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B221</td>
+<td>S061</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>hulled</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B222</td>
+<td>S061</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B223</td>
+<td>S061</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B224</td>
+<td>S061</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">8</td>
+<td> </td>
+</tr>
+<tr>
+<td>B225</td>
+<td>S061</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B226</td>
+<td>S061</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B227</td>
+<td>S061</td>
+<td>Fabales</td>
+<td>Leguminousae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B228</td>
+<td>S061</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Rumex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B229</td>
+<td>S061</td>
+<td> </td>
+<td>Indet</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B230</td>
+<td>S062</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">9</td>
+<td> </td>
+</tr>
+<tr>
+<td>B231</td>
+<td>S063</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B232</td>
+<td>S063</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>vulgare</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B233</td>
+<td>S063</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>hulled</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">50</td>
+<td> </td>
+</tr>
+<tr>
+<td>B234</td>
+<td>S063</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">64</td>
+<td> </td>
+</tr>
+<tr>
+<td>B235</td>
+<td>S063</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">9</td>
+<td> </td>
+</tr>
+<tr>
+<td>B236</td>
+<td>S063</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">23</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B237</td>
+<td>S063</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">21</td>
+<td> </td>
+</tr>
+<tr>
+<td>B238</td>
+<td>S063</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">140</td>
+<td> </td>
+</tr>
+<tr>
+<td>B239</td>
+<td>S063</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Atriplex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B240</td>
+<td>S063</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathyrus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1.5</td>
+<td> </td>
+</tr>
+<tr>
+<td>B241</td>
+<td>S063</td>
+<td>Fabales</td>
+<td>Leguminousae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">4</td>
+<td> </td>
+</tr>
+<tr>
+<td>B242</td>
+<td>S063</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Rumex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B243</td>
+<td>S063</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Polygonum</td>
+<td>convolvulus</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B244</td>
+<td>S063</td>
+<td>Asterales</td>
+<td>Asteraceae</td>
+<td>Anthemis</td>
+<td>cotula</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">6</td>
+<td> </td>
+</tr>
+<tr>
+<td>B245</td>
+<td>S063</td>
+<td>Asterales</td>
+<td>Compositae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B246</td>
+<td>S063</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td>Scirpus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">15</td>
+<td> </td>
+</tr>
+<tr>
+<td>B247</td>
+<td>S063</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Carex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B248</td>
+<td>S063</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">4</td>
+<td> </td>
+</tr>
+<tr>
+<td>B249</td>
+<td>S063</td>
+<td> </td>
+<td>Indet</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">11</td>
+<td> </td>
+</tr>
+<tr>
+<td>B250</td>
+<td>S063</td>
+<td>Malpighiales</td>
+<td>Linaceae</td>
+<td>Linum</td>
+<td>usitatissimum</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B251</td>
+<td>S064</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>vulgare</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B252</td>
+<td>S064</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>hulled</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">18</td>
+<td> </td>
+</tr>
+<tr>
+<td>B253</td>
+<td>S064</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">16</td>
+<td> </td>
+</tr>
+<tr>
+<td>B254</td>
+<td>S064</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">7</td>
+<td> </td>
+</tr>
+<tr>
+<td>B255</td>
+<td>S064</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">21</td>
+<td> </td>
+</tr>
+<tr>
+<td>B256</td>
+<td>S064</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B257</td>
+<td>S064</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathryus/Pisum</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B258</td>
+<td>S064</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td>Scirpus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B259</td>
+<td>S064</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Carex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B260</td>
+<td>S064</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B261</td>
+<td>S064</td>
+<td> </td>
+<td>Indet</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B262</td>
+<td>S065</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>hulled</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">18</td>
+<td> </td>
+</tr>
+<tr>
+<td>B263</td>
+<td>S065</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">16</td>
+<td> </td>
+</tr>
+<tr>
+<td>B264</td>
+<td>S065</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B265</td>
+<td>S065</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">15</td>
+<td> </td>
+</tr>
+<tr>
+<td>B266</td>
+<td>S065</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">4</td>
+<td> </td>
+</tr>
+<tr>
+<td>B267</td>
+<td>S065</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathryus/Pisum</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">5</td>
+<td> </td>
+</tr>
+<tr>
+<td>B268</td>
+<td>S065</td>
+<td>Fabales</td>
+<td>Leguminousae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">5</td>
+<td> </td>
+</tr>
+<tr>
+<td>B269</td>
+<td>S065</td>
+<td> </td>
+<td>Gramineae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B270</td>
+<td>S065</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td>Scirpus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B271</td>
+<td>S065</td>
+<td> </td>
+<td>Indet</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">4</td>
+<td> </td>
+</tr>
+<tr>
+<td>B272</td>
+<td>S065</td>
+<td>Fagales</td>
+<td>Betulaceae/Corylaceae</td>
+<td>Corylus</td>
+<td>avellana</td>
+<td>shell</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B273</td>
+<td>S066</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">6</td>
+<td> </td>
+</tr>
+<tr>
+<td>B274</td>
+<td>S066</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B275</td>
+<td>S066</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B276</td>
+<td>S066</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">3</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B277</td>
+<td>S066</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B278</td>
+<td>S066</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>chaff</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B279</td>
+<td>S066</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathryus/Pisum</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B280</td>
+<td>S066</td>
+<td>Fabales</td>
+<td>Leguminousae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B281</td>
+<td>S066</td>
+<td>Gentianales</td>
+<td>Rubiaceae</td>
+<td>Galium</td>
+<td>aparine</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B282</td>
+<td>S066</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td>Scirpus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">6</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B283</td>
+<td>S066</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">8</td>
+<td> </td>
+</tr>
+<tr>
+<td>B284</td>
+<td>S066</td>
+<td> </td>
+<td>Indet</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">6</td>
+<td> </td>
+</tr>
+<tr>
+<td>B285</td>
+<td>S066</td>
+<td>Fagales</td>
+<td>Betulaceae/Corylaceae</td>
+<td>Corylus</td>
+<td>avellana</td>
+<td>shell</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B286</td>
+<td>S067</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td>aestivum</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">4</td>
+<td> </td>
+</tr>
+<tr>
+<td>B287</td>
+<td>S067</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>vulgare</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">28</td>
+<td> </td>
+</tr>
+<tr>
+<td>B288</td>
+<td>S067</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>hulled</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">340</td>
+<td> </td>
+</tr>
+<tr>
+<td>B289</td>
+<td>S067</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">294</td>
+<td> </td>
+</tr>
+<tr>
+<td>B290</td>
+<td>S067</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">258</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B291</td>
+<td>S067</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">48</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B292</td>
+<td>S067</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">182</td>
+<td> </td>
+</tr>
+<tr>
+<td>B293</td>
+<td>S067</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">500</td>
+<td> </td>
+</tr>
+<tr>
+<td>B294</td>
+<td>S067</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>vulgare</td>
+<td>rachis</td>
+<td>c</td>
+<td align="right">12</td>
+<td> </td>
+</tr>
+<tr>
+<td>B295</td>
+<td>S067</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>chaff</td>
+<td>c</td>
+<td align="right">10</td>
+<td> </td>
+</tr>
+<tr>
+<td>B296</td>
+<td>S067</td>
+<td>Brassicales</td>
+<td>Brassicaceae</td>
+<td>Brassica</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B297</td>
+<td>S067</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B298</td>
+<td>S067</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">16</td>
+<td> </td>
+</tr>
+<tr>
+<td>B299</td>
+<td>S067</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathyrus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">4</td>
+<td> </td>
+</tr>
+<tr>
+<td>B300</td>
+<td>S067</td>
+<td>Fabales</td>
+<td>Leguminousae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">22</td>
+<td> </td>
+</tr>
+<tr>
+<td>B301</td>
+<td>S067</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Rumex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B302</td>
+<td>S067</td>
+<td> </td>
+<td>Boraginaceae</td>
+<td>Lithospermum</td>
+<td>arvense</td>
+<td>seed</td>
+<td>m</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B303</td>
+<td>S067</td>
+<td>Rosales</td>
+<td>Urticaceae</td>
+<td>Urtica</td>
+<td>dioica</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B304</td>
+<td>S067</td>
+<td>Gentianales</td>
+<td>Rubiaceae</td>
+<td>Galium</td>
+<td>aparine</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">10</td>
+<td> </td>
+</tr>
+<tr>
+<td>B305</td>
+<td>S067</td>
+<td>Gentianales</td>
+<td>Rubiaceae</td>
+<td>Galium</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">4</td>
+<td> </td>
+</tr>
+<tr>
+<td>B306</td>
+<td>S067</td>
+<td>Asterales</td>
+<td>Asteraceae</td>
+<td>Anthemis</td>
+<td>cotula</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">16</td>
+<td> </td>
+</tr>
+<tr>
+<td>B307</td>
+<td>S067</td>
+<td>Asterales</td>
+<td>Compositae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B308</td>
+<td>S067</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Bromus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B309</td>
+<td>S067</td>
+<td> </td>
+<td>Gramineae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">38</td>
+<td> </td>
+</tr>
+<tr>
+<td>B310</td>
+<td>S067</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td>Scirpus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B311</td>
+<td>S067</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Carex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B312</td>
+<td>S067</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B313</td>
+<td>S067</td>
+<td>Dipscales</td>
+<td>Adoxaceae</td>
+<td>Sambucus</td>
+<td>nigra</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B314</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td>aestivum</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B315</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B316</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>vulgare</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">11</td>
+<td> </td>
+</tr>
+<tr>
+<td>B317</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>hulled</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">548</td>
+<td> </td>
+</tr>
+<tr>
+<td>B318</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">93</td>
+<td> </td>
+</tr>
+<tr>
+<td>B319</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">72</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B320</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">30</td>
+<td> </td>
+</tr>
+<tr>
+<td>B321</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">56</td>
+<td> </td>
+</tr>
+<tr>
+<td>B322</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Secale</td>
+<td>cereale</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">28</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B323</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">65</td>
+<td> </td>
+</tr>
+<tr>
+<td>B324</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">225</td>
+<td> </td>
+</tr>
+<tr>
+<td>B325</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>vulgare</td>
+<td>rachis</td>
+<td>c</td>
+<td align="right">9</td>
+<td> </td>
+</tr>
+<tr>
+<td>B326</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>dissichum</td>
+<td>rachis</td>
+<td>c</td>
+<td align="right">6</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B327</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>rachis</td>
+<td>c</td>
+<td align="right">18</td>
+<td> </td>
+</tr>
+<tr>
+<td>B328</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>chaff</td>
+<td>c</td>
+<td align="right">9</td>
+<td> </td>
+</tr>
+<tr>
+<td>B329</td>
+<td>S068</td>
+<td>Brassicales</td>
+<td>Brassicaceae</td>
+<td>Brassica</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">4</td>
+<td> </td>
+</tr>
+<tr>
+<td>B330</td>
+<td>S068</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B331</td>
+<td>S068</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">6</td>
+<td> </td>
+</tr>
+<tr>
+<td>B332</td>
+<td>S068</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathryus/Pisum</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B333</td>
+<td>S068</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathyrus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">7</td>
+<td> </td>
+</tr>
+<tr>
+<td>B334</td>
+<td>S068</td>
+<td>Fabales</td>
+<td>Leguminousae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">5</td>
+<td> </td>
+</tr>
+<tr>
+<td>B335</td>
+<td>S068</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Rumex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B336</td>
+<td>S068</td>
+<td>Gentianales</td>
+<td>Rubiaceae</td>
+<td>Galium</td>
+<td>aparine</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">6</td>
+<td> </td>
+</tr>
+<tr>
+<td>B337</td>
+<td>S068</td>
+<td> </td>
+<td>Gramineae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B338</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td>Eleocharis</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B339</td>
+<td>S068</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td>Scirpus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B340</td>
+<td>S068</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Carex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">4</td>
+<td> </td>
+</tr>
+<tr>
+<td>B341</td>
+<td>S068</td>
+<td> </td>
+<td>Indet</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">5</td>
+<td> </td>
+</tr>
+<tr>
+<td>B342</td>
+<td>S069</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B343</td>
+<td>S069</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>vulgare</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B344</td>
+<td>S069</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>hulled</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">10</td>
+<td> </td>
+</tr>
+<tr>
+<td>B345</td>
+<td>S069</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">20</td>
+<td> </td>
+</tr>
+<tr>
+<td>B346</td>
+<td>S069</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>dissichum</td>
+<td>rachis</td>
+<td>c</td>
+<td align="right">1</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B347</td>
+<td>S069</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>rachis</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B348</td>
+<td>S069</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>chaff</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B349</td>
+<td>S069</td>
+<td>Fabales</td>
+<td>Leguminousae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B350</td>
+<td>S069</td>
+<td>Poales</td>
+<td>Cyperaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B351</td>
+<td>S070</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B352</td>
+<td>S070</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B353</td>
+<td>S070</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>frag</td>
+<td>c</td>
+<td align="right">9</td>
+<td> </td>
+</tr>
+<tr>
+<td>B354</td>
+<td>S070</td>
+<td>Fabales</td>
+<td>Leguminousae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B355</td>
+<td>S070</td>
+<td>Dipscales</td>
+<td>Adoxaceae</td>
+<td>Sambucus</td>
+<td>nigra</td>
+<td>seed</td>
+<td>m</td>
+<td align="right">1</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B356</td>
+<td>S088</td>
+<td>Brassicales</td>
+<td>Brassicaceae</td>
+<td>Raphanus</td>
+<td>raphanistrum</td>
+<td>pod</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B357</td>
+<td>S088</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B358</td>
+<td>S088</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B359</td>
+<td>S088</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Pisum/Vicia</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B360</td>
+<td>S088</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Secale</td>
+<td>cereale</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B361</td>
+<td>S088</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">3</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B362</td>
+<td>S088</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B363</td>
+<td>S088</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B364</td>
+<td>S088</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Rumex</td>
+<td> </td>
+<td>nutlet</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B365</td>
+<td>S088</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B366</td>
+<td>S089</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B367</td>
+<td>S089</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>lemma</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B368</td>
+<td>S089</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>palea</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B369</td>
+<td>S090</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B370</td>
+<td>S091</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>unknown</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B371</td>
+<td>S091</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>unknown</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B372</td>
+<td>S091</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>unknown</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B373</td>
+<td>S092</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B374</td>
+<td>S092</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B375</td>
+<td>S092</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right"></td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B376</td>
+<td>S093</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B377</td>
+<td>S094</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B378</td>
+<td>S095</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td>aestivum</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">25</td>
+<td> </td>
+</tr>
+<tr>
+<td>B379</td>
+<td>S095</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td>aestivum</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B380</td>
+<td>S095</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">9</td>
+<td> </td>
+</tr>
+<tr>
+<td>B381</td>
+<td>S095</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Secale</td>
+<td>cereale</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B382</td>
+<td>S095</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Secale</td>
+<td>cereale</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">4</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B383</td>
+<td>S095</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum/Secale</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">7</td>
+<td> </td>
+</tr>
+<tr>
+<td>B384</td>
+<td>S095</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B385</td>
+<td>S095</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B386</td>
+<td>S095</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">37</td>
+<td> </td>
+</tr>
+<tr>
+<td>B387</td>
+<td>S095</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathyrus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">5</td>
+<td> </td>
+</tr>
+<tr>
+<td>B388</td>
+<td>S095</td>
+<td>Fabales</td>
+<td>Leguminousae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B389</td>
+<td>S095</td>
+<td>Asterales</td>
+<td>Asteraceae</td>
+<td>Anthemis</td>
+<td>cotula</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">6</td>
+<td> </td>
+</tr>
+<tr>
+<td>B390</td>
+<td>S095</td>
+<td>Asterales</td>
+<td>Asteraceae</td>
+<td>Centaurea</td>
+<td>cyanus</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B391</td>
+<td>S095</td>
+<td> </td>
+<td>Indet</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B392</td>
+<td>S095</td>
+<td>Rosales</td>
+<td>Rosaceae</td>
+<td>Prunus</td>
+<td> </td>
+<td>seed</td>
+<td>m</td>
+<td align="right">9</td>
+<td> </td>
+</tr>
+<tr>
+<td>B393</td>
+<td>S096</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B394</td>
+<td>S096</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B395</td>
+<td>S096</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">9</td>
+<td> </td>
+</tr>
+<tr>
+<td>B396</td>
+<td>S096</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathyrus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B397</td>
+<td>S096</td>
+<td>Fagales</td>
+<td>Betulaceae/Corylaceae</td>
+<td>Corylus</td>
+<td>avellana</td>
+<td>shell</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B398</td>
+<td>S096</td>
+<td> </td>
+<td>Indet</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B399</td>
+<td>S096</td>
+<td>Rosales</td>
+<td>Rosaceae</td>
+<td>Prunus</td>
+<td> </td>
+<td>seed</td>
+<td>m</td>
+<td align="right">22</td>
+<td> </td>
+</tr>
+<tr>
+<td>B400</td>
+<td>S096</td>
+<td> </td>
+<td>Gramineae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>m</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B401</td>
+<td>S098</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td>aestivum</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B402</td>
+<td>S098</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td>aestivum</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B403</td>
+<td>S098</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B404</td>
+<td>S098</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">7</td>
+<td> </td>
+</tr>
+<tr>
+<td>B405</td>
+<td>S098</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B406</td>
+<td>S098</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">18</td>
+<td> </td>
+</tr>
+<tr>
+<td>B407</td>
+<td>S098</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B408</td>
+<td>S098</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathyrus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B409</td>
+<td>S098</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Polygonum</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B410</td>
+<td>S098</td>
+<td>Caryophyllales</td>
+<td>Polygonaceae</td>
+<td>Rumex</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B411</td>
+<td>S098</td>
+<td> </td>
+<td>Indet</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">3</td>
+<td> </td>
+</tr>
+<tr>
+<td>B412</td>
+<td>S099</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td>aestivum</td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B413</td>
+<td>S099</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">20</td>
+<td> </td>
+</tr>
+<tr>
+<td>B414</td>
+<td>S099</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>rachis</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B415</td>
+<td>S099</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Avena</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">2</td>
+<td>cf</td>
+</tr>
+<tr>
+<td>B416</td>
+<td>S099</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">54</td>
+<td> </td>
+</tr>
+<tr>
+<td>B417</td>
+<td>S099</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B418</td>
+<td>S099</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathyrus</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B419</td>
+<td>S099</td>
+<td>Asterales</td>
+<td>Asteraceae</td>
+<td>Anthemis</td>
+<td>cotula</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B420</td>
+<td>S100</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B421</td>
+<td>S100</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">6</td>
+<td> </td>
+</tr>
+<tr>
+<td>B422</td>
+<td>S100</td>
+<td>Asterales</td>
+<td>Asteraceae</td>
+<td>Anthemis</td>
+<td>cotula</td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B423</td>
+<td>S100</td>
+<td> </td>
+<td>Gramineae</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">2</td>
+<td> </td>
+</tr>
+<tr>
+<td>B424</td>
+<td>S100</td>
+<td> </td>
+<td>Indet</td>
+<td> </td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B425</td>
+<td>S100</td>
+<td>Fabales</td>
+<td>Fabaceae</td>
+<td>Vicia/Lathyrus</td>
+<td> </td>
+<td>seed</td>
+<td>m</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B426</td>
+<td>S101</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td>aestivum</td>
+<td>rachis</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B427</td>
+<td>S101</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">4</td>
+<td> </td>
+</tr>
+<tr>
+<td>B428</td>
+<td>S101</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>rachis</td>
+<td>c</td>
+<td align="right">1</td>
+<td> </td>
+</tr>
+<tr>
+<td>B429</td>
+<td>S101</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>grain</td>
+<td>c</td>
+<td align="right">22</td>
+<td> </td>
+</tr>
+<tr>
+<td>B430</td>
+<td>S101</td>
+<td>Dipscales</td>
+<td>Adoxaceae</td>
+<td>Sambucus</td>
+<td> </td>
+<td>seed</td>
+<td>w</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B431</td>
+<td>S101</td>
+<td>Rosales</td>
+<td>Rosaceae</td>
+<td>Rubus</td>
+<td> </td>
+<td>seed</td>
+<td>w</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B432</td>
+<td>S101</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td> </td>
+<td>seed</td>
+<td>w</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B433</td>
+<td>S102</td>
+<td>Poales</td>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>seed</td>
+<td>c</td>
+<td align="right">15</td>
+<td> </td>
+</tr>
+<tr>
+<td>B434</td>
+<td>S102</td>
+<td>Dipscales</td>
+<td>Adoxaceae</td>
+<td>Sambucus</td>
+<td> </td>
+<td>seed</td>
+<td>w</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B435</td>
+<td>S102</td>
+<td>Rosales</td>
+<td>Rosaceae</td>
+<td>Rubus</td>
+<td> </td>
+<td>seed</td>
+<td>w</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+<tr>
+<td>B436</td>
+<td>S102</td>
+<td>Caryophyllales</td>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td> </td>
+<td>seed</td>
+<td>w</td>
+<td align="right">1</td>
+<td>unquant</td>
+</tr>
+</tbody></table>
+
+</div>
+
+<div id="planttype" class="tab-pane">
+  <br/>
+  
+<table id="planttype" class="table table-striped table-bordered" cellspacing="0" width="100%">
+<thead><tr><th style="color:gold">family</th>
+<th style="color:gold">genus</th>
+<th style="color:gold">species</th>
+<th>common_name</th>
+<th>plant_type</th>
+</tr></thead>
+<tbody><tr>
+<td>Adoxaceae</td>
+<td>Sambucus</td>
+<td>nigra</td>
+<td>elder</td>
+<td>berry</td>
+</tr>
+<tr>
+<td>Apiaceae</td>
+<td>Conium</td>
+<td>maculatum</td>
+<td>hemlock</td>
+<td>poison</td>
+</tr>
+<tr>
+<td>Asteraceae</td>
+<td>Anthemis</td>
+<td>cotula</td>
+<td>stinking mayweed</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Asteraceae</td>
+<td>Centaurea</td>
+<td>cyanus</td>
+<td>cornflower</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Asteraceae</td>
+<td>Cirsium</td>
+<td> </td>
+<td>thistle</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Asteraceae</td>
+<td>Lapsana</td>
+<td>communis</td>
+<td>nipplewort</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Betulaceae/Corylaceae</td>
+<td>Corylus</td>
+<td>avellana</td>
+<td>hazelnut</td>
+<td>nut</td>
+</tr>
+<tr>
+<td>Boraginaceae</td>
+<td>Lithospermum</td>
+<td>arvense</td>
+<td>field gromwell</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Brassicales</td>
+<td>Brassica</td>
+<td> </td>
+<td> </td>
+<td>cole crop</td>
+</tr>
+<tr>
+<td>Brassicaceae</td>
+<td>Raphanus</td>
+<td>raphanistrum</td>
+<td>wild radish</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Caryophyllaceae</td>
+<td>Agrostemma</td>
+<td>githago</td>
+<td>corncockle</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Caryophyllaceae</td>
+<td>Silene</td>
+<td> </td>
+<td>campion/catchfly</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Caryophyllaceae</td>
+<td>Stellaria</td>
+<td>media</td>
+<td>chickweed</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Chenopodiaceae</td>
+<td> </td>
+<td> </td>
+<td>goosefoot family</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Chenopodiaceae</td>
+<td>Atriplex</td>
+<td> </td>
+<td>goosefoot</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Chenopodiaceae</td>
+<td>Atriplex</td>
+<td>album</td>
+<td>orache</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td> </td>
+<td>goosefoot</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Chenopodiaceae</td>
+<td>Chenopodium</td>
+<td>album</td>
+<td>goosefoot</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Compositae</td>
+<td> </td>
+<td> </td>
+<td>daisy family</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Cyperaceae</td>
+<td> </td>
+<td> </td>
+<td>sedge family</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Cyperaceae</td>
+<td>Eleocharis</td>
+<td> </td>
+<td>spike-rush</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Cyperaceae</td>
+<td>Scirpus</td>
+<td> </td>
+<td>club-rush</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Fabaceae</td>
+<td> </td>
+<td> </td>
+<td>pea family</td>
+<td>legume</td>
+</tr>
+<tr>
+<td>Leguminousae</td>
+<td> </td>
+<td> </td>
+<td>legume indet</td>
+<td>legume</td>
+</tr>
+<tr>
+<td>Fabaceae</td>
+<td>Vicia/Lathrys/Pisum</td>
+<td> </td>
+<td>vetch/tare/pea</td>
+<td>legume</td>
+</tr>
+<tr>
+<td>Fabaceae</td>
+<td>Vicia/Lathrys</td>
+<td> </td>
+<td>vetch/tare</td>
+<td>fodder</td>
+</tr>
+<tr>
+<td>Fabaceae</td>
+<td>Pisum/Vicia</td>
+<td> </td>
+<td>pea/bean</td>
+<td>legume</td>
+</tr>
+<tr>
+<td>Fabaceae</td>
+<td>Pisum</td>
+<td>sativa</td>
+<td>pea</td>
+<td>legume</td>
+</tr>
+<tr>
+<td>Fabaceae</td>
+<td>Vicia</td>
+<td>faba</td>
+<td>bean</td>
+<td>legume</td>
+</tr>
+<tr>
+<td>Fabaceae</td>
+<td>Vicia </td>
+<td>sativa</td>
+<td>vetch</td>
+<td>fodder</td>
+</tr>
+<tr>
+<td>Gramineae</td>
+<td> </td>
+<td> </td>
+<td>unident grass</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Indet</td>
+<td> </td>
+<td> </td>
+<td>unident</td>
+<td>unknown</td>
+</tr>
+<tr>
+<td>Lamiaceae</td>
+<td>Lamium</td>
+<td> </td>
+<td>dead nettles</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Lamiaceae</td>
+<td>Prunella</td>
+<td>vulgaris</td>
+<td>self heal</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Linaceae</td>
+<td>Linum</td>
+<td>usitatissimum</td>
+<td>flax</td>
+<td>fiber</td>
+</tr>
+<tr>
+<td>Plantaginaceae</td>
+<td>Plantago</td>
+<td> </td>
+<td>plantain</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Poaceae</td>
+<td>Cerealia</td>
+<td> </td>
+<td>cereal (unspecified)</td>
+<td>cereal</td>
+</tr>
+<tr>
+<td>Poaceae</td>
+<td>Triticum/Secale</td>
+<td> </td>
+<td>wheat/rye</td>
+<td>cereal</td>
+</tr>
+<tr>
+<td>Poaceae</td>
+<td>Avena</td>
+<td>sativa</td>
+<td>oat</td>
+<td>cereal</td>
+</tr>
+<tr>
+<td>Poaceae</td>
+<td>Bromus</td>
+<td> </td>
+<td>brome</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td> </td>
+<td>barley (unspecified sp.)</td>
+<td>cereal</td>
+</tr>
+<tr>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>dissichum</td>
+<td>two-row barley</td>
+<td>cereal</td>
+</tr>
+<tr>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>hulled</td>
+<td>hulled barley</td>
+<td>cereal</td>
+</tr>
+<tr>
+<td>Poaceae</td>
+<td>Hordeum</td>
+<td>vulgare</td>
+<td>six-row hulled barley</td>
+<td>cereal</td>
+</tr>
+<tr>
+<td>Poaceae</td>
+<td>Secale</td>
+<td>cereale</td>
+<td>rye</td>
+<td>cereal</td>
+</tr>
+<tr>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td> </td>
+<td>wheat (unspecified sp.)</td>
+<td>cereal</td>
+</tr>
+<tr>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td>aestivum</td>
+<td>bread wheat</td>
+<td>cereal</td>
+</tr>
+<tr>
+<td>Poaceae</td>
+<td>Triticum</td>
+<td>dicoccum/spelta</td>
+<td>emmer/spelt</td>
+<td>cereal</td>
+</tr>
+<tr>
+<td>Polygonaceae</td>
+<td>Carex</td>
+<td> </td>
+<td>sedges</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Polygonaceae</td>
+<td>Polygonum</td>
+<td> </td>
+<td>knotgrass</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Polygonaceae</td>
+<td>Polygonum</td>
+<td>convolvulus</td>
+<td>black bindweed</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Polygonaceae</td>
+<td>Rumex</td>
+<td> </td>
+<td>dockweed</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Polygonaceae</td>
+<td>Rumex/Carex</td>
+<td> </td>
+<td>dock/sedge</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Ranunculaceae</td>
+<td>Ranunculus</td>
+<td> </td>
+<td>meadow/creeping/bulbous</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Ranunculaceae</td>
+<td>Thalictrum</td>
+<td> </td>
+<td>meadow rue</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Rosaceae</td>
+<td>Prunus</td>
+<td> </td>
+<td>plum</td>
+<td>fruit</td>
+</tr>
+<tr>
+<td>Rosaceae</td>
+<td>Prunus</td>
+<td>domestica</td>
+<td>plum</td>
+<td>fruit</td>
+</tr>
+<tr>
+<td>Rosaceae</td>
+<td>Rosa</td>
+<td> </td>
+<td>rose</td>
+<td>flower</td>
+</tr>
+<tr>
+<td>Rosaceae</td>
+<td>Rubus</td>
+<td>fruticosus</td>
+<td>blackberry</td>
+<td>berry</td>
+</tr>
+<tr>
+<td>Rubiaceae</td>
+<td>Galium</td>
+<td> </td>
+<td>bedstraw</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Rubiaceae</td>
+<td>Galium</td>
+<td>aparine</td>
+<td>cleavers</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Urticaceae</td>
+<td>Urtica</td>
+<td> </td>
+<td>stinging nettle</td>
+<td>weed</td>
+</tr>
+<tr>
+<td>Urticaceae</td>
+<td>Urtica</td>
+<td>dioica</td>
+<td>stinging nettle</td>
+<td>weed</td>
+</tr>
+</tbody></table>
+</div>
+
 
 </body>
 </html>
