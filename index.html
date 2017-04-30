@@ -15,6 +15,8 @@
    
     $('#reportinfo').DataTable({
 	"ajax": 'report_info.JSON',
+         "columnDefs": [
+             { "searchable": false, "targets": 0 } ],
 	"pageLength": 20
 });
 	$('#excavinfo').DataTable({
@@ -45,7 +47,8 @@
 	"ajax": 'sites_sp.JSON',
 	"pageLength": 20
 });
-});
+
+} );
 
 </script>
 </head>
