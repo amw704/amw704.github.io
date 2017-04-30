@@ -1,2 +1,392 @@
-{ "data": [
-["\ufbaereport_type":["GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit","GreyLit"],"report_no":[13873,15258,16147,16922,18467,14016,14291,16442,14275,15048,14551,14403,14579,14381,14603,14445,14644,14211,18509,14509,14154,14702,14689,16940,16940,16940,16940,14007,16991,14163,14013,14338,14321,15016,13959,14833,14194,15276,14056],"her_no":["MLI60564","MLI61729","MLI36511","MLI37096","MLI65747","MLI43229","MLI54134","MLI46666","MLI69487","MLI35401","MLI62599","MLI54241","MLI54796","MLI43500","MLI54787","MLI43632","MLI44015","MLI33412","MLI65711","MLI54278","MLI13427","MLI61906","MLI13579","MLI25066","MLI25067","MLI25069","MLI25065","MLI60578","MLI56354","MLI34972","MLI60581","MLI60697","MLI13482","MLI13579","MLI34849","MLI61152","MLI13829","MLI13829","MLI13829"],"her_cit":[1,1,1,1,1,2,1,1,1,1,1,1,1,10,1,2,7,5,1,1,1,6,22,1,1,1,1,1,1,1,11,2,1,12,1,1,17,21,12],"crew":["Pre-Construct Archaeology","John Samuels Archaeological Consultants","Pre-Construct Archaeology","Lindsey Archaeological Services","Allen Archaeological Associates","Lindsey Archaeological Services","John Samuels Archaeological Consultants","Birmingham University Field Archaeology Unit","Archaeological Project Services","Lindsey Archaeological Services","Archaeological Project Services","AOC Archaeology Ltd","AOC Archaeology Ltd","Pre-Construct Archaeology","Pre-Construct Archaeology","Lindsey Archaeological Services","Archaeological Project Services","John Samuels Archaeological Consultants","Archaeological Project Services","Pre-Construct Archaeology","Pre-Construct Archaeology","Pre-Construct Archaeology","Pre-Construct Archaeology","Archaeological Project Services","Archaeological Project Services","Archaeological Project Services","Archaeological Project Services","Archaeological Project Services","Pre-Construct Archaeology","Pre-Construct Archaeology","Pre-Construct Archaeology","Archaeological Project Services","Archaeological Project Services","Archaeological Project Services","Pre-Construct Archaeology","Pre-Construct Archaeology","Pre-Construct Archaeology","Pre-Construct Archaeology","Lindsey Archaeological Services"],"lat":[53.044102,53.043021,52.911879,52.882261,53.224436,53.263882,53.4535207,53.169213,52.988028,53.003536,52.976506,53.360603,53.406713,53.35893,53.304835,53.132126,53.431274,52.702858,53.11555,53.273646,52.974797,53.153412,52.948758,52.809268,52.809475,52.808386,52.804754,53.130322,53.470254,52.977386,53.109258,52.999173,52.957805,52.946712,52.6709903,53.106116,53.032371,53.029715,53.029274],"lon":[-0.383199,-0.38309,-0.639753,-0.688087,-0.471416,-0.262564,-0.51964,-0.112526,-0.42522,-0.601405,-0.507704,-0.578471,-0.497279,0.101311,-0.488762,-0.092446,0.014255,-0.333381,-0.68025,-0.74407,0.047772,-0.618224,-0.163339,-0.088062,-0.08317,-0.078535,-0.0819006,-0.642879,-0.433189,-0.722144,-0.527015,-0.398141,-0.166975,-0.15896,-0.2906639,-0.520102,0.097478,0.095113,0.099714],"year":[1994,1999,2004,2008,2011,1995,1997,2001,1996,1999,1998,1997,1998,1997,1998,1997,1998,1996,2009,1998,1996,1999,1999,2008,2008,2008,2008,1995,2009,1996,1995,1997,1996,2000,1995,1999,1996,2001,1995]]]}
+[
+  {
+    "report_type": "GreyLit",
+    "report_no": 13873,
+    "her_no": "MLI60564",
+    "her_cit": 1,
+    "crew": "Pre-Construct Archaeology",
+    "lat": 53.044102,
+    "lon": -0.383199,
+    "year": 1994
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 15258,
+    "her_no": "MLI61729",
+    "her_cit": 1,
+    "crew": "John Samuels Archaeological Consultants",
+    "lat": 53.043021,
+    "lon": -0.38309,
+    "year": 1999
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 16147,
+    "her_no": "MLI36511",
+    "her_cit": 1,
+    "crew": "Pre-Construct Archaeology",
+    "lat": 52.911879,
+    "lon": -0.639753,
+    "year": 2004
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 16922,
+    "her_no": "MLI37096",
+    "her_cit": 1,
+    "crew": "Lindsey Archaeological Services",
+    "lat": 52.882261,
+    "lon": -0.688087,
+    "year": 2008
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 18467,
+    "her_no": "MLI65747",
+    "her_cit": 1,
+    "crew": "Allen Archaeological Associates",
+    "lat": 53.224436,
+    "lon": -0.471416,
+    "year": 2011
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14016,
+    "her_no": "MLI43229",
+    "her_cit": 2,
+    "crew": "Lindsey Archaeological Services",
+    "lat": 53.263882,
+    "lon": -0.262564,
+    "year": 1995
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14291,
+    "her_no": "MLI54134",
+    "her_cit": 1,
+    "crew": "John Samuels Archaeological Consultants",
+    "lat": 53.4535207,
+    "lon": -0.51964,
+    "year": 1997
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 16442,
+    "her_no": "MLI46666",
+    "her_cit": 1,
+    "crew": "Birmingham University Field Archaeology Unit",
+    "lat": 53.169213,
+    "lon": -0.112526,
+    "year": 2001
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14275,
+    "her_no": "MLI69487",
+    "her_cit": 1,
+    "crew": "Archaeological Project Services",
+    "lat": 52.988028,
+    "lon": -0.42522,
+    "year": 1996
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 15048,
+    "her_no": "MLI35401",
+    "her_cit": 1,
+    "crew": "Lindsey Archaeological Services",
+    "lat": 53.003536,
+    "lon": -0.601405,
+    "year": 1999
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14551,
+    "her_no": "MLI62599",
+    "her_cit": 1,
+    "crew": "Archaeological Project Services",
+    "lat": 52.976506,
+    "lon": -0.507704,
+    "year": 1998
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14403,
+    "her_no": "MLI54241",
+    "her_cit": 1,
+    "crew": "AOC Archaeology Ltd",
+    "lat": 53.360603,
+    "lon": -0.578471,
+    "year": 1997
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14579,
+    "her_no": "MLI54796",
+    "her_cit": 1,
+    "crew": "AOC Archaeology Ltd",
+    "lat": 53.406713,
+    "lon": -0.497279,
+    "year": 1998
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14381,
+    "her_no": "MLI43500",
+    "her_cit": 10,
+    "crew": "Pre-Construct Archaeology",
+    "lat": 53.35893,
+    "lon": 0.101311,
+    "year": 1997
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14603,
+    "her_no": "MLI54787",
+    "her_cit": 1,
+    "crew": "Pre-Construct Archaeology",
+    "lat": 53.304835,
+    "lon": -0.488762,
+    "year": 1998
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14445,
+    "her_no": "MLI43632",
+    "her_cit": 2,
+    "crew": "Lindsey Archaeological Services",
+    "lat": 53.132126,
+    "lon": -0.092446,
+    "year": 1997
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14644,
+    "her_no": "MLI44015",
+    "her_cit": 7,
+    "crew": "Archaeological Project Services",
+    "lat": 53.431274,
+    "lon": 0.014255,
+    "year": 1998
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14211,
+    "her_no": "MLI33412",
+    "her_cit": 5,
+    "crew": "John Samuels Archaeological Consultants",
+    "lat": 52.702858,
+    "lon": -0.333381,
+    "year": 1996
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 18509,
+    "her_no": "MLI65711",
+    "her_cit": 1,
+    "crew": "Archaeological Project Services",
+    "lat": 53.11555,
+    "lon": -0.68025,
+    "year": 2009
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14509,
+    "her_no": "MLI54278",
+    "her_cit": 1,
+    "crew": "Pre-Construct Archaeology",
+    "lat": 53.273646,
+    "lon": -0.74407,
+    "year": 1998
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14154,
+    "her_no": "MLI13427",
+    "her_cit": 1,
+    "crew": "Pre-Construct Archaeology",
+    "lat": 52.974797,
+    "lon": 0.047772,
+    "year": 1996
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14702,
+    "her_no": "MLI61906",
+    "her_cit": 6,
+    "crew": "Pre-Construct Archaeology",
+    "lat": 53.153412,
+    "lon": -0.618224,
+    "year": 1999
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14689,
+    "her_no": "MLI13579",
+    "her_cit": 22,
+    "crew": "Pre-Construct Archaeology",
+    "lat": 52.948758,
+    "lon": -0.163339,
+    "year": 1999
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 16940,
+    "her_no": "MLI25066",
+    "her_cit": 1,
+    "crew": "Archaeological Project Services",
+    "lat": 52.809268,
+    "lon": -0.088062,
+    "year": 2008
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 16940,
+    "her_no": "MLI25067",
+    "her_cit": 1,
+    "crew": "Archaeological Project Services",
+    "lat": 52.809475,
+    "lon": -0.08317,
+    "year": 2008
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 16940,
+    "her_no": "MLI25069",
+    "her_cit": 1,
+    "crew": "Archaeological Project Services",
+    "lat": 52.808386,
+    "lon": -0.078535,
+    "year": 2008
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 16940,
+    "her_no": "MLI25065",
+    "her_cit": 1,
+    "crew": "Archaeological Project Services",
+    "lat": 52.804754,
+    "lon": -0.0819006,
+    "year": 2008
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14007,
+    "her_no": "MLI60578",
+    "her_cit": 1,
+    "crew": "Archaeological Project Services",
+    "lat": 53.130322,
+    "lon": -0.642879,
+    "year": 1995
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 16991,
+    "her_no": "MLI56354",
+    "her_cit": 1,
+    "crew": "Pre-Construct Archaeology",
+    "lat": 53.470254,
+    "lon": -0.433189,
+    "year": 2009
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14163,
+    "her_no": "MLI34972",
+    "her_cit": 1,
+    "crew": "Pre-Construct Archaeology",
+    "lat": 52.977386,
+    "lon": -0.722144,
+    "year": 1996
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14013,
+    "her_no": "MLI60581",
+    "her_cit": 11,
+    "crew": "Pre-Construct Archaeology",
+    "lat": 53.109258,
+    "lon": -0.527015,
+    "year": 1995
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14338,
+    "her_no": "MLI60697",
+    "her_cit": 2,
+    "crew": "Archaeological Project Services",
+    "lat": 52.999173,
+    "lon": -0.398141,
+    "year": 1997
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14321,
+    "her_no": "MLI13482",
+    "her_cit": 1,
+    "crew": "Archaeological Project Services",
+    "lat": 52.957805,
+    "lon": -0.166975,
+    "year": 1996
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 15016,
+    "her_no": "MLI13579",
+    "her_cit": 12,
+    "crew": "Archaeological Project Services",
+    "lat": 52.946712,
+    "lon": -0.15896,
+    "year": 2000
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 13959,
+    "her_no": "MLI34849",
+    "her_cit": 1,
+    "crew": "Pre-Construct Archaeology",
+    "lat": 52.6709903,
+    "lon": -0.2906639,
+    "year": 1995
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14833,
+    "her_no": "MLI61152",
+    "her_cit": 1,
+    "crew": "Pre-Construct Archaeology",
+    "lat": 53.106116,
+    "lon": -0.520102,
+    "year": 1999
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14194,
+    "her_no": "MLI13829",
+    "her_cit": 17,
+    "crew": "Pre-Construct Archaeology",
+    "lat": 53.032371,
+    "lon": 0.097478,
+    "year": 1996
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 15276,
+    "her_no": "MLI13829",
+    "her_cit": 21,
+    "crew": "Pre-Construct Archaeology",
+    "lat": 53.029715,
+    "lon": 0.095113,
+    "year": 2001
+  },
+  {
+    "report_type": "GreyLit",
+    "report_no": 14056,
+    "her_no": "MLI13829",
+    "her_cit": 12,
+    "crew": "Lindsey Archaeological Services",
+    "lat": 53.029274,
+    "lon": 0.099714,
+    "year": 1995
+  }
+]
