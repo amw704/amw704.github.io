@@ -14,10 +14,7 @@
 	$(document).ready(function() {
    
     $('#reportinfo').DataTable({
-        "ajax":  {
-		url: "report_info.json",
-		dataSrc: ''
-	},
+        "ajax":  "report_info.json",
          "columnDefs": [
              { "searchable": false, "targets": 0 } ],
 	"pageLength": 20
