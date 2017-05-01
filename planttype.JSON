@@ -1,1 +1,445 @@
-{"\ufbaefamily":["Adoxaceae","Apiaceae","Asteraceae","Asteraceae","Asteraceae","Asteraceae","Betulaceae/Corylaceae","Boraginaceae","Brassicales","Brassicaceae","Caryophyllaceae","Caryophyllaceae","Caryophyllaceae","Chenopodiaceae","Chenopodiaceae","Chenopodiaceae","Chenopodiaceae","Chenopodiaceae","Compositae","Cyperaceae","Cyperaceae","Cyperaceae","Fabaceae","Leguminousae","Fabaceae","Fabaceae","Fabaceae","Fabaceae","Fabaceae","Fabaceae","Gramineae","Indet","Lamiaceae","Lamiaceae","Linaceae","Plantaginaceae","Poaceae","Poaceae","Poaceae","Poaceae","Poaceae","Poaceae","Poaceae","Poaceae","Poaceae","Poaceae","Poaceae","Poaceae","Polygonaceae","Polygonaceae","Polygonaceae","Polygonaceae","Polygonaceae","Ranunculaceae","Ranunculaceae","Rosaceae","Rosaceae","Rosaceae","Rosaceae","Rubiaceae","Rubiaceae","Urticaceae","Urticaceae"],"genus":["Sambucus","Conium","Anthemis","Centaurea","Cirsium","Lapsana","Corylus","Lithospermum","Brassica","Raphanus","Agrostemma","Silene","Stellaria","","Atriplex","Atriplex","Chenopodium","Chenopodium","","","Eleocharis","Scirpus","","","Vicia/Lathrys/Pisum","Vicia/Lathrys","Pisum/Vicia","Pisum","Vicia","Vicia ","","","Lamium","Prunella","Linum","Plantago","Cerealia","Triticum/Secale","Avena","Bromus","Hordeum","Hordeum","Hordeum","Hordeum","Secale","Triticum","Triticum","Triticum","Carex","Polygonum","Polygonum","Rumex","Rumex/Carex","Ranunculus","Thalictrum","Prunus","Prunus","Rosa","Rubus","Galium","Galium","Urtica","Urtica"],"species":["nigra","maculatum","cotula","cyanus","","communis","avellana","arvense","","raphanistrum","githago","","media","","","album","","album","","","","","","","","","","sativa","faba","sativa","","","","vulgaris","usitatissimum","","","","sativa","","","dissichum","hulled","vulgare","cereale","","aestivum","dicoccum/spelta","","","convolvulus","","","","","","domestica","","fruticosus","","aparine","","dioica"],"common_name":["elder","hemlock","stinking mayweed","cornflower","thistle","nipplewort","hazelnut","field gromwell","","wild radish","corncockle","campion/catchfly","chickweed","goosefoot family","goosefoot","orache","goosefoot","goosefoot","daisy family","sedge family","spike-rush","club-rush","pea family","legume indet","vetch/tare/pea","vetch/tare","pea/bean","pea","bean","vetch","unident grass","unident","dead nettles","self heal","flax","plantain","cereal (unspecified)","wheat/rye","oat","brome","barley (unspecified sp.)","two-row barley","hulled barley","six-row hulled barley","rye","wheat (unspecified sp.)","bread wheat","emmer/spelt","sedges","knotgrass","black bindweed","dockweed","dock/sedge","meadow/creeping/bulbous","meadow rue","plum","plum","rose","blackberry","bedstraw","cleavers","stinging nettle","stinging nettle"],"plant_type":["berry","poison","weed","weed","weed","weed","nut","weed","cole crop","weed","weed","weed","weed","weed","weed","weed","weed","weed","weed","weed","weed","weed","legume","legume","legume","fodder","legume","legume","legume","fodder","weed","unknown","weed","weed","fiber","weed","cereal","cereal","cereal","weed","cereal","cereal","cereal","cereal","cereal","cereal","cereal","cereal","weed","weed","weed","weed","weed","weed","weed","fruit","fruit","flower","berry","weed","weed","weed","weed"]}
+{
+	"data": [
+  {
+    "family": "Adoxaceae",
+    "genus": "Sambucus",
+    "species": "nigra",
+    "common_name": "elder",
+    "plant_type": "berry"
+  },
+  {
+    "family": "Apiaceae",
+    "genus": "Conium",
+    "species": "maculatum",
+    "common_name": "hemlock",
+    "plant_type": "poison"
+  },
+  {
+    "family": "Asteraceae",
+    "genus": "Anthemis",
+    "species": "cotula",
+    "common_name": "stinking mayweed",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Asteraceae",
+    "genus": "Centaurea",
+    "species": "cyanus",
+    "common_name": "cornflower",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Asteraceae",
+    "genus": "Cirsium",
+    "species": "",
+    "common_name": "thistle",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Asteraceae",
+    "genus": "Lapsana",
+    "species": "communis",
+    "common_name": "nipplewort",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Betulaceae/Corylaceae",
+    "genus": "Corylus",
+    "species": "avellana",
+    "common_name": "hazelnut",
+    "plant_type": "nut"
+  },
+  {
+    "family": "Boraginaceae",
+    "genus": "Lithospermum",
+    "species": "arvense",
+    "common_name": "field gromwell",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Brassicales",
+    "genus": "Brassica",
+    "species": "",
+    "common_name": "",
+    "plant_type": "cole crop"
+  },
+  {
+    "family": "Brassicaceae",
+    "genus": "Raphanus",
+    "species": "raphanistrum",
+    "common_name": "wild radish",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Caryophyllaceae",
+    "genus": "Agrostemma",
+    "species": "githago",
+    "common_name": "corncockle",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Caryophyllaceae",
+    "genus": "Silene",
+    "species": "",
+    "common_name": "campion/catchfly",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Caryophyllaceae",
+    "genus": "Stellaria",
+    "species": "media",
+    "common_name": "chickweed",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Chenopodiaceae",
+    "genus": "",
+    "species": "",
+    "common_name": "goosefoot family",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Chenopodiaceae",
+    "genus": "Atriplex",
+    "species": "",
+    "common_name": "goosefoot",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Chenopodiaceae",
+    "genus": "Atriplex",
+    "species": "album",
+    "common_name": "orache",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Chenopodiaceae",
+    "genus": "Chenopodium",
+    "species": "",
+    "common_name": "goosefoot",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Chenopodiaceae",
+    "genus": "Chenopodium",
+    "species": "album",
+    "common_name": "goosefoot",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Compositae",
+    "genus": "",
+    "species": "",
+    "common_name": "daisy family",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Cyperaceae",
+    "genus": "",
+    "species": "",
+    "common_name": "sedge family",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Cyperaceae",
+    "genus": "Eleocharis",
+    "species": "",
+    "common_name": "spike-rush",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Cyperaceae",
+    "genus": "Scirpus",
+    "species": "",
+    "common_name": "club-rush",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Fabaceae",
+    "genus": "",
+    "species": "",
+    "common_name": "pea family",
+    "plant_type": "legume"
+  },
+  {
+    "family": "Leguminousae",
+    "genus": "",
+    "species": "",
+    "common_name": "legume indet",
+    "plant_type": "legume"
+  },
+  {
+    "family": "Fabaceae",
+    "genus": "Vicia/Lathrys/Pisum",
+    "species": "",
+    "common_name": "vetch/tare/pea",
+    "plant_type": "legume"
+  },
+  {
+    "family": "Fabaceae",
+    "genus": "Vicia/Lathrys",
+    "species": "",
+    "common_name": "vetch/tare",
+    "plant_type": "fodder"
+  },
+  {
+    "family": "Fabaceae",
+    "genus": "Pisum/Vicia",
+    "species": "",
+    "common_name": "pea/bean",
+    "plant_type": "legume"
+  },
+  {
+    "family": "Fabaceae",
+    "genus": "Pisum",
+    "species": "sativa",
+    "common_name": "pea",
+    "plant_type": "legume"
+  },
+  {
+    "family": "Fabaceae",
+    "genus": "Vicia",
+    "species": "faba",
+    "common_name": "bean",
+    "plant_type": "legume"
+  },
+  {
+    "family": "Fabaceae",
+    "genus": "Vicia ",
+    "species": "sativa",
+    "common_name": "vetch",
+    "plant_type": "fodder"
+  },
+  {
+    "family": "Gramineae",
+    "genus": "",
+    "species": "",
+    "common_name": "unident grass",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Indet",
+    "genus": "",
+    "species": "",
+    "common_name": "unident",
+    "plant_type": "unknown"
+  },
+  {
+    "family": "Lamiaceae",
+    "genus": "Lamium",
+    "species": "",
+    "common_name": "dead nettles",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Lamiaceae",
+    "genus": "Prunella",
+    "species": "vulgaris",
+    "common_name": "self heal",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Linaceae",
+    "genus": "Linum",
+    "species": "usitatissimum",
+    "common_name": "flax",
+    "plant_type": "fiber"
+  },
+  {
+    "family": "Plantaginaceae",
+    "genus": "Plantago",
+    "species": "",
+    "common_name": "plantain",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Poaceae",
+    "genus": "Cerealia",
+    "species": "",
+    "common_name": "cereal (unspecified)",
+    "plant_type": "cereal"
+  },
+  {
+    "family": "Poaceae",
+    "genus": "Triticum/Secale",
+    "species": "",
+    "common_name": "wheat/rye",
+    "plant_type": "cereal"
+  },
+  {
+    "family": "Poaceae",
+    "genus": "Avena",
+    "species": "sativa",
+    "common_name": "oat",
+    "plant_type": "cereal"
+  },
+  {
+    "family": "Poaceae",
+    "genus": "Bromus",
+    "species": "",
+    "common_name": "brome",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Poaceae",
+    "genus": "Hordeum",
+    "species": "",
+    "common_name": "barley (unspecified sp.)",
+    "plant_type": "cereal"
+  },
+  {
+    "family": "Poaceae",
+    "genus": "Hordeum",
+    "species": "dissichum",
+    "common_name": "two-row barley",
+    "plant_type": "cereal"
+  },
+  {
+    "family": "Poaceae",
+    "genus": "Hordeum",
+    "species": "hulled",
+    "common_name": "hulled barley",
+    "plant_type": "cereal"
+  },
+  {
+    "family": "Poaceae",
+    "genus": "Hordeum",
+    "species": "vulgare",
+    "common_name": "six-row hulled barley",
+    "plant_type": "cereal"
+  },
+  {
+    "family": "Poaceae",
+    "genus": "Secale",
+    "species": "cereale",
+    "common_name": "rye",
+    "plant_type": "cereal"
+  },
+  {
+    "family": "Poaceae",
+    "genus": "Triticum",
+    "species": "",
+    "common_name": "wheat (unspecified sp.)",
+    "plant_type": "cereal"
+  },
+  {
+    "family": "Poaceae",
+    "genus": "Triticum",
+    "species": "aestivum",
+    "common_name": "bread wheat",
+    "plant_type": "cereal"
+  },
+  {
+    "family": "Poaceae",
+    "genus": "Triticum",
+    "species": "dicoccum/spelta",
+    "common_name": "emmer/spelt",
+    "plant_type": "cereal"
+  },
+  {
+    "family": "Polygonaceae",
+    "genus": "Carex",
+    "species": "",
+    "common_name": "sedges",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Polygonaceae",
+    "genus": "Polygonum",
+    "species": "",
+    "common_name": "knotgrass",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Polygonaceae",
+    "genus": "Polygonum",
+    "species": "convolvulus",
+    "common_name": "black bindweed",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Polygonaceae",
+    "genus": "Rumex",
+    "species": "",
+    "common_name": "dockweed",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Polygonaceae",
+    "genus": "Rumex/Carex",
+    "species": "",
+    "common_name": "dock/sedge",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Ranunculaceae",
+    "genus": "Ranunculus",
+    "species": "",
+    "common_name": "meadow/creeping/bulbous",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Ranunculaceae",
+    "genus": "Thalictrum",
+    "species": "",
+    "common_name": "meadow rue",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Rosaceae",
+    "genus": "Prunus",
+    "species": "",
+    "common_name": "plum",
+    "plant_type": "fruit"
+  },
+  {
+    "family": "Rosaceae",
+    "genus": "Prunus",
+    "species": "domestica",
+    "common_name": "plum",
+    "plant_type": "fruit"
+  },
+  {
+    "family": "Rosaceae",
+    "genus": "Rosa",
+    "species": "",
+    "common_name": "rose",
+    "plant_type": "flower"
+  },
+  {
+    "family": "Rosaceae",
+    "genus": "Rubus",
+    "species": "fruticosus",
+    "common_name": "blackberry",
+    "plant_type": "berry"
+  },
+  {
+    "family": "Rubiaceae",
+    "genus": "Galium",
+    "species": "",
+    "common_name": "bedstraw",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Rubiaceae",
+    "genus": "Galium",
+    "species": "aparine",
+    "common_name": "cleavers",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Urticaceae",
+    "genus": "Urtica",
+    "species": "",
+    "common_name": "stinging nettle",
+    "plant_type": "weed"
+  },
+  {
+    "family": "Urticaceae",
+    "genus": "Urtica",
+    "species": "dioica",
+    "common_name": "stinging nettle",
+    "plant_type": "weed"
+  }
+]
+}

@@ -1,1 +1,238 @@
-{"\ufbaeher_no":["MLI60564","MLI61729","MLI36511","MLI37096","MLI65747","MLI43229","MLI54134","MLI46666","MLI69487","MLI35401","MLI62599","MLI54241","MLI54796","MLI43500","MLI54787","MLI43632","MLI44015","MLI33412","MLI65711","MLI54278","MLI13427","MLI61906","MLI13579","MLI25066","MLI25067","MLI25069","MLI25065","MLI60578","MLI56354","MLI34972","MLI60581","MLI60697","MLI13482","MLI13579","MLI34849","MLI61152","MLI13829","MLI13829","MLI13829"],"her_cit":[1,1,1,1,1,2,1,1,1,1,1,1,1,10,1,2,7,5,1,1,1,6,22,1,1,1,1,1,1,1,11,2,1,12,1,1,17,21,12],"citation":["Palmer-Brown, Colin. 1994. Archaeological Watching Brief Report. 29 Station Road, Ruskington","John Samuels Archaeological Consultants. 1999. Archaeological Field Evaluation: 34 Station Road, Ruskington ","Brett, Alex. 2004. 51/52 George Street, Grantham, Lincolnshire. Archaeological Watching Brief Report","Trott, Kevin. 2008. 9 Pond Street, Harlaxton, Lincolnshire Archaeological Watching Brief","Allen Archaeology Limited. 2011. Archaeological Evaluation Report: Trial Trenching on Land Off 81 Main Road, Washingborough, Lincolnshire.","Lindsey Archaeological Services. 1995. Alford Road Huttoft","John Samuels Archaeological Consultants. 1997. An Archaeological Evaluation of Land for a Proposed Development at Land to the Rear of 1-5 The Green, Waddingham.","Eleanor Ramsey. 2001. An Archaeological Excavation at High Farm, Halton Holegate, Lincolnshire: A Post-Excavation Assessment and Research Design","Fiona Walker and Tom Lane. 1996. An Early and Middle Saxon Settlement at Quarrington, Lincolnshire.","Lindsey Archaeological Services. 1999. Normanton Phase II Replacement Scheme, Lincolnshire. Archaeological Assessment Report.","Ian Miller. 1998. Archaeological Evaluation of Land at Hanbeck Farm, Wilsford Lincolnshire. A.P.S. Report No. 54/98.","A.O.C. (Archaeology) Ltd. 1997. An Archaeological Evaluation at Church Farm Fillingham Lincolnshire.","Karl Hulka. 1998. An Archaeological Evaluation on the Site of Glentham Residential Development Barff Lane, Glentham, Lincolnshire.","Simon Johnson. 1997. Archaeological Field Evaluation Report (Part 2). Land north of Church Lane, Manby, Lincolnshire.","James Albone. 1998. Archaeological Field Evaluation Report Land Off Norbeck Lane, Welton, Lincolnshire. ","Lindsey Archaeological Services. 1997. Land off Watery Lane, Mareham le Fen Archaeological Evaluation. Report No. 270.","Jenny Young. 1998. Archaeological Excavation at Haith's Farm, Birkett Lane, Covenham St. Bartholomew, Linoclnshire.","John Samuels Archaeological Consultants. 1995. An Archaeological Excavation at Langtoft Hall, Langtoft, Lincolnshire.","Andrew Failes. 2009. Archaeological Excavation at Norton Bottoms Quarry Extension, Norton Road, Stapleford, Lincolnshire. ","James Albone. 1998. Archaeological Field Evaluation Land at Home Farm, Laugherton, Lincolnshire","C. Palmer-Brown. 1996. Archaeological Field Evaluation Report: Land off Butterwick Road, Freiston. ","James Albone 1999. Archaeological Field Evaluation Report: Land Between Royal Oak Lane and Chapel Lane, Aubourn, Lincolnshire.","James Albone 1999. Archaeological Field Evaluation Report: Land West of High Street, Swineshead, Lincolnshire.","Michael Wood. 2008. Archaeological Investigation Along the Weston Bypass, Weston, Lincolnshire. A.P.S. Report No. 145/06.","Michael Wood. 2008. Archaeological Investigation Along the Weston Bypass, Weston, Lincolnshire. A.P.S. Report No. 145/06.","Michael Wood. 2008. Archaeological Investigation Along the Weston Bypass, Weston, Lincolnshire. A.P.S. Report No. 145/06.","Michael Wood. 2008. Archaeological Investigation Along the Weston Bypass, Weston, Lincolnshire. A.P.S. Report No. 145/06.","Archaeological Project Services. 1995. Archaeological Investigations at Hall Field, Water Lane, Bassingham, Lincolnshire.","Linda Hamilton. 2009. An Archaeological Scheme of Monitoring Works: Church Farm, Waddingham Road, Sth Kelsey Lincolnshire.","SC Johnson. 1996. Archaeological Watching Brief Report, Long Street, Foston.","Colin Palmer-Brown. 1995. Land North of Church Lane, Navenby.","Gary Trimble. 1997. Archaeological Investigation of a Pipeline Along St. Giles' Avenue, Sleaford, Lincolnshire.","Chris Moulis. 1996. Archaeological Watching Brief at the Cottage, North End, Swineshead, Lincolnshire.","Joanna Hambly. 2000. Archaeological Watching Brief on Land off King John's Road Swineshead Boston District Lincolnshire.","Simon Johnson. 1995. Bridge Street, Deeping St. James. An Archaeological Watching Brief Report For Anglian Water Services Ltd.","Colin Palmer-Brown. 1999. Chapel Lane, Navenby: Archaeological Watching Brief Report.","Colin Palmer-Brown. 1996. Church Road, Old Leake. Archaeological Evaluation Report.","Chris Clay. 2001. Archaeological Evaluation Report: Land off School Lane, Old Leake, Lincolnshire.","Lindsey Archaeological Services. 1995. Old Leake: The Giles School. Archaeological Monitoring of Building Works."],"archaeobotanist":["","","","Alexandra Schmidl & Alex Beacock","","","","Marina Ciaraldi","James Rackham","James Rackham","Paul Cope-Faulkner","","","DJ Rackham","","","Paul Cope-Faulkner","R.C. Alvey","Val Fryer","","DJ Rackham","","James Rackham","Gemma Martin & James Rackham","Gemma Martin & James Rackham","Gemma Martin & James Rackham","Gemma Martin & James Rackham","","Helen Ranner","","","","","","","","James Rackham","DJ Rackham","John Giorgi"]}
+{
+	"data": [
+  {
+    "her_no": "MLI60564",
+    "her_cit": 1,
+    "citation": "Palmer-Brown, Colin. 1994. Archaeological Watching Brief Report. 29 Station Road, Ruskington",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI61729",
+    "her_cit": 1,
+    "citation": "John Samuels Archaeological Consultants. 1999. Archaeological Field Evaluation: 34 Station Road, Ruskington ",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI36511",
+    "her_cit": 1,
+    "citation": "Brett, Alex. 2004. 51/52 George Street, Grantham, Lincolnshire. Archaeological Watching Brief Report",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI37096",
+    "her_cit": 1,
+    "citation": "Trott, Kevin. 2008. 9 Pond Street, Harlaxton, Lincolnshire Archaeological Watching Brief",
+    "archaeobotanist": "Alexandra Schmidl & Alex Beacock"
+  },
+  {
+    "her_no": "MLI65747",
+    "her_cit": 1,
+    "citation": "Allen Archaeology Limited. 2011. Archaeological Evaluation Report: Trial Trenching on Land Off 81 Main Road, Washingborough, Lincolnshire.",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI43229",
+    "her_cit": 2,
+    "citation": "Lindsey Archaeological Services. 1995. Alford Road Huttoft",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI54134",
+    "her_cit": 1,
+    "citation": "John Samuels Archaeological Consultants. 1997. An Archaeological Evaluation of Land for a Proposed Development at Land to the Rear of 1-5 The Green, Waddingham.",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI46666",
+    "her_cit": 1,
+    "citation": "Eleanor Ramsey. 2001. An Archaeological Excavation at High Farm, Halton Holegate, Lincolnshire: A Post-Excavation Assessment and Research Design",
+    "archaeobotanist": "Marina Ciaraldi"
+  },
+  {
+    "her_no": "MLI69487",
+    "her_cit": 1,
+    "citation": "Fiona Walker and Tom Lane. 1996. An Early and Middle Saxon Settlement at Quarrington, Lincolnshire.",
+    "archaeobotanist": "James Rackham"
+  },
+  {
+    "her_no": "MLI35401",
+    "her_cit": 1,
+    "citation": "Lindsey Archaeological Services. 1999. Normanton Phase II Replacement Scheme, Lincolnshire. Archaeological Assessment Report.",
+    "archaeobotanist": "James Rackham"
+  },
+  {
+    "her_no": "MLI62599",
+    "her_cit": 1,
+    "citation": "Ian Miller. 1998. Archaeological Evaluation of Land at Hanbeck Farm, Wilsford Lincolnshire. A.P.S. Report No. 54/98.",
+    "archaeobotanist": "Paul Cope-Faulkner"
+  },
+  {
+    "her_no": "MLI54241",
+    "her_cit": 1,
+    "citation": "A.O.C. (Archaeology) Ltd. 1997. An Archaeological Evaluation at Church Farm Fillingham Lincolnshire.",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI54796",
+    "her_cit": 1,
+    "citation": "Karl Hulka. 1998. An Archaeological Evaluation on the Site of Glentham Residential Development Barff Lane, Glentham, Lincolnshire.",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI43500",
+    "her_cit": 10,
+    "citation": "Simon Johnson. 1997. Archaeological Field Evaluation Report (Part 2). Land north of Church Lane, Manby, Lincolnshire.",
+    "archaeobotanist": "DJ Rackham"
+  },
+  {
+    "her_no": "MLI54787",
+    "her_cit": 1,
+    "citation": "James Albone. 1998. Archaeological Field Evaluation Report Land Off Norbeck Lane, Welton, Lincolnshire. ",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI43632",
+    "her_cit": 2,
+    "citation": "Lindsey Archaeological Services. 1997. Land off Watery Lane, Mareham le Fen Archaeological Evaluation. Report No. 270.",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI44015",
+    "her_cit": 7,
+    "citation": "Jenny Young. 1998. Archaeological Excavation at Haith's Farm, Birkett Lane, Covenham St. Bartholomew, Linoclnshire.",
+    "archaeobotanist": "Paul Cope-Faulkner"
+  },
+  {
+    "her_no": "MLI33412",
+    "her_cit": 5,
+    "citation": "John Samuels Archaeological Consultants. 1995. An Archaeological Excavation at Langtoft Hall, Langtoft, Lincolnshire.",
+    "archaeobotanist": "R.C. Alvey"
+  },
+  {
+    "her_no": "MLI65711",
+    "her_cit": 1,
+    "citation": "Andrew Failes. 2009. Archaeological Excavation at Norton Bottoms Quarry Extension, Norton Road, Stapleford, Lincolnshire. ",
+    "archaeobotanist": "Val Fryer"
+  },
+  {
+    "her_no": "MLI54278",
+    "her_cit": 1,
+    "citation": "James Albone. 1998. Archaeological Field Evaluation Land at Home Farm, Laugherton, Lincolnshire",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI13427",
+    "her_cit": 1,
+    "citation": "C. Palmer-Brown. 1996. Archaeological Field Evaluation Report: Land off Butterwick Road, Freiston. ",
+    "archaeobotanist": "DJ Rackham"
+  },
+  {
+    "her_no": "MLI61906",
+    "her_cit": 6,
+    "citation": "James Albone 1999. Archaeological Field Evaluation Report: Land Between Royal Oak Lane and Chapel Lane, Aubourn, Lincolnshire.",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI13579",
+    "her_cit": 22,
+    "citation": "James Albone 1999. Archaeological Field Evaluation Report: Land West of High Street, Swineshead, Lincolnshire.",
+    "archaeobotanist": "James Rackham"
+  },
+  {
+    "her_no": "MLI25066",
+    "her_cit": 1,
+    "citation": "Michael Wood. 2008. Archaeological Investigation Along the Weston Bypass, Weston, Lincolnshire. A.P.S. Report No. 145/06.",
+    "archaeobotanist": "Gemma Martin & James Rackham"
+  },
+  {
+    "her_no": "MLI25067",
+    "her_cit": 1,
+    "citation": "Michael Wood. 2008. Archaeological Investigation Along the Weston Bypass, Weston, Lincolnshire. A.P.S. Report No. 145/06.",
+    "archaeobotanist": "Gemma Martin & James Rackham"
+  },
+  {
+    "her_no": "MLI25069",
+    "her_cit": 1,
+    "citation": "Michael Wood. 2008. Archaeological Investigation Along the Weston Bypass, Weston, Lincolnshire. A.P.S. Report No. 145/06.",
+    "archaeobotanist": "Gemma Martin & James Rackham"
+  },
+  {
+    "her_no": "MLI25065",
+    "her_cit": 1,
+    "citation": "Michael Wood. 2008. Archaeological Investigation Along the Weston Bypass, Weston, Lincolnshire. A.P.S. Report No. 145/06.",
+    "archaeobotanist": "Gemma Martin & James Rackham"
+  },
+  {
+    "her_no": "MLI60578",
+    "her_cit": 1,
+    "citation": "Archaeological Project Services. 1995. Archaeological Investigations at Hall Field, Water Lane, Bassingham, Lincolnshire.",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI56354",
+    "her_cit": 1,
+    "citation": "Linda Hamilton. 2009. An Archaeological Scheme of Monitoring Works: Church Farm, Waddingham Road, Sth Kelsey Lincolnshire.",
+    "archaeobotanist": "Helen Ranner"
+  },
+  {
+    "her_no": "MLI34972",
+    "her_cit": 1,
+    "citation": "SC Johnson. 1996. Archaeological Watching Brief Report, Long Street, Foston.",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI60581",
+    "her_cit": 11,
+    "citation": "Colin Palmer-Brown. 1995. Land North of Church Lane, Navenby.",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI60697",
+    "her_cit": 2,
+    "citation": "Gary Trimble. 1997. Archaeological Investigation of a Pipeline Along St. Giles' Avenue, Sleaford, Lincolnshire.",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI13482",
+    "her_cit": 1,
+    "citation": "Chris Moulis. 1996. Archaeological Watching Brief at the Cottage, North End, Swineshead, Lincolnshire.",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI13579",
+    "her_cit": 12,
+    "citation": "Joanna Hambly. 2000. Archaeological Watching Brief on Land off King John's Road Swineshead Boston District Lincolnshire.",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI34849",
+    "her_cit": 1,
+    "citation": "Simon Johnson. 1995. Bridge Street, Deeping St. James. An Archaeological Watching Brief Report For Anglian Water Services Ltd.",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI61152",
+    "her_cit": 1,
+    "citation": "Colin Palmer-Brown. 1999. Chapel Lane, Navenby: Archaeological Watching Brief Report.",
+    "archaeobotanist": ""
+  },
+  {
+    "her_no": "MLI13829",
+    "her_cit": 17,
+    "citation": "Colin Palmer-Brown. 1996. Church Road, Old Leake. Archaeological Evaluation Report.",
+    "archaeobotanist": "James Rackham"
+  },
+  {
+    "her_no": "MLI13829",
+    "her_cit": 21,
+    "citation": "Chris Clay. 2001. Archaeological Evaluation Report: Land off School Lane, Old Leake, Lincolnshire.",
+    "archaeobotanist": "DJ Rackham"
+  },
+  {
+    "her_no": "MLI13829",
+    "her_cit": 12,
+    "citation": "Lindsey Archaeological Services. 1995. Old Leake: The Giles School. Archaeological Monitoring of Building Works.",
+    "archaeobotanist": "John Giorgi"
+  }
+]
+}

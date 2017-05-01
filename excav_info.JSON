@@ -1,1 +1,316 @@
-{"\ufbaeher_no":["MLI60564","MLI61729","MLI36511","MLI37096","MLI65747","MLI43229","MLI54134","MLI46666","MLI69487","MLI35401","MLI62599","MLI54241","MLI54796","MLI43500","MLI54787","MLI43632","MLI44015","MLI33412","MLI65711","MLI54278","MLI13427","MLI61906","MLI13579","MLI25066","MLI25067","MLI25069","MLI25065","MLI60578","MLI56354","MLI34972","MLI60581","MLI60697","MLI13482","MLI13579","MLI34849","MLI61152","MLI13829","MLI13829","MLI13829"],"her_cit":[1,1,1,1,1,2,1,1,1,1,1,1,1,10,1,2,7,5,1,1,1,6,22,1,1,1,1,1,1,1,11,2,1,12,1,1,17,21,12],"parish":["Ruskington","Ruskington","Grantham","Harlaxton","Washingborough","Huttoft","Waddingham","Halton Holegate","Sleaford","Normanton","Wilsford","Fillingham","Glentham","Manby","Welton","Mareham le Fen","Covenham St. Bartholomew","Langtoft","Stapleford","Kettlethorpe","Freiston","Aubourn","Swineshead","Weston","Weston","Weston","Weston","Bassingham","South Kelsey","Foston","Navenby","Sleaford","Swineshead","Swineshead","Deeping St. James","Navenby","Old Leake","Old Leake","Old Leake"],"named":["29 Station Road","34 Station Road","51/52 George St","9 Pond St","81 Main Road","Alford Road","1-5 the Green","High Farm","Quarrington","Normanton Phase II Replacement Scheme","Hanbeck Farm","Church Farm","Barff Lane","Church Lane","Norbeck Lane","Watery Lane","Haith's Farm","Langtoft Hall","Norton Bottoms Quarry","Home Farm Laugherton","Butterwick Road","Church Lane","High Street","Weston Bypass","Weston Bypass","Weston Bypass","Weston Bypass","Hall Field","Church Farm","Long Street","Church Lane","St. Giles Avenue","The Cottage, North End","Land off King John's Road","Bridge st","Chapel Ln","Church Road","Land off School Lane","The Giles School"],"excavation_type":["footprint","trial trench","test pits","footprint","trial trench","trial trench","trial trench","area","area","area","trial trench","trial trench","trial trench","trial trench","trial trench","trial trench","area","area","area","trial trench","trial trench","trial trench","trial trench","area","area","area","area","area","trial trench","footprint","footprint","trial trench","footprint","trial trench","footprint","footprint","trial trench","trial trench","footprint"],"widest_trench":[0.75,3.1,2,0.5,2,1.5,1.5,50,100,100,1.5,1.6,1.65,1.6,1.5,2,20,20,20,1.6,1.5,1.5,5,6,5,4,3,5,2.5,1,0.8,1,0.75,0.65,0.5,0.75,1.5,2,1]}
+{
+	"data": [
+  {
+    "her_no": "MLI60564",
+    "her_cit": 1,
+    "parish": "Ruskington",
+    "named": "29 Station Road",
+    "excavation_type": "footprint",
+    "widest_trench": 0.75
+  },
+  {
+    "her_no": "MLI61729",
+    "her_cit": 1,
+    "parish": "Ruskington",
+    "named": "34 Station Road",
+    "excavation_type": "trial trench",
+    "widest_trench": 3.1
+  },
+  {
+    "her_no": "MLI36511",
+    "her_cit": 1,
+    "parish": "Grantham",
+    "named": "51/52 George St",
+    "excavation_type": "test pits",
+    "widest_trench": 2
+  },
+  {
+    "her_no": "MLI37096",
+    "her_cit": 1,
+    "parish": "Harlaxton",
+    "named": "9 Pond St",
+    "excavation_type": "footprint",
+    "widest_trench": 0.5
+  },
+  {
+    "her_no": "MLI65747",
+    "her_cit": 1,
+    "parish": "Washingborough",
+    "named": "81 Main Road",
+    "excavation_type": "trial trench",
+    "widest_trench": 2
+  },
+  {
+    "her_no": "MLI43229",
+    "her_cit": 2,
+    "parish": "Huttoft",
+    "named": "Alford Road",
+    "excavation_type": "trial trench",
+    "widest_trench": 1.5
+  },
+  {
+    "her_no": "MLI54134",
+    "her_cit": 1,
+    "parish": "Waddingham",
+    "named": "1-5 the Green",
+    "excavation_type": "trial trench",
+    "widest_trench": 1.5
+  },
+  {
+    "her_no": "MLI46666",
+    "her_cit": 1,
+    "parish": "Halton Holegate",
+    "named": "High Farm",
+    "excavation_type": "area",
+    "widest_trench": 50
+  },
+  {
+    "her_no": "MLI69487",
+    "her_cit": 1,
+    "parish": "Sleaford",
+    "named": "Quarrington",
+    "excavation_type": "area",
+    "widest_trench": 100
+  },
+  {
+    "her_no": "MLI35401",
+    "her_cit": 1,
+    "parish": "Normanton",
+    "named": "Normanton Phase II Replacement Scheme",
+    "excavation_type": "area",
+    "widest_trench": 100
+  },
+  {
+    "her_no": "MLI62599",
+    "her_cit": 1,
+    "parish": "Wilsford",
+    "named": "Hanbeck Farm",
+    "excavation_type": "trial trench",
+    "widest_trench": 1.5
+  },
+  {
+    "her_no": "MLI54241",
+    "her_cit": 1,
+    "parish": "Fillingham",
+    "named": "Church Farm",
+    "excavation_type": "trial trench",
+    "widest_trench": 1.6
+  },
+  {
+    "her_no": "MLI54796",
+    "her_cit": 1,
+    "parish": "Glentham",
+    "named": "Barff Lane",
+    "excavation_type": "trial trench",
+    "widest_trench": 1.65
+  },
+  {
+    "her_no": "MLI43500",
+    "her_cit": 10,
+    "parish": "Manby",
+    "named": "Church Lane",
+    "excavation_type": "trial trench",
+    "widest_trench": 1.6
+  },
+  {
+    "her_no": "MLI54787",
+    "her_cit": 1,
+    "parish": "Welton",
+    "named": "Norbeck Lane",
+    "excavation_type": "trial trench",
+    "widest_trench": 1.5
+  },
+  {
+    "her_no": "MLI43632",
+    "her_cit": 2,
+    "parish": "Mareham le Fen",
+    "named": "Watery Lane",
+    "excavation_type": "trial trench",
+    "widest_trench": 2
+  },
+  {
+    "her_no": "MLI44015",
+    "her_cit": 7,
+    "parish": "Covenham St. Bartholomew",
+    "named": "Haith's Farm",
+    "excavation_type": "area",
+    "widest_trench": 20
+  },
+  {
+    "her_no": "MLI33412",
+    "her_cit": 5,
+    "parish": "Langtoft",
+    "named": "Langtoft Hall",
+    "excavation_type": "area",
+    "widest_trench": 20
+  },
+  {
+    "her_no": "MLI65711",
+    "her_cit": 1,
+    "parish": "Stapleford",
+    "named": "Norton Bottoms Quarry",
+    "excavation_type": "area",
+    "widest_trench": 20
+  },
+  {
+    "her_no": "MLI54278",
+    "her_cit": 1,
+    "parish": "Kettlethorpe",
+    "named": "Home Farm Laugherton",
+    "excavation_type": "trial trench",
+    "widest_trench": 1.6
+  },
+  {
+    "her_no": "MLI13427",
+    "her_cit": 1,
+    "parish": "Freiston",
+    "named": "Butterwick Road",
+    "excavation_type": "trial trench",
+    "widest_trench": 1.5
+  },
+  {
+    "her_no": "MLI61906",
+    "her_cit": 6,
+    "parish": "Aubourn",
+    "named": "Church Lane",
+    "excavation_type": "trial trench",
+    "widest_trench": 1.5
+  },
+  {
+    "her_no": "MLI13579",
+    "her_cit": 22,
+    "parish": "Swineshead",
+    "named": "High Street",
+    "excavation_type": "trial trench",
+    "widest_trench": 5
+  },
+  {
+    "her_no": "MLI25066",
+    "her_cit": 1,
+    "parish": "Weston",
+    "named": "Weston Bypass",
+    "excavation_type": "area",
+    "widest_trench": 6
+  },
+  {
+    "her_no": "MLI25067",
+    "her_cit": 1,
+    "parish": "Weston",
+    "named": "Weston Bypass",
+    "excavation_type": "area",
+    "widest_trench": 5
+  },
+  {
+    "her_no": "MLI25069",
+    "her_cit": 1,
+    "parish": "Weston",
+    "named": "Weston Bypass",
+    "excavation_type": "area",
+    "widest_trench": 4
+  },
+  {
+    "her_no": "MLI25065",
+    "her_cit": 1,
+    "parish": "Weston",
+    "named": "Weston Bypass",
+    "excavation_type": "area",
+    "widest_trench": 3
+  },
+  {
+    "her_no": "MLI60578",
+    "her_cit": 1,
+    "parish": "Bassingham",
+    "named": "Hall Field",
+    "excavation_type": "area",
+    "widest_trench": 5
+  },
+  {
+    "her_no": "MLI56354",
+    "her_cit": 1,
+    "parish": "South Kelsey",
+    "named": "Church Farm",
+    "excavation_type": "trial trench",
+    "widest_trench": 2.5
+  },
+  {
+    "her_no": "MLI34972",
+    "her_cit": 1,
+    "parish": "Foston",
+    "named": "Long Street",
+    "excavation_type": "footprint",
+    "widest_trench": 1
+  },
+  {
+    "her_no": "MLI60581",
+    "her_cit": 11,
+    "parish": "Navenby",
+    "named": "Church Lane",
+    "excavation_type": "footprint",
+    "widest_trench": 0.8
+  },
+  {
+    "her_no": "MLI60697",
+    "her_cit": 2,
+    "parish": "Sleaford",
+    "named": "St. Giles Avenue",
+    "excavation_type": "trial trench",
+    "widest_trench": 1
+  },
+  {
+    "her_no": "MLI13482",
+    "her_cit": 1,
+    "parish": "Swineshead",
+    "named": "The Cottage, North End",
+    "excavation_type": "footprint",
+    "widest_trench": 0.75
+  },
+  {
+    "her_no": "MLI13579",
+    "her_cit": 12,
+    "parish": "Swineshead",
+    "named": "Land off King John's Road",
+    "excavation_type": "trial trench",
+    "widest_trench": 0.65
+  },
+  {
+    "her_no": "MLI34849",
+    "her_cit": 1,
+    "parish": "Deeping St. James",
+    "named": "Bridge st",
+    "excavation_type": "footprint",
+    "widest_trench": 0.5
+  },
+  {
+    "her_no": "MLI61152",
+    "her_cit": 1,
+    "parish": "Navenby",
+    "named": "Chapel Ln",
+    "excavation_type": "footprint",
+    "widest_trench": 0.75
+  },
+  {
+    "her_no": "MLI13829",
+    "her_cit": 17,
+    "parish": "Old Leake",
+    "named": "Church Road",
+    "excavation_type": "trial trench",
+    "widest_trench": 1.5
+  },
+  {
+    "her_no": "MLI13829",
+    "her_cit": 21,
+    "parish": "Old Leake",
+    "named": "Land off School Lane",
+    "excavation_type": "trial trench",
+    "widest_trench": 2
+  },
+  {
+    "her_no": "MLI13829",
+    "her_cit": 12,
+    "parish": "Old Leake",
+    "named": "The Giles School",
+    "excavation_type": "footprint",
+    "widest_trench": 1
+  }
+]
+}
