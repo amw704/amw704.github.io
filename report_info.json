@@ -1,5 +1,5 @@
 {
-"data": [
+	"data": [
   {
     "report_type": "GreyLit",
     "report_no": 13873,
@@ -389,5 +389,6 @@
     "lat": 53.0293,
     "lon": 0.0997,
     "year": 1995
-  }]
+  }
+]
 }

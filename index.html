@@ -15,8 +15,16 @@
    
     $('#reportinfo').DataTable({
         "ajax":  "report_info.json",
-         "columnDefs": [
-             { "searchable": false, "targets": 0 } ],
+         "columns": [
+		{"data": "report_type"},
+		{"data": "report_no"},
+		{"data": "her_no"},
+		{"data": "her_cit"},
+		{"data": "crew"},
+		{"data": "lat"},
+		{"data": "lon"},
+		{"data": "year"}
+	],
 	"pageLength": 20
 });
 	$('#excavinfo').DataTable({
