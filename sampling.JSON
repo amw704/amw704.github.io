@@ -6,7 +6,8 @@
     "her_cit": 1,
     "sample": 1,
     "context": 111,
-    "feature_type": "ditch"
+    "feature_type": "ditch",
+    "volume": "NA"
   },
   {
     "sample_id": "S002",
@@ -239,7 +240,8 @@
     "her_cit": 1,
     "sample": 3,
     "context": 18,
-    "feature_type": "ditch"
+    "feature_type": "ditch",
+    "volume": "NA"
   },
   {
     "sample_id": "S028",
@@ -247,7 +249,8 @@
     "her_cit": 1,
     "sample": 4,
     "context": 18,
-    "feature_type": "ditch"
+    "feature_type": "ditch",
+    "volume": "NA"
   },
   {
     "sample_id": "S029",
@@ -255,7 +258,8 @@
     "her_cit": 1,
     "sample": 6,
     "context": 20,
-    "feature_type": "ditch"
+    "feature_type": "ditch",
+    "volume": "NA"
   },
   {
     "sample_id": "S030",
@@ -263,7 +267,8 @@
     "her_cit": 1,
     "sample": 7,
     "context": 20,
-    "feature_type": "ditch"
+    "feature_type": "ditch",
+    "volume": "NA"
   },
   {
     "sample_id": "S031",
@@ -271,7 +276,8 @@
     "her_cit": 1,
     "sample": 8,
     "context": 20,
-    "feature_type": "ditch"
+    "feature_type": "ditch",
+    "volume": "NA"
   },
   {
     "sample_id": "S032",
@@ -342,7 +348,8 @@
     "her_cit": 7,
     "sample": 2,
     "context": 143,
-    "feature_type": "ditch"
+    "feature_type": "ditch",
+    "volume": "NA"
   },
   {
     "sample_id": "S040",
@@ -350,7 +357,8 @@
     "her_cit": 7,
     "sample": 3,
     "context": 141,
-    "feature_type": "ditch"
+    "feature_type": "ditch",
+    "volume": "NA"
   },
   {
     "sample_id": "S041",
@@ -358,7 +366,8 @@
     "her_cit": 7,
     "sample": 4,
     "context": 97,
-    "feature_type": "pit"
+    "feature_type": "pit",
+    "volume": "NA"
   },
   {
     "sample_id": "S042",
@@ -366,7 +375,8 @@
     "her_cit": 7,
     "sample": 5,
     "context": 112,
-    "feature_type": "gully"
+    "feature_type": "gully",
+    "volume": "NA"
   },
   {
     "sample_id": "S043",
@@ -374,7 +384,8 @@
     "her_cit": 7,
     "sample": 6,
     "context": 137,
-    "feature_type": "ditch"
+    "feature_type": "ditch",
+    "volume": "NA"
   },
   {
     "sample_id": "S044",
@@ -382,7 +393,8 @@
     "her_cit": 5,
     "sample": 1,
     "context": 3038,
-    "feature_type": "pit"
+    "feature_type": "pit",
+    "volume": "NA"
   },
   {
     "sample_id": "S045",
@@ -390,7 +402,8 @@
     "her_cit": 5,
     "sample": 2,
     "context": 3028,
-    "feature_type": "pit"
+    "feature_type": "pit",
+    "volume": "NA"
   },
   {
     "sample_id": "S046",
@@ -398,7 +411,8 @@
     "her_cit": 5,
     "sample": 3,
     "context": 3078,
-    "feature_type": "ditch"
+    "feature_type": "ditch",
+    "volume": "NA"
   },
   {
     "sample_id": "S047",
@@ -406,7 +420,8 @@
     "her_cit": 5,
     "sample": 4,
     "context": 3120,
-    "feature_type": "pit"
+    "feature_type": "pit",
+    "volume": "NA"
   },
   {
     "sample_id": "S048",
@@ -414,7 +429,8 @@
     "her_cit": 1,
     "sample": 2,
     "context": 1306,
-    "feature_type": "pit"
+    "feature_type": "pit",
+    "volume": "NA"
   },
   {
     "sample_id": "S049",
@@ -422,7 +438,8 @@
     "her_cit": 1,
     "sample": 3,
     "context": 1307,
-    "feature_type": "pit"
+    "feature_type": "pit",
+    "volume": "NA"
   },
   {
     "sample_id": "S050",
@@ -430,7 +447,8 @@
     "her_cit": 1,
     "sample": 1,
     "context": 110,
-    "feature_type": "fire pit"
+    "feature_type": "fire pit",
+    "volume": "NA"
   },
   {
     "sample_id": "S051",
@@ -438,7 +456,8 @@
     "her_cit": 22,
     "sample": 1,
     "context": 511,
-    "feature_type": "ditch"
+    "feature_type": "ditch",
+    "volume": "NA"
   },
   {
     "sample_id": "S052",
@@ -446,7 +465,8 @@
     "her_cit": 22,
     "sample": 2,
     "context": 714,
-    "feature_type": "ditch"
+    "feature_type": "ditch",
+    "volume": "NA"
   },
   {
     "sample_id": "S053",
@@ -454,7 +474,8 @@
     "her_cit": 22,
     "sample": 3,
     "context": 725,
-    "feature_type": "ditch"
+    "feature_type": "ditch",
+    "volume": "NA"
   },
   {
     "sample_id": "S054",
@@ -462,7 +483,8 @@
     "her_cit": 22,
     "sample": 4,
     "context": 810,
-    "feature_type": "ditch"
+    "feature_type": "ditch",
+    "volume": "NA"
   },
   {
     "sample_id": "S055",
@@ -470,7 +492,8 @@
     "her_cit": 22,
     "sample": 5,
     "context": 233,
-    "feature_type": "palaeochannel"
+    "feature_type": "palaeochannel",
+    "volume": "NA"
   },
   {
     "sample_id": "S056",

@@ -1,5 +1,5 @@
 {
-	"data": [
+	"data":[
   {
     "family": "Adoxaceae",
     "genus": "Sambucus",
@@ -31,7 +31,7 @@
   {
     "family": "Asteraceae",
     "genus": "Cirsium",
-    "species": "",
+    "species": "NA",
     "common_name": "thistle",
     "plant_type": "weed"
   },
@@ -59,8 +59,8 @@
   {
     "family": "Brassicales",
     "genus": "Brassica",
-    "species": "",
-    "common_name": "",
+    "species": "NA",
+    "common_name": "NA",
     "plant_type": "cole crop"
   },
   {
@@ -80,7 +80,7 @@
   {
     "family": "Caryophyllaceae",
     "genus": "Silene",
-    "species": "",
+    "species": "NA",
     "common_name": "campion/catchfly",
     "plant_type": "weed"
   },
@@ -93,15 +93,15 @@
   },
   {
     "family": "Chenopodiaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "common_name": "goosefoot family",
     "plant_type": "weed"
   },
   {
     "family": "Chenopodiaceae",
     "genus": "Atriplex",
-    "species": "",
+    "species": "NA",
     "common_name": "goosefoot",
     "plant_type": "weed"
   },
@@ -115,7 +115,7 @@
   {
     "family": "Chenopodiaceae",
     "genus": "Chenopodium",
-    "species": "",
+    "species": "NA",
     "common_name": "goosefoot",
     "plant_type": "weed"
   },
@@ -128,64 +128,64 @@
   },
   {
     "family": "Compositae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "common_name": "daisy family",
     "plant_type": "weed"
   },
   {
     "family": "Cyperaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "common_name": "sedge family",
     "plant_type": "weed"
   },
   {
     "family": "Cyperaceae",
     "genus": "Eleocharis",
-    "species": "",
+    "species": "NA",
     "common_name": "spike-rush",
     "plant_type": "weed"
   },
   {
     "family": "Cyperaceae",
     "genus": "Scirpus",
-    "species": "",
+    "species": "NA",
     "common_name": "club-rush",
     "plant_type": "weed"
   },
   {
     "family": "Fabaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "common_name": "pea family",
     "plant_type": "legume"
   },
   {
     "family": "Leguminousae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "common_name": "legume indet",
     "plant_type": "legume"
   },
   {
     "family": "Fabaceae",
     "genus": "Vicia/Lathrys/Pisum",
-    "species": "",
+    "species": "NA",
     "common_name": "vetch/tare/pea",
     "plant_type": "legume"
   },
   {
     "family": "Fabaceae",
     "genus": "Vicia/Lathrys",
-    "species": "",
+    "species": "NA",
     "common_name": "vetch/tare",
     "plant_type": "fodder"
   },
   {
     "family": "Fabaceae",
     "genus": "Pisum/Vicia",
-    "species": "",
+    "species": "NA",
     "common_name": "pea/bean",
     "plant_type": "legume"
   },
@@ -212,22 +212,22 @@
   },
   {
     "family": "Gramineae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "common_name": "unident grass",
     "plant_type": "weed"
   },
   {
     "family": "Indet",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "common_name": "unident",
     "plant_type": "unknown"
   },
   {
     "family": "Lamiaceae",
     "genus": "Lamium",
-    "species": "",
+    "species": "NA",
     "common_name": "dead nettles",
     "plant_type": "weed"
   },
@@ -248,21 +248,21 @@
   {
     "family": "Plantaginaceae",
     "genus": "Plantago",
-    "species": "",
+    "species": "NA",
     "common_name": "plantain",
     "plant_type": "weed"
   },
   {
     "family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "common_name": "cereal (unspecified)",
     "plant_type": "cereal"
   },
   {
     "family": "Poaceae",
     "genus": "Triticum/Secale",
-    "species": "",
+    "species": "NA",
     "common_name": "wheat/rye",
     "plant_type": "cereal"
   },
@@ -276,14 +276,14 @@
   {
     "family": "Poaceae",
     "genus": "Bromus",
-    "species": "",
+    "species": "NA",
     "common_name": "brome",
     "plant_type": "weed"
   },
   {
     "family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "common_name": "barley (unspecified sp.)",
     "plant_type": "cereal"
   },
@@ -318,7 +318,7 @@
   {
     "family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "common_name": "wheat (unspecified sp.)",
     "plant_type": "cereal"
   },
@@ -339,14 +339,14 @@
   {
     "family": "Polygonaceae",
     "genus": "Carex",
-    "species": "",
+    "species": "NA",
     "common_name": "sedges",
     "plant_type": "weed"
   },
   {
     "family": "Polygonaceae",
     "genus": "Polygonum",
-    "species": "",
+    "species": "NA",
     "common_name": "knotgrass",
     "plant_type": "weed"
   },
@@ -360,35 +360,35 @@
   {
     "family": "Polygonaceae",
     "genus": "Rumex",
-    "species": "",
+    "species": "NA",
     "common_name": "dockweed",
     "plant_type": "weed"
   },
   {
     "family": "Polygonaceae",
     "genus": "Rumex/Carex",
-    "species": "",
+    "species": "NA",
     "common_name": "dock/sedge",
     "plant_type": "weed"
   },
   {
     "family": "Ranunculaceae",
     "genus": "Ranunculus",
-    "species": "",
+    "species": "NA",
     "common_name": "meadow/creeping/bulbous",
     "plant_type": "weed"
   },
   {
     "family": "Ranunculaceae",
     "genus": "Thalictrum",
-    "species": "",
+    "species": "NA",
     "common_name": "meadow rue",
     "plant_type": "weed"
   },
   {
     "family": "Rosaceae",
     "genus": "Prunus",
-    "species": "",
+    "species": "NA",
     "common_name": "plum",
     "plant_type": "fruit"
   },
@@ -402,7 +402,7 @@
   {
     "family": "Rosaceae",
     "genus": "Rosa",
-    "species": "",
+    "species": "NA",
     "common_name": "rose",
     "plant_type": "flower"
   },
@@ -416,7 +416,7 @@
   {
     "family": "Rubiaceae",
     "genus": "Galium",
-    "species": "",
+    "species": "NA",
     "common_name": "bedstraw",
     "plant_type": "weed"
   },
@@ -430,7 +430,7 @@
   {
     "family": "Urticaceae",
     "genus": "Urtica",
-    "species": "",
+    "species": "NA",
     "common_name": "stinging nettle",
     "plant_type": "weed"
   },

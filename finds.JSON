@@ -1,14 +1,15 @@
 {
-	"data": [
+	"data":[
   {
     "bot_finds_id": "B001",
     "sample_id": "S001",
-    "Order": "",
-    "Family": "",
-    "genus": "",
-    "species": "",
-    "plant_part": "",
+    "Order": "NA",
+    "Family": "NA",
+    "genus": "NA",
+    "species": "NA",
+    "plant_part": "NA",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -41,11 +42,11 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathryus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B005",
@@ -57,39 +58,42 @@
     "plant_part": "glume",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B006",
     "sample_id": "S004",
-    "Order": "",
-    "Family": "",
-    "genus": "",
-    "species": "",
-    "plant_part": "",
+    "Order": "NA",
+    "Family": "NA",
+    "genus": "NA",
+    "species": "NA",
+    "plant_part": "NA",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
     "bot_finds_id": "B007",
     "sample_id": "S005",
-    "Order": "",
-    "Family": "",
-    "genus": "",
-    "species": "",
-    "plant_part": "",
+    "Order": "NA",
+    "Family": "NA",
+    "genus": "NA",
+    "species": "NA",
+    "plant_part": "NA",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
     "bot_finds_id": "B008",
     "sample_id": "S006",
-    "Order": "",
-    "Family": "",
-    "genus": "",
-    "species": "",
-    "plant_part": "",
+    "Order": "NA",
+    "Family": "NA",
+    "genus": "NA",
+    "species": "NA",
+    "plant_part": "NA",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -98,7 +102,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "w",
     "count": 11,
@@ -110,9 +114,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -121,9 +126,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -132,9 +138,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "tail",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -143,9 +150,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -154,9 +162,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -165,9 +174,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "tail",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -176,9 +186,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -187,9 +198,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -198,9 +210,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "tail",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -209,9 +222,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -220,9 +234,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -231,9 +246,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -242,9 +258,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "tail",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -253,9 +270,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -264,9 +282,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -278,6 +297,7 @@
     "species": "sativa",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -286,9 +306,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "tail",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -297,9 +318,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "tail",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -308,9 +330,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -322,6 +345,7 @@
     "species": "sativa",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -330,9 +354,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "tail",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -341,9 +366,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -352,9 +378,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -366,6 +393,7 @@
     "species": "sativa",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -374,9 +402,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "tail",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -385,9 +414,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -396,9 +426,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -410,6 +441,7 @@
     "species": "sativa",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -418,9 +450,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "tail",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -429,9 +462,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -440,9 +474,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "tail",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -451,9 +486,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -462,9 +498,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -476,6 +513,7 @@
     "species": "sativa",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -484,9 +522,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "tail",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -495,9 +534,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "tail",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -509,6 +549,7 @@
     "species": "sativa",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -517,9 +558,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -531,6 +573,7 @@
     "species": "sativa",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -539,9 +582,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "tail",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -550,9 +594,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -564,6 +609,7 @@
     "species": "sativa",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -572,9 +618,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -586,6 +633,7 @@
     "species": "sativa",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -594,9 +642,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "tail",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -605,9 +654,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -616,7 +666,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 11,
@@ -628,7 +678,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 11,
@@ -640,7 +690,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
@@ -652,7 +702,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 11,
@@ -664,7 +714,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 11,
@@ -673,12 +723,13 @@
   {
     "bot_finds_id": "B061",
     "sample_id": "S032",
-    "Order": "",
-    "Family": "",
-    "genus": "",
-    "species": "",
-    "plant_part": "",
-    "preservation": "",
+    "Order": "NA",
+    "Family": "NA",
+    "genus": "NA",
+    "species": "NA",
+    "plant_part": "NA",
+    "preservation": "NA",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -687,9 +738,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -698,9 +750,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -709,9 +762,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -720,9 +774,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -731,9 +786,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -742,9 +798,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -753,9 +810,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -764,11 +822,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B070",
@@ -779,17 +837,19 @@
     "species": "nigra",
     "plant_part": "seed",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
     "bot_finds_id": "B071",
     "sample_id": "S036",
-    "Order": "",
-    "Family": "",
-    "genus": "",
+    "Order": "NA",
+    "Family": "NA",
+    "genus": "NA",
     "species": "album",
     "plant_part": "seed",
     "preservation": "u",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -798,9 +858,10 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Polygonum",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "w",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -809,9 +870,10 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Rumex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "w",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -820,9 +882,10 @@
     "Order": "Rosales",
     "Family": "Ranunculaceae",
     "genus": "Thalictrum",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "w",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -834,6 +897,7 @@
     "species": "avellana",
     "plant_part": "shell",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -845,6 +909,7 @@
     "species": "sativa",
     "plant_part": "seed",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -856,6 +921,7 @@
     "species": "faba",
     "plant_part": "seed",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -863,10 +929,11 @@
     "sample_id": "S038",
     "Order": "Fabales",
     "Family": "Fabaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -875,9 +942,10 @@
     "Order": "Brassicales",
     "Family": "Brassicaceae",
     "genus": "Brassica",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -886,9 +954,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -897,9 +966,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -908,9 +978,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -919,9 +990,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "chaff",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -930,9 +1002,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -941,9 +1014,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -952,9 +1026,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -963,9 +1038,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -974,7 +1050,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1578,
@@ -998,7 +1074,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 26,
@@ -1010,10 +1086,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "glume",
     "preservation": "c",
-    "notes": ""
+    "count": "NA",
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B092",
@@ -1021,10 +1098,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "stem",
     "preservation": "c",
-    "notes": ""
+    "count": "NA",
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B093",
@@ -1032,10 +1110,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "rachis",
     "preservation": "c",
-    "notes": ""
+    "count": "NA",
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B094",
@@ -1043,10 +1122,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "plumules",
     "preservation": "c",
-    "notes": ""
+    "count": "NA",
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B095",
@@ -1054,11 +1134,11 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 12,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B096",
@@ -1070,7 +1150,7 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 5,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B097",
@@ -1078,11 +1158,11 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Rumex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B098",
@@ -1094,7 +1174,7 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B099",
@@ -1106,7 +1186,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 8,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B100",
@@ -1114,11 +1194,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 25,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B101",
@@ -1126,11 +1206,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B102",
@@ -1142,7 +1222,7 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B103",
@@ -1154,7 +1234,7 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 11,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B104",
@@ -1166,7 +1246,7 @@
     "plant_part": "seed",
     "preservation": "u",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B105",
@@ -1178,7 +1258,7 @@
     "plant_part": "seed",
     "preservation": "u",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B106",
@@ -1190,7 +1270,7 @@
     "plant_part": "seed",
     "preservation": "u",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B107",
@@ -1198,11 +1278,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B108",
@@ -1210,11 +1290,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 6,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B109",
@@ -1222,11 +1302,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 12,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B110",
@@ -1234,11 +1314,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 9,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B111",
@@ -1246,11 +1326,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "rachis",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B112",
@@ -1258,11 +1338,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "u",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B113",
@@ -1274,7 +1354,7 @@
     "plant_part": "seed",
     "preservation": "u",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B114",
@@ -1286,7 +1366,7 @@
     "plant_part": "seed",
     "preservation": "u",
     "count": 877,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B115",
@@ -1298,7 +1378,7 @@
     "plant_part": "seed",
     "preservation": "u",
     "count": 9,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B116",
@@ -1306,11 +1386,11 @@
     "Order": "Rosales",
     "Family": "Urticaceae",
     "genus": "Urtica",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "u",
     "count": 710,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B117",
@@ -1322,7 +1402,7 @@
     "plant_part": "seed",
     "preservation": "u",
     "count": 130,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B118",
@@ -1330,11 +1410,11 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Rumex/Carex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "u",
     "count": 38,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B119",
@@ -1346,7 +1426,7 @@
     "plant_part": "seed",
     "preservation": "u",
     "count": 64,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B120",
@@ -1354,11 +1434,11 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Polygonum",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "u",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B121",
@@ -1366,11 +1446,11 @@
     "Order": "Lamiales",
     "Family": "Lamiaceae",
     "genus": "Lamium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "u",
     "count": 554,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B122",
@@ -1378,11 +1458,11 @@
     "Order": "Caryophyllales",
     "Family": "Caryophyllaceae",
     "genus": "Silene",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "u",
     "count": 15,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B123",
@@ -1390,11 +1470,11 @@
     "Order": "Rosales",
     "Family": "Rosaceae",
     "genus": "Rosa",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "u",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B124",
@@ -1406,7 +1486,7 @@
     "plant_part": "seed",
     "preservation": "u",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B125",
@@ -1414,23 +1494,23 @@
     "Order": "Asterales",
     "Family": "Asteraceae",
     "genus": "Cirsium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "u",
     "count": 10,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B126",
     "sample_id": "S047",
-    "Order": "",
+    "Order": "NA",
     "Family": "Gramineae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "u",
     "count": 35,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B127",
@@ -1438,7 +1518,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
@@ -1450,7 +1530,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
@@ -1462,7 +1542,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
@@ -1474,9 +1554,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -1485,9 +1566,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -1496,9 +1578,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -1507,9 +1590,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -1521,6 +1605,7 @@
     "species": "sativa",
     "plant_part": "seed",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -1532,6 +1617,7 @@
     "species": "sativa",
     "plant_part": "seed",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -1540,10 +1626,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
-    "plant_part": "",
-    "preservation": "",
-    "notes": ""
+    "species": "NA",
+    "plant_part": "NA",
+    "preservation": "NA",
+    "count": "NA",
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B137",
@@ -1551,11 +1638,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 8,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B138",
@@ -1567,7 +1654,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 52,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B139",
@@ -1575,10 +1662,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
-    "notes": ""
+    "count": "NA",
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B140",
@@ -1586,11 +1674,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 7,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B141",
@@ -1598,7 +1686,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 18,
@@ -1610,11 +1698,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 94,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B143",
@@ -1622,11 +1710,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "rachis",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B144",
@@ -1634,11 +1722,11 @@
     "Order": "Rosales",
     "Family": "Ranunculaceae",
     "genus": "Ranunculus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B145",
@@ -1646,23 +1734,23 @@
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
     "genus": "Chenopodium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 4,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B146",
     "sample_id": "S056",
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 7,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B147",
@@ -1670,11 +1758,11 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathryus/Pisum",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 3.5,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B148",
@@ -1682,23 +1770,23 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathryus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B149",
     "sample_id": "S056",
     "Order": "Fabales",
     "Family": "Leguminousae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B150",
@@ -1710,7 +1798,7 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B151",
@@ -1722,7 +1810,7 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 4,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B152",
@@ -1730,11 +1818,11 @@
     "Order": "Poales",
     "Family": "Cyperaceae",
     "genus": "Eleocharis",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B153",
@@ -1742,35 +1830,35 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Carex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 8,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B154",
     "sample_id": "S056",
     "Order": "Poales",
     "Family": "Cyperaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B155",
     "sample_id": "S056",
-    "Order": "",
+    "Order": "NA",
     "Family": "Indet",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 23,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B156",
@@ -1782,7 +1870,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 8,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B157",
@@ -1794,7 +1882,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 129,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B158",
@@ -1802,11 +1890,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 11,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B159",
@@ -1814,7 +1902,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 14,
@@ -1826,7 +1914,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 8,
@@ -1838,11 +1926,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B162",
@@ -1850,11 +1938,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 127,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B163",
@@ -1862,11 +1950,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "rachis",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B164",
@@ -1874,11 +1962,11 @@
     "Order": "Rosales",
     "Family": "Ranunculaceae",
     "genus": "Ranunculus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B165",
@@ -1886,11 +1974,11 @@
     "Order": "Brassicales",
     "Family": "Brassicaceae",
     "genus": "Brassica",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B166",
@@ -1898,11 +1986,11 @@
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
     "genus": "Atriplex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 11,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B167",
@@ -1910,23 +1998,23 @@
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
     "genus": "Chenopodium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 5,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B168",
     "sample_id": "S057",
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 8,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B169",
@@ -1934,23 +2022,23 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathryus/Pisum",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 12,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B170",
     "sample_id": "S057",
     "Order": "Fabales",
     "Family": "Leguminousae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 22,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B171",
@@ -1958,11 +2046,11 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Rumex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B172",
@@ -1974,7 +2062,7 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B173",
@@ -1986,19 +2074,19 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 16,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B174",
     "sample_id": "S057",
-    "Order": "",
+    "Order": "NA",
     "Family": "Gramineae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B175",
@@ -2006,11 +2094,11 @@
     "Order": "Poales",
     "Family": "Cyperaceae",
     "genus": "Scirpus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 24,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B176",
@@ -2018,7 +2106,7 @@
     "Order": "Poales",
     "Family": "Cyperaceae",
     "genus": "Scirpus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 51,
@@ -2030,35 +2118,35 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Carex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 10,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B178",
     "sample_id": "S057",
     "Order": "Poales",
     "Family": "Cyperaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 13,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B179",
     "sample_id": "S057",
-    "Order": "",
+    "Order": "NA",
     "Family": "Indet",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 38,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B180",
@@ -2090,7 +2178,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 3,
@@ -2102,11 +2190,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 34,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B184",
@@ -2114,7 +2202,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 24,
@@ -2126,11 +2214,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B186",
@@ -2138,7 +2226,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 4,
@@ -2150,7 +2238,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 25,
@@ -2162,11 +2250,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 80,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B189",
@@ -2174,35 +2262,35 @@
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
     "genus": "Chenopodium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 10,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B190",
     "sample_id": "S058",
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 8,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B191",
     "sample_id": "S058",
     "Order": "Fabales",
     "Family": "Leguminousae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B192",
@@ -2210,11 +2298,11 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Rumex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B193",
@@ -2222,11 +2310,11 @@
     "Order": "Lamiales",
     "Family": "Plantaginaceae",
     "genus": "Plantago",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B194",
@@ -2234,7 +2322,7 @@
     "Order": "Gentianales",
     "Family": "Rubiaceae",
     "genus": "Galium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
@@ -2255,14 +2343,14 @@
   {
     "bot_finds_id": "B196",
     "sample_id": "S058",
-    "Order": "",
+    "Order": "NA",
     "Family": "Indet",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B197",
@@ -2270,11 +2358,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 16,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B198",
@@ -2282,7 +2370,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 5,
@@ -2294,11 +2382,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 6,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B200",
@@ -2306,11 +2394,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 52,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B201",
@@ -2318,23 +2406,23 @@
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
     "genus": "Chenopodium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B202",
     "sample_id": "S059",
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B203",
@@ -2342,11 +2430,11 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathyrus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B204",
@@ -2358,19 +2446,19 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B205",
     "sample_id": "S059",
-    "Order": "",
+    "Order": "NA",
     "Family": "Gramineae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B206",
@@ -2394,7 +2482,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 17,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B208",
@@ -2402,11 +2490,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 6,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B209",
@@ -2414,11 +2502,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 8,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B210",
@@ -2426,11 +2514,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 27,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B211",
@@ -2450,23 +2538,23 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathyrus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B213",
     "sample_id": "S060",
     "Order": "Fabales",
     "Family": "Leguminousae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 8,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B214",
@@ -2474,11 +2562,11 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Polygonum",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B215",
@@ -2486,11 +2574,11 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Rumex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B216",
@@ -2502,19 +2590,19 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B217",
     "sample_id": "S060",
     "Order": "Asterales",
     "Family": "Compositae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B218",
@@ -2534,7 +2622,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
@@ -2550,7 +2638,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B221",
@@ -2562,7 +2650,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B222",
@@ -2570,11 +2658,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B223",
@@ -2582,7 +2670,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
@@ -2594,11 +2682,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 8,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B225",
@@ -2606,35 +2694,35 @@
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
     "genus": "Chenopodium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B226",
     "sample_id": "S061",
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B227",
     "sample_id": "S061",
     "Order": "Fabales",
     "Family": "Leguminousae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B228",
@@ -2642,23 +2730,23 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Rumex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B229",
     "sample_id": "S061",
-    "Order": "",
+    "Order": "NA",
     "Family": "Indet",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B230",
@@ -2666,11 +2754,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 9,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B231",
@@ -2678,7 +2766,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
@@ -2694,7 +2782,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B233",
@@ -2706,7 +2794,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 50,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B234",
@@ -2714,11 +2802,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 64,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B235",
@@ -2726,11 +2814,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 9,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B236",
@@ -2738,7 +2826,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 23,
@@ -2750,11 +2838,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 21,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B238",
@@ -2762,11 +2850,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 140,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B239",
@@ -2774,11 +2862,11 @@
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
     "genus": "Atriplex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B240",
@@ -2786,23 +2874,23 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathyrus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1.5,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B241",
     "sample_id": "S063",
     "Order": "Fabales",
     "Family": "Leguminousae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 4,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B242",
@@ -2810,11 +2898,11 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Rumex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B243",
@@ -2826,7 +2914,7 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B244",
@@ -2838,19 +2926,19 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 6,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B245",
     "sample_id": "S063",
     "Order": "Asterales",
     "Family": "Compositae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B246",
@@ -2858,11 +2946,11 @@
     "Order": "Poales",
     "Family": "Cyperaceae",
     "genus": "Scirpus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 15,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B247",
@@ -2870,35 +2958,35 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Carex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B248",
     "sample_id": "S063",
     "Order": "Poales",
     "Family": "Cyperaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 4,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B249",
     "sample_id": "S063",
-    "Order": "",
+    "Order": "NA",
     "Family": "Indet",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 11,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B250",
@@ -2922,7 +3010,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B252",
@@ -2934,7 +3022,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 18,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B253",
@@ -2942,11 +3030,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 16,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B254",
@@ -2954,11 +3042,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 7,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B255",
@@ -2966,11 +3054,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 21,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B256",
@@ -2978,11 +3066,11 @@
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
     "genus": "Chenopodium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B257",
@@ -2990,11 +3078,11 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathryus/Pisum",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B258",
@@ -3002,7 +3090,7 @@
     "Order": "Poales",
     "Family": "Cyperaceae",
     "genus": "Scirpus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
@@ -3014,35 +3102,35 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Carex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B260",
     "sample_id": "S064",
     "Order": "Poales",
     "Family": "Cyperaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B261",
     "sample_id": "S064",
-    "Order": "",
+    "Order": "NA",
     "Family": "Indet",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B262",
@@ -3054,7 +3142,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 18,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B263",
@@ -3062,11 +3150,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 16,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B264",
@@ -3074,11 +3162,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B265",
@@ -3086,23 +3174,23 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 15,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B266",
     "sample_id": "S065",
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 4,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B267",
@@ -3110,35 +3198,35 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathryus/Pisum",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 5,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B268",
     "sample_id": "S065",
     "Order": "Fabales",
     "Family": "Leguminousae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 5,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B269",
     "sample_id": "S065",
-    "Order": "",
+    "Order": "NA",
     "Family": "Gramineae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B270",
@@ -3146,7 +3234,7 @@
     "Order": "Poales",
     "Family": "Cyperaceae",
     "genus": "Scirpus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
@@ -3155,14 +3243,14 @@
   {
     "bot_finds_id": "B271",
     "sample_id": "S065",
-    "Order": "",
+    "Order": "NA",
     "Family": "Indet",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 4,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B272",
@@ -3174,7 +3262,7 @@
     "plant_part": "shell",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B273",
@@ -3182,11 +3270,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 6,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B274",
@@ -3194,7 +3282,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
@@ -3206,7 +3294,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
@@ -3218,7 +3306,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 3,
@@ -3230,11 +3318,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B278",
@@ -3242,11 +3330,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "chaff",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B279",
@@ -3254,23 +3342,23 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathryus/Pisum",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B280",
     "sample_id": "S066",
     "Order": "Fabales",
     "Family": "Leguminousae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B281",
@@ -3282,7 +3370,7 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B282",
@@ -3290,7 +3378,7 @@
     "Order": "Poales",
     "Family": "Cyperaceae",
     "genus": "Scirpus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 6,
@@ -3301,24 +3389,24 @@
     "sample_id": "S066",
     "Order": "Poales",
     "Family": "Cyperaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 8,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B284",
     "sample_id": "S066",
-    "Order": "",
+    "Order": "NA",
     "Family": "Indet",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 6,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B285",
@@ -3330,7 +3418,7 @@
     "plant_part": "shell",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B286",
@@ -3342,7 +3430,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 4,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B287",
@@ -3354,7 +3442,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 28,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B288",
@@ -3366,7 +3454,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 340,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B289",
@@ -3374,11 +3462,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 294,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B290",
@@ -3386,7 +3474,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 258,
@@ -3398,7 +3486,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 48,
@@ -3410,11 +3498,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 182,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B293",
@@ -3422,11 +3510,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 500,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B294",
@@ -3438,7 +3526,7 @@
     "plant_part": "rachis",
     "preservation": "c",
     "count": 12,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B295",
@@ -3446,11 +3534,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "chaff",
     "preservation": "c",
     "count": 10,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B296",
@@ -3458,7 +3546,7 @@
     "Order": "Brassicales",
     "Family": "Brassicaceae",
     "genus": "Brassica",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
@@ -3470,7 +3558,7 @@
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
     "genus": "Chenopodium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
@@ -3481,12 +3569,12 @@
     "sample_id": "S067",
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 16,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B299",
@@ -3494,23 +3582,23 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathyrus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 4,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B300",
     "sample_id": "S067",
     "Order": "Fabales",
     "Family": "Leguminousae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 22,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B301",
@@ -3518,16 +3606,16 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Rumex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B302",
     "sample_id": "S067",
-    "Order": "",
+    "Order": "NA",
     "Family": "Boraginaceae",
     "genus": "Lithospermum",
     "species": "arvense",
@@ -3558,7 +3646,7 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 10,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B305",
@@ -3566,11 +3654,11 @@
     "Order": "Gentianales",
     "Family": "Rubiaceae",
     "genus": "Galium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 4,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B306",
@@ -3582,15 +3670,15 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 16,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B307",
     "sample_id": "S067",
     "Order": "Asterales",
     "Family": "Compositae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
@@ -3602,7 +3690,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Bromus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
@@ -3611,14 +3699,14 @@
   {
     "bot_finds_id": "B309",
     "sample_id": "S067",
-    "Order": "",
+    "Order": "NA",
     "Family": "Gramineae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 38,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B310",
@@ -3626,7 +3714,7 @@
     "Order": "Poales",
     "Family": "Cyperaceae",
     "genus": "Scirpus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
@@ -3638,19 +3726,19 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Carex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B312",
     "sample_id": "S067",
     "Order": "Poales",
     "Family": "Cyperaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
@@ -3686,11 +3774,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B316",
@@ -3702,7 +3790,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 11,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B317",
@@ -3714,7 +3802,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 548,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B318",
@@ -3722,11 +3810,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 93,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B319",
@@ -3734,7 +3822,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 72,
@@ -3746,11 +3834,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 30,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B321",
@@ -3758,11 +3846,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 56,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B322",
@@ -3782,11 +3870,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 65,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B324",
@@ -3794,11 +3882,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 225,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B325",
@@ -3810,7 +3898,7 @@
     "plant_part": "rachis",
     "preservation": "c",
     "count": 9,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B326",
@@ -3830,11 +3918,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "rachis",
     "preservation": "c",
     "count": 18,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B328",
@@ -3842,11 +3930,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "chaff",
     "preservation": "c",
     "count": 9,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B329",
@@ -3854,11 +3942,11 @@
     "Order": "Brassicales",
     "Family": "Brassicaceae",
     "genus": "Brassica",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 4,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B330",
@@ -3866,23 +3954,23 @@
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
     "genus": "Chenopodium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B331",
     "sample_id": "S068",
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 6,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B332",
@@ -3890,11 +3978,11 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathryus/Pisum",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B333",
@@ -3902,23 +3990,23 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathyrus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 7,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B334",
     "sample_id": "S068",
     "Order": "Fabales",
     "Family": "Leguminousae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 5,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B335",
@@ -3926,11 +4014,11 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Rumex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B336",
@@ -3942,19 +4030,19 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 6,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B337",
     "sample_id": "S068",
-    "Order": "",
+    "Order": "NA",
     "Family": "Gramineae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B338",
@@ -3962,7 +4050,7 @@
     "Order": "Poales",
     "Family": "Cyperaceae",
     "genus": "Eleocharis",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
@@ -3974,7 +4062,7 @@
     "Order": "Poales",
     "Family": "Cyperaceae",
     "genus": "Scirpus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
@@ -3986,23 +4074,23 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Carex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 4,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B341",
     "sample_id": "S068",
-    "Order": "",
+    "Order": "NA",
     "Family": "Indet",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 5,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B342",
@@ -4010,7 +4098,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
@@ -4026,7 +4114,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B344",
@@ -4038,7 +4126,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 10,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B345",
@@ -4046,11 +4134,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 20,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B346",
@@ -4070,11 +4158,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "rachis",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B348",
@@ -4082,35 +4170,35 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "chaff",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B349",
     "sample_id": "S069",
     "Order": "Fabales",
     "Family": "Leguminousae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B350",
     "sample_id": "S069",
     "Order": "Poales",
     "Family": "Cyperaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B351",
@@ -4118,7 +4206,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
@@ -4130,7 +4218,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
@@ -4142,23 +4230,23 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "frag",
     "preservation": "c",
     "count": 9,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B354",
     "sample_id": "S070",
     "Order": "Fabales",
     "Family": "Leguminousae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B355",
@@ -4190,7 +4278,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
@@ -4202,7 +4290,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
@@ -4214,7 +4302,7 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Pisum/Vicia",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
@@ -4238,7 +4326,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 3,
@@ -4250,7 +4338,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
@@ -4261,8 +4349,8 @@
     "sample_id": "S088",
     "Order": "Fabales",
     "Family": "Fabaceae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
@@ -4274,7 +4362,7 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Rumex",
-    "species": "",
+    "species": "NA",
     "plant_part": "nutlet",
     "preservation": "c",
     "count": 1,
@@ -4286,7 +4374,7 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
@@ -4298,9 +4386,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -4309,9 +4398,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "lemma",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -4320,9 +4410,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "palea",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -4331,11 +4422,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B370",
@@ -4343,9 +4434,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "unknown",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -4354,9 +4446,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "unknown",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -4365,9 +4458,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "unknown",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -4376,9 +4470,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -4387,9 +4482,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -4398,9 +4494,10 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
+    "count": "NA",
     "notes": "unquant"
   },
   {
@@ -4409,7 +4506,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
@@ -4421,11 +4518,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B378",
@@ -4437,7 +4534,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 25,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B379",
@@ -4457,11 +4554,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 9,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B381",
@@ -4473,7 +4570,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B382",
@@ -4493,11 +4590,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum/Secale",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 7,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B384",
@@ -4505,11 +4602,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B385",
@@ -4517,11 +4614,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B386",
@@ -4529,11 +4626,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 37,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B387",
@@ -4541,23 +4638,23 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathyrus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 5,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B388",
     "sample_id": "S095",
     "Order": "Fabales",
     "Family": "Leguminousae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B389",
@@ -4569,7 +4666,7 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 6,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B390",
@@ -4581,19 +4678,19 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B391",
     "sample_id": "S095",
-    "Order": "",
+    "Order": "NA",
     "Family": "Indet",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B392",
@@ -4601,11 +4698,11 @@
     "Order": "Rosales",
     "Family": "Rosaceae",
     "genus": "Prunus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "m",
     "count": 9,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B393",
@@ -4613,11 +4710,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B394",
@@ -4625,7 +4722,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
@@ -4637,11 +4734,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 9,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B396",
@@ -4649,11 +4746,11 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathyrus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B397",
@@ -4665,19 +4762,19 @@
     "plant_part": "shell",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B398",
     "sample_id": "S096",
-    "Order": "",
+    "Order": "NA",
     "Family": "Indet",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B399",
@@ -4685,23 +4782,23 @@
     "Order": "Rosales",
     "Family": "Rosaceae",
     "genus": "Prunus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "m",
     "count": 22,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B400",
     "sample_id": "S096",
-    "Order": "",
+    "Order": "NA",
     "Family": "Gramineae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "m",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B401",
@@ -4713,7 +4810,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B402",
@@ -4733,11 +4830,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Triticum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B404",
@@ -4745,11 +4842,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 7,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B405",
@@ -4757,11 +4854,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B406",
@@ -4769,11 +4866,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 18,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B407",
@@ -4781,11 +4878,11 @@
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
     "genus": "Chenopodium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B408",
@@ -4793,11 +4890,11 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathyrus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B409",
@@ -4805,11 +4902,11 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Polygonum",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B410",
@@ -4817,23 +4914,23 @@
     "Order": "Caryophyllales",
     "Family": "Polygonaceae",
     "genus": "Rumex",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B411",
     "sample_id": "S098",
-    "Order": "",
+    "Order": "NA",
     "Family": "Indet",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 3,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B412",
@@ -4845,7 +4942,7 @@
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B413",
@@ -4853,11 +4950,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 20,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B414",
@@ -4865,11 +4962,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "rachis",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B415",
@@ -4877,7 +4974,7 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Avena",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 2,
@@ -4889,11 +4986,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 54,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B417",
@@ -4901,11 +4998,11 @@
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
     "genus": "Chenopodium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B418",
@@ -4913,11 +5010,11 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathyrus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B419",
@@ -4929,7 +5026,7 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B420",
@@ -4937,11 +5034,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B421",
@@ -4949,11 +5046,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 6,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B422",
@@ -4965,31 +5062,31 @@
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B423",
     "sample_id": "S100",
-    "Order": "",
+    "Order": "NA",
     "Family": "Gramineae",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 2,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B424",
     "sample_id": "S100",
-    "Order": "",
+    "Order": "NA",
     "Family": "Indet",
-    "genus": "",
-    "species": "",
+    "genus": "NA",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B425",
@@ -4997,11 +5094,11 @@
     "Order": "Fabales",
     "Family": "Fabaceae",
     "genus": "Vicia/Lathyrus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "m",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B426",
@@ -5013,7 +5110,7 @@
     "plant_part": "rachis",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B427",
@@ -5021,11 +5118,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 4,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B428",
@@ -5033,11 +5130,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Hordeum",
-    "species": "",
+    "species": "NA",
     "plant_part": "rachis",
     "preservation": "c",
     "count": 1,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B429",
@@ -5045,11 +5142,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "grain",
     "preservation": "c",
     "count": 22,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B430",
@@ -5057,7 +5154,7 @@
     "Order": "Dipscales",
     "Family": "Adoxaceae",
     "genus": "Sambucus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "w",
     "count": 1,
@@ -5069,7 +5166,7 @@
     "Order": "Rosales",
     "Family": "Rosaceae",
     "genus": "Rubus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "w",
     "count": 1,
@@ -5081,7 +5178,7 @@
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
     "genus": "Chenopodium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "w",
     "count": 1,
@@ -5093,11 +5190,11 @@
     "Order": "Poales",
     "Family": "Poaceae",
     "genus": "Cerealia",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "c",
     "count": 15,
-    "notes": ""
+    "notes": "NA"
   },
   {
     "bot_finds_id": "B434",
@@ -5105,7 +5202,7 @@
     "Order": "Dipscales",
     "Family": "Adoxaceae",
     "genus": "Sambucus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "w",
     "count": 1,
@@ -5117,7 +5214,7 @@
     "Order": "Rosales",
     "Family": "Rosaceae",
     "genus": "Rubus",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "w",
     "count": 1,
@@ -5129,7 +5226,7 @@
     "Order": "Caryophyllales",
     "Family": "Chenopodiaceae",
     "genus": "Chenopodium",
-    "species": "",
+    "species": "NA",
     "plant_part": "seed",
     "preservation": "w",
     "count": 1,
